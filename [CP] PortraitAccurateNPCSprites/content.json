@@ -1,0 +1,811 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+
+
+          {          
+            "Action": "EditImage",
+            "Target": "Characters/Abigail_Winter, Characters/Alex_Winter, Characters/Caroline_Winter, Characters/Clint_Winter, Characters/Demetrius_Winter, Characters/Elliott_Winter, Characters/Emily_Winter, Characters/Evelyn_Winter, Characters/George_Winter, Characters/Gus_Winter, Characters/Haley_Winter, Characters/Harvey_Winter, Characters/Jas_Winter, Characters/Jodi_Winter, Characters/Kent_Winter, Characters/Leah_Winter, Characters/Lewis_Winter, Characters/Linus_Winter, Characters/Marnie_Winter, Characters/Maru_Winter, Characters/Pam_Winter, Characters/ParrotBoy_Winter, Characters/Penny_Winter, Characters/Pierre_Winter, Characters/Robin_Winter, Characters/Sam_Winter, Characters/Sebastian_Winter , Characters/Shane_Winter , Characters/Vincent_Winter, Characters/Willy_Winter, Characters/Fizz",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "Update": "OnLocationChange",            
+			"When": {
+                "HasFile:{{FromFile}}": true
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Abigail",
+            "FromFile": "assets/Abigail.png"
+        },  
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Abigail_Beach",
+            "FromFile": "assets/Abigail_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/Alex.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Alex_Beach",
+            "FromFile": "assets/Alex_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Birdie",
+            "FromFile": "assets/Birdie.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Caroline",
+            "FromFile": "assets/Caroline.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Caroline_Beach",
+            "FromFile": "assets/Caroline_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Clint",
+            "FromFile": "assets/Clint.png"
+        },
+
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Clint_Beach",
+            "FromFile": "assets/Clint_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/ClothesTherapyCharacters",
+            "FromFile": "assets/ClothesTherapyCharacters.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Demetrius",
+            "FromFile": "assets/Demetrius.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Demetrius_Beach",
+            "FromFile": "assets/Demetrius_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Dwarf",
+            "FromFile": "assets/Dwarf.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Elliott",
+            "FromFile": "assets/Elliott.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Elliott_Beach",
+            "FromFile": "assets/Elliott_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Emily",
+            "FromFile": "assets/Emily.png"
+        },
+        
+        {
+            "Action": "Load",
+            "Target": "Characters/Emily_Beach",
+            "FromFile": "assets/Emily_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Evelyn",
+            "FromFile": "assets/Evelyn.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/George",
+            "FromFile": "assets/George.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Governor",
+            "FromFile": "assets/Governor.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Gunther",
+            "FromFile": "assets/Gunther.png"
+        },
+
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Gus",
+            "FromFile": "assets/Gus.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Haley",
+            "FromFile": "assets/Haley.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Haley_Beach",
+            "FromFile": "assets/Haley_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/Harvey.png"
+        },
+ 
+        {
+            "Action": "Load",
+            "Target": "Characters/Harvey_Beach",
+            "FromFile": "assets/Harvey_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Henchman",
+            "FromFile": "assets/Henchman.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Jas",
+            "FromFile": "assets/Jas.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Jodi",
+            "FromFile": "assets/Jodi.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Jodi_Beach",
+            "FromFile": "assets/Jodi_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Kent",
+            "FromFile": "assets/Kent.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Krobus",
+            "FromFile": "assets/Krobus.png"
+        },
+
+
+        {
+            "Action": "Load",
+            "Target": "Characters/SeaMonsterKrobus",
+            "FromFile": "assets/SeaMonsterKrobus.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Krobus_Trenchcoat",
+            "FromFile": "assets/Krobus_Trenchcoat.png"
+        },
+
+
+        {
+            "Action": "Load",
+            "Target": "Characters/KrobusRaven",
+            "FromFile": "assets/KrobusRaven.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Leah",
+            "FromFile": "assets/Leah.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Linus",
+            "FromFile": "assets/Linus.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Leah_Beach",
+            "FromFile": "assets/Leah_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Lewis",
+            "FromFile": "assets/Lewis.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Lewis_Beach",
+            "FromFile": "assets/Lewis_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Mariner",
+            "FromFile": "assets/Mariner.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Marlon",
+            "FromFile": "assets/Marlon.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Marnie",
+            "FromFile": "assets/Marnie.png"
+        },
+        
+        {
+            "Action": "Load",
+            "Target": "Characters/Marnie_Beach",
+            "FromFile": "assets/Marnie_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru",
+            "FromFile": "assets/Maru.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_Beach",
+            "FromFile": "assets/Maru_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_Hospital",
+            "FromFile": "assets/Maru_Hospital.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Morris",
+            "FromFile": "assets/Morris.png"
+        },
+
+
+        {
+            "Action": "Load",
+            "Target": "Characters/MrQi",
+            "FromFile": "assets/MrQi.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Pam",
+            "FromFile": "assets/Pam.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Pam_Beach",
+            "FromFile": "assets/Pam_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/ParrotBoy",
+            "FromFile": "assets/ParrotBoy.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Penny",
+            "FromFile": "assets/Penny.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Penny_Beach",
+            "FromFile": "assets/Penny_Beach.png"
+        },
+   {
+            "Action": "Load",
+            "Target": "Characters/Pierre",
+            "FromFile": "assets/Pierre.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Pierre_Beach",
+            "FromFile": "assets/Pierre_Beach.png"
+        },
+        
+        {
+            "Action": "Load",
+            "Target": "Characters/Robin",
+            "FromFile": "assets/Robin.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Robin_Beach",
+            "FromFile": "assets/Robin_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/SafariGuy",
+            "FromFile": "assets/SafariGuy.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/Sam.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Sam_Beach",
+            "FromFile": "assets/Sam_Beach.png"
+        },
+
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Sandy",
+            "FromFile": "assets/Sandy.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/Sebastian.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Sebastian_Beach",
+            "FromFile": "assets/Sebastian_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Shane",
+            "FromFile": "assets/Shane.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Shane_Beach",
+            "FromFile": "assets/Shane_Beach.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Shane_jojaMart",
+            "FromFile": "assets/Shane_jojaMart.png"
+        },
+
+    
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Vincent",
+            "FromFile": "assets/Vincent.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Willy",
+            "FromFile": "assets/Willy.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/Wizard.png"
+        },
+    
+
+         {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.png",
+            "When": {"Language |contains= en": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.png",
+            "When": {"Language |contains= en": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.png",
+            "When": {"Language |contains= en": true}
+               
+         }, 
+         
+         {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.ru-RU.png",
+            "When": {"Language |contains= ru": true}
+         },
+         {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors_1_6",
+            "FromFile": "assets/Cursors_1_6.png",
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.ru-RU.png",
+            "When": {"Language |contains= ru": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.ru-RU.png",
+            "When": {"Language |contains= ru": true}
+               
+         },
+
+      {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.de-DE.png",
+            "When": {"Language |contains= de": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.de-DE.png",
+            "When": {"Language |contains= de": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.de-DE.png",
+            "When": {"Language |contains= de": true}
+               
+         }, 
+
+          {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.fr-FR.png",
+            "When": {"Language |contains= fr": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.fr-FR.png",
+            "When": {"Language |contains= fr": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.fr-FR.png",
+            "When": {"Language |contains= fr": true}
+               
+         }, 
+
+          {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.hu-HU.png",
+            "When": {"Language |contains= hu": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.hu-HU.png",
+            "When": {"Language |contains= hu": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.hu-HU.png",
+            "When": {"Language |contains= hu": true}
+               
+         }, 
+
+          {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.it-IT.png",
+            "When": {"Language |contains= it": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.it-IT.png",
+            "When": {"Language |contains= it": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.it-IT.png",
+            "When": {"Language |contains= it": true}
+               
+         }, 
+
+
+          {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.ja-JP.png",
+            "When": {"Language |contains= ja": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.ja-JP.png",
+            "When": {"Language |contains= ja": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.ja-JP.png",
+            "When": {"Language |contains= ja": true}
+               
+         }, 
+
+          {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.ko-KR.png",
+            "When": {"Language |contains= ko": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.ko-KR.png",
+            "When": {"Language |contains= ko": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.ko-KR.png",
+            "When": {"Language |contains= ko": true}
+               
+         }, 
+
+          {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.pt-BR.png",
+            "When": {"Language |contains= pt": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.pt-BR.png",
+            "When": {"Language |contains= pt": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.pt-BR.png",
+            "When": {"Language |contains= pt": true}
+               
+         }, 
+
+
+          {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.tr-TR.png",
+            "When": {"Language |contains= tr": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.tr-TR.png",
+            "When": {"Language |contains= tr": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.tr-TR.png",
+            "When": {"Language |contains= tr": true}
+               
+         }, 
+
+          {
+
+            "Action": "Load",           
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.zh-CN.png",
+            "When": {"Language |contains= zh": true}
+         },
+
+          {
+
+            "Action": "Load", 
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/JunimoNote.zh-CN.png",
+            "When": {"Language |contains= zh": true}
+         },
+
+         {
+
+            "Action": "Load", 
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.zh-CN.png",
+            "When": {"Language |contains= zh": true}
+               
+         }, 
+
+
+         {
+
+            "Action": "Load",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "assets/MovieTheater_TileSheet.png"
+       
+         },
+
+         {
+
+            "Action": "Load",
+            "Target": "Maps/MovieTheaterJoja_TileSheet_International",
+            "FromFile": "assets/MovieTheaterJoja_TileSheet_International.png"
+       
+         },
+
+
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/WillysBoat",
+            "FromFile": "assets/WillysBoat.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/cowPhotos",
+            "FromFile": "assets/cowPhotos.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/cowPhotosWinter",
+            "FromFile": "assets/cowPhotosWinter.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Craftables.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/emojis.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/BundleSprites",
+            "FromFile": "assets/BundleSprites.png"
+
+        },
+
+ 
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/marnie_winter_dance",
+            "FromFile": "assets/marnie_winter_dance.png"
+
+        },
+
+        {
+            "Action": "Load",
+            "Target": "TileSheets/joja_furniture",
+            "FromFile": "assets/joja_furniture.png"
+
+        },
+
+        {
+            "Action": "Load",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/junimo_furniture.png"
+
+        },
+
+        {
+            "Action": "Load",
+            "Target": "TileSheets/SecretNotesImages",
+            "FromFile": "assets/SecretNotesImages.png"
+
+        },
+    ]
+}

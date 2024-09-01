@@ -1,0 +1,34 @@
+{
+   "Changes": [
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Penny",
+    "Entries": {
+            "Mon8": "Sabe, eu estou aliviado que a Penny tenha tomado a iniciativa.$1#$e#O Sebastian me dizia que eu nunca seria capaz de convidar ela para sair.$0#$b#Acho que ele estava certo.$10#$e#Ele ainda não consegue acreditar que estamos casados.$1",
+            "Tue8": "Ei, @.$1#$e#Ontem, a minha mãe passou a noite inteira olhando as fotos do meu casamento.$0#$b#A Pam até ligou para se juntar a ela!$1",
+            "Wed8": "É legal que o Vincent goste tanto da Penny.$1#$b#Mas obviamente eu a amo mais!$4",
+            "Thu8": "Você acha que eu seria um bom pai, @?$7#$e#A Penny com certeza seria uma ótima mãe.$1#$e#Temos falado em ter filhos ultimamente.$0#$b#Seria ótimo se eles puxassem a Penny.$1",
+            "Fri8": "No início, a Pam desaprovou o meu relacionamento com a Penny.$2#$b#Mas estou feliz por ter conseguido mostrar a ela que estou falando sério sobre a Penny.$1#$e#A Pam estava tão feliz no nosso casamento!$1",
+            "Sat8": "Às vezes eu sinto que deveria ser mais aberto com a Penny sobre o quanto me preocupo com ela...$2",
+            "Sun8": "Eu sabia que a Penny seria a única no momento em que a conheci.$4#$b#Eu estava muito nervoso para tomar a iniciativa.$10#$e#Parece surreal que ela seja minha esposa agora...$4",
+            "spring_Mon8": "Eu me sinto a pessoa mais sortuda do mundo com a Penny ao meu lado.$4",
+            "spring_Wed8": "Isto pode soar estranho para você, mas...$0#$b#Eu sempre sinto falta da Penny mesmo quando acabo de vê-la.$4",
+            "spring_Thu8": "Eu nem consigo imaginar como era a minha vida antes da Penny.$4#$e#Ela é a coisa mais importante para mim...$4",
+            "summer_Wed8": "Acho que amo a Penny a cada dia mais.$4",
+            "summer_Sat8": "A Penny e eu levamos o Vincent e a Jas ao parque outro dia.$0#$e#Eles começaram a discutir sobre uma coisa boba.$2#$b#O trabalho da Penny às vezes é difícil.$0",
+            "summer_Sun8": "O Seb acha a Penny muito legal.$0#$b#Eu fico feliz que meus dois melhores amigos se dêem bem.$1",
+            "fall_Mon8": "A Pam pode ser superprotetora com a Penny, às vezes.$0#$b#Mas isso mostra o quanto ela preza pela sua filha.$0#$e#Eu vou me certificar de ser um grande genro para ela.$1",
+            "fall_Thu8": "A Penny me fez perceber que eu não estava passando muito tempo com o Vincent.$0#$b#Sabe, ele vai crescer em breve.$0",
+            "fall_Fri8": "Ei, @.$0#$e#Eu estava pensando... é meio estranho que eu e Penny sejamos casados...$4",
+            "winter_Tue8": "A minha mãe gosta muito da Penny.$1#$b#Ela é a esposa e nora perfeita.$0",
+            "winter_Wed8": "É uma loucura o quanto eu gosto do tempo que passo com a Penny...$4#$b#Então é isto que é estar apaixonado?$10",
+            "winter_Fri8": "De que tipo de música você acha que a Penny iria gostar?$1#$e#Eu queria fazer algo especial para ela.$10",
+            "winter_Sun8": "Eu estou ansioso para passar mais tempo com a Penny no próximo ano.$4",
+            "spring_12": "O Vincent continua falando sobre a Caça aos Ovos.$0#$b#Ele até pediu que eu e a Penny nos juntássemos a ele.$0#$b#Mas acho que vamos deixá-lo ir sozinho por mais um ano.$0",
+            "spring_23": "A Penny está animada para o Baile das Flores.$0#$e#Eu tenho certeza que ela vai ficar linda como sempre.$4#$e#Ela é minha esposa, afinal de contas...$4",
+            "fall_2": "Ontem eu pedi à minha mãe para me ajudar a fazer uns bolinhos.$0#$b#Para o aniversário da Penny.$0#$b#Mas não deu muito certo...$2#$b#Então decidi comprar uma papoula do Pierre's.$0",
+            "winter_7": "A Penny e eu vamos construir um boneco de neve amanhã, no Festival do Gelo.$1#$e#Você vai participar da competição de pesca, @?$0"
+      },
+    }
+  ]
+}

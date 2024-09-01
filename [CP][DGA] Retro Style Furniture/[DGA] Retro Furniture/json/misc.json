@@ -1,0 +1,259 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_1",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_1.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_2",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_2.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_3",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_3.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_4",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_4.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_5",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_5.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_6",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_6.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_7",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_7.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_8",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_8.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_9",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_9.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_ 10",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_10.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_11",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_11.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_12",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_12.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_13",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_13.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_14",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_14.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_15",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_15.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_16",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_16.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "texture_17",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "assets/misc/texture_17.png",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    }
+
+
+]

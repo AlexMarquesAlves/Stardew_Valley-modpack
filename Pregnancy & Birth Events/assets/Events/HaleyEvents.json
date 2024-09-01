@@ -1,0 +1,24 @@
+{
+	"Changes": [
+
+{		
+			"LogName": "Haley Pregnancy Event 1",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"When": {"Relationship:Haley": "Married",
+ 				"Pregnant":"Haley",
+				"PlayerGetsPregnant":"false"},
+			"Entries":{"64780018/t 610 2550": "continue/28 30/farmer 27 30 0 Haley 29 25 3 Harvey 0 0 0/addConversationTopic HaleyPregnant 13/addMailReceived Pregnant1_Haley/skippable/pause 1250/viewport move 0 -5 1275/move farmer 0 -5 0/move farmer 1 0 1/speak Haley \"#$b# Hey babe. I feel sick to my stomach... $s\"/pause 500/showframe Haley 22/pause 1000/emote Haley 28/pause 500/speak Haley \"Can you take me to the clinic?$s\"/viewport -100 100/changeLocation Hospital/viewport 5 5/warp farmer 2 5/warp Haley 3 5/showFrame Haley 4/warp Harvey 5 8/move Harvey 0 -3 3 false/speak Harvey \"I just ran some tests, and it looks like Haley isn't sick!\"/emote farmer 8/emote Haley 8/speak Harvey \"Haley, you're pregnant! Congratulations!$h\"/playmusic musicboxsong/emote farmer 16/speak Haley \"...$8#$b#...$8#$b#...$l#$b#We're going to have a baby!$h#$b# Oh @, isn't that wonderful? $l\"/faceDirection Haley 3/emote Haley 20/emote farmer 32/end"},
+		},
+
+{			"LogName": "Haley Birth Event 1",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"When": {"PlayerGetsPregnant":"false",
+				"Relationship:Haley": "Married",},
+			"Entries": {"64780030/e 64780018/n Pregnant1_Haley/A HaleyPregnant/t 600 700": "sappypiano/-100 -100/Haley 19 12 2 farmer 20 12 0 Harvey 5 15 2/addConversationTopic HaleyBabySleep 14/faceDirection farmer 3/positionOffset Haley -25 0/skippable/pause 500/speak Haley \"@! $12#$b# @! Wake up! I think the baby is coming!$12\"/changeLocation Hospital/showFrame Haley 0/showFrame farmer 6 true/ ambientLight 150 150 150/viewport 14 11 true/pause 1000/speak Haley \"Ugh, this is a bit scarier than I thought it would be. $s\"/pause 500/showFrame Haley 22/shake Haley 500/pause 500/speak Haley \"I'm really glad you're here. #$b# I don't think I could do this without you.\"/pause 500/showFrame Haley 0/emote farmer 20/pause 500/speak Haley \"I know I'll be okay, but this whole thing is just so... overwhelming. $s #$b# Before I met you, I thought I had my whole life figured out. #$b# And then this cute little farmer showed up and turned my whole world upside down.$l\"/pause 500/emote farmer 20/pause 500/speak Haley \"I'm just glad you stuck with me even when I wasn't always very nice to you.$2\"/pause 500/emote Haley 60/pause 500/speak Haley \"I was so used to having Alex wrapped around my little finger that I didn't even think about ever being with someone else... #$b# Then you came along and helped me open that pickle jar.$1 #$b# What can I say, I have a thing for muscles. $l\"/pause 500/emote farmer 32/speak Haley \"I guess what I'm trying to say is that I'm glad you're here with me... #$b# And I couldn't imagine starting a family with anyone else.$l\"/pause 500/emote farmer 20/emote Haley 20/pause 1000/fade/viewport -100 -100 true/warp Harvey 21 12/faceDirection Harvey 3/warp farmer 20 11/faceDirection Haley 2/speak Harvey \"It's time for the baby to come, @. Haley is going to need to start pushing now.\"/pause 1500/speak Harvey \"That's it, Haley! Just one more push!\"/addTemporaryActor {{BabyorBaby_Dark}} 23 15 20 12 2 False Character/positionOffset {{BabyorBaby_Dark}} 0 -65/move farmer 0 0 2/pause 500/message \"Your baby's cry pierces the air.\"/pause 500/speak Harvey \"Well, your baby's lungs are certainly strong and healthy!$h\"/fade/viewport 18 11 true/pause 500/emote farmer 20/pause 2000/speak Haley \"Oh @. %kid1 is perfect. Just like you.$l\"/emote farmer 20 true/emote Harvey 32 false/pause 1500/viewport -100 -100 true/message \"Your family just got a little bigger! Time to take your new baby home!\"/pause 1000/end"},
+		}, 
+	//64780055 pregnancy 2
+
+]
+}

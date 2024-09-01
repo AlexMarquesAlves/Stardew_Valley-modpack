@@ -1,0 +1,23 @@
+{
+  "Name": "More Wedding Venues",
+  "Author": "bigeyedkitteh",
+  "Version": "1.8.1",
+  "Description": "More wedding venue choices in Stardew Valley",
+  "UniqueID": "bigeyedkitteh.moreweddingvenues",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+  },
+  "UpdateKeys": [ "Nexus:16555" ],
+  "Dependencies": [
+	{
+		"UniqueID": "spacechase0.GenericModConfigMenu",
+		"IsRequired": true,
+	},
+	{
+		"UniqueID": "aedenthorn.MultiSave",
+		"IsRequired": true,
+	}
+	
+	
+   ]
+}

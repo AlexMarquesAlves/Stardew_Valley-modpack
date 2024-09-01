@@ -1,0 +1,713 @@
+{
+"Changes": [
+
+
+//Spouse - Elliott
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Elliott": "Engaged", "Spouse": "Elliott", "Elliott - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530001": "woodsTheme/1000 1000/farmer 100 100 1 Gunther 100 100 1 {{spouse}} 100 100 3 Bouncer 100 100 2 Sandy 100 100 2 Emily 100 100 2 Willy 100 100 2 Shane 100 100 3 Sam 100 100 2 Sebastian 100 100 2 Abigail 100 100 2 Maru 100 100 2 MrQi 100 100 1 Penny 100 100 2 Vincent 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready my darling? Come, let's go.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Elliott 49/warp Gunther 14 14 1/warp Bouncer 11 11 2/warp Sandy 12 10 2/warp Emily 13 10 2/warp Willy 19 10 2/warp Shane 20 11 3/warp Sam 12 8 2/warp Sebastian 13 8 2/warp Abigail 18 8 2/warp Maru 19 8 2/warp MrQi 11 6 1/warp Penny 13 5 2/warp Vincent 19 4 2/pause 300/viewport 16 8/pause 1500/speak Gunther \"Ladies and gentlemen, esteemed guests, it is my great pleasure to welcome you all to this beautiful celebration of love. We are here today to witness the union of @ and %spouse, two individuals who are not only in love but also committed to building a life together filled with happiness and success.\"/pause 500/speak Gunther \"Today, we celebrate not only the love between these two individuals but also the power of love itself. Love is an irresistible force, a force that can transform our lives and shape our destinies.\"/pause 500/speak Gunther \"As @ and %spouse exchange their vows today, they are making a solemn commitment to each other. They pledge to love and honor each other, to respect each other's dreams and goals.\"/pause 1500/speak Gunther \"@，are you willing to accept %spouse as your partner, and to stand by each other through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Gunther \"%spouse，are you willing to accept @ as your partner, and to stand by each other through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Gunther \"May your love for each other continue to grow and flourish, and may your marriage be a reflection of the true love that brought you together today.\"/pause 500/speak Gunther \"May the forces of the universe bless this union, and may your love shine brightly for all to see. You're now bound together in spirit and in love as Twin Flames.\"/pause 500/emote farmer 20/pause 100/positionOffset Elliott -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Elliott -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Elliott -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Elliott 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Emily 20/pause 500/emote Sam 32/pause 500/emote Sebastian 12/pause 100/emote Abigail 16/pause 100/emote Vincent 56/pause 700/globalFade/viewport -1000 -1000/pause 800/message \"The greatest love stories aren't those that are written on paper, but those that are lived out in real life.\"/pause 500/end"
+    }
+  },
+  
+  
+  //Spouse - Elliott
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Elliott": "Married", "Spouse": "Elliott", "Elliott - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530101": "AbigailFlute/1000 1000/farmer 100 100 1 Gunther 100 100 1 {{spouse}} 100 100 3 Willy 100 100 2 Sam 100 100 2 Maru 100 100 2 Leah 100 100 2/pause 500/skippable/speak {{spouse}} \"@, this is for you.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready my darling to renew our vows? Come, @.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Elliott 49/warp Gunther 14 14 1/warp Willy 12 10 2/warp Sam 13 10 2/warp Leah 18 10 2/warp Maru 19 10 2/pause 300/viewport 16 8/pause 1500/speak Gunther \"Today, we are here to bear witness to the renewal of vows between @ and %spouse.\"/pause 500/speak Gunther \"They have already shared many beautiful moments together, but today, they are choosing to reaffirm their love and commitment to each other.\"/pause 500/speak Gunther \"They have been through so much together, and yet their love continues to stand the test of time.\"/pause 1500/speak Gunther \"@，are you willing to renew your vows with %spouse as your partner, and to continue standing by each other through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Gunther \"%spouse，are you willing to renew your vows with @ as your partner, and to continue standing by each other through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Gunther \"May your love continue to blossom and may you always remember the promises you have made to each other today.\"/pause 500/speak Gunther \"May your union continue to be filled with love, laughter, and endless happiness as Twin Flames. You may now kiss each other.\"/pause 500/emote farmer 20/pause 100/positionOffset Elliott -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Elliott -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Elliott -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Elliott 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Willy 56/pause 500/emote Sam 32/pause 500/emote Leah 32/pause 100/emote Maru 20/pause 700/globalFade/viewport -1000 -1000/pause 800/message \"...And so, another amorous chapter unfolds.\"/pause 500/end"
+    }
+  },
+  
+  
+  
+    //Bestie - Elliott
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Elliott - Feelings": "Platonic", "Relationship:Elliott": "Engaged", "Spouse": "Elliott", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530201": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, come! I have a surprise for you.\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, I truly value your presence in my life.\"/pause 500/speak {{spouse}} \"I couldn't have gotten this far in my writing without you. Thank you for being my muse.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Huh? No! My writing is my main focus right now.$8\"/pause 100/speak {{spouse}} \"Please don't mistake my admiration for anything more than friendship.$1\"/pause 100/speak {{spouse}} \"I just want to give you this.[800 632 522 445 809]\"/pause 500/speak {{spouse}} \"It's just a small token of my appreciation for everything you do.$1\"/pause 100/speak {{spouse}} \"My dear friend, I must say, the prospect of us becoming roommates fills my heart with joy. I'm looking forward to it!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+    //Bestie - Elliott
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Elliott - Feelings": "Platonic", "Relationship:Elliott": "Married", "Spouse": "Elliott", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530201": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, come! I have a surprise for you.\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, I truly value your presence in my life.\"/pause 500/speak {{spouse}} \"I couldn't have gotten this far in my writing without you. Thank you for being my muse.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Huh? No! My writing is my main focus right now.$8\"/pause 100/speak {{spouse}} \"Please don't mistake my admiration for anything more than friendship.$1\"/pause 100/speak {{spouse}} \"I just want to give you this.[800 632 522 445 809]\"/pause 500/speak {{spouse}} \"It's just a small token of my appreciation for everything you do.$1\"/pause 100/speak {{spouse}} \"My dear friend, I must say, the prospect of us becoming roommates fills my heart with joy. I'm looking forward to it!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+  
+  //Spouse - Krobus
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Krobus": "Engaged", "Spouse": "Krobus", "Krobus - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		"1655530000": "AbigailFlute/1000 1000/farmer 100 100 1 MrQi 100 100 1 {{spouse}} 100 100 3 Sebastian 100 100 2/pause 500/skippable/speak {{spouse}} \"@, got something for you.[72 486]$1\"/pause 120/speak {{spouse}} \"@... Are you sure about this?$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/warp MrQi 14 14 1/warp Sebastian 18 10 2/pause 300/viewport 16 8/pause 1500/speak MrQi \"Dear friends, we are gathered here today to celebrate the union of two souls, @ and %spouse, bound together by the mysterious threads of fate and destiny.\"/pause 500/speak MrQi \"Love is a powerful force, a magic that can transform our lives in ways we never thought possible. As you exchange your vows today, you are not just making promises to each other, but to the universe itself. You are creating a bond that transcends time and space, a connection that will guide you through the joys and challenges of life.\"/pause 500/speak MrQi \"Remember that the journey you are embarking on today is not always an easy one. There will be trials and tribulations along the way, but through it all, may your love remain steadfast and strong. As we bear witness to your union today, let us also remember that love is not just a feeling, but an action. It requires effort and commitment, sacrifice and selflessness. But it is also the most rewarding journey you will ever undertake, a journey that will fill your lives with wonder and magic.\"/pause 1500/speak MrQi \"@，are you willing to accept %spouse as your partner, in this life and the after life?\"/pause 500/message \"I do.\"/pause 500/speak MrQi \"%spouse，are you willing to accept @ as your partner, in this life and the after life?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak MrQi \"May your love for each other continue to grow and flourish, and may your marriage be a reflection of the true love that brought you together today.\"/pause 500/speak MrQi \"In the name of Yoba, I now pronounce you, soulbound partners.\"/pause 500/emote farmer 20/emote {{spouse}} 20/pause 100/emote Sebastian 20/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"The balance of light and shadow binds us forever... Life and death cannot separate us.\"/pause 500/end"
+    }
+  },
+  
+  
+    //Spouse - Krobus
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Krobus": "Married", "Spouse": "Krobus", "Krobus - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		"1655530100": "woodsTheme/1000 1000/farmer 100 100 1 MrQi 100 100 1 {{spouse}} 100 100 3/pause 500/skippable/speak {{spouse}} \"@, got something for you.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready, @? I'm nervous but here we go...$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/warp MrQi 14 14 1/pause 300/viewport 16 8/pause 1500/speak MrQi \"As we gather here today, we celebrate the bond between @ and %spouse.\"/pause 500/speak MrQi \"They have already shared so much together, building a life filled with joy and happiness.\"/pause 500/speak MrQi \"But today, they are taking another step in their journey together, renewing their vows and recommitting to each other once again.\"/pause 1500/speak MrQi \"@，are you willing to renew your vows with %spouse as your partner, in this life and the after life?\"/pause 500/message \"I do.\"/pause 500/speak MrQi \"%spouse，are you willing to renew your vows with @ as your partner, in this life and the after life?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak MrQi \"This is a beautiful testament to their love, a love that has only grown stronger with each passing year.\"/pause 500/speak MrQi \"With Yoba's blessings, may you continue to be soulbound partners.\"/pause 500/emote farmer 20/pause 100/emote {{spouse}} 20/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"Interesting.\"/pause 500/end"
+    }
+  },
+  
+  
+      //Bestie - Krobus
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Krobus - Feelings": "Platonic", "Relationship:Krobus": "Engaged", "Spouse": "Krobus", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530200": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, shh! Just come with me...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, you've been a great ally in keeping my whereabouts a secret.\"/pause 500/speak {{spouse}} \"You have my respect and gratitude.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"WHAT?! Of course not. We're too physically different to make that work.$3\"/pause 100/speak {{spouse}} \"Where are you getting those ideas?$7\"/pause 100/speak {{spouse}} \"Here, I don't often give gifts.[799 629 526 729 809]\"/pause 500/speak {{spouse}} \" But I wanted you to know how much your friendship means to me.\"/pause 100/speak {{spouse}} \"@, I feel honored to even be considered as a roommate. Amidst the shadows, we shall forge a unique bond, built on trust and understanding.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+    //Bestie - Krobus
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Krobus - Feelings": "Platonic", "Relationship:Krobus": "Married", "Spouse": "Krobus", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530200": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, shh! Just come with me...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, you've been a great ally in keeping my whereabouts a secret.\"/pause 500/speak {{spouse}} \"You have my respect and gratitude.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"WHAT?! Of course not. We're too physically different to make that work.$3\"/pause 100/speak {{spouse}} \"Where are you getting those ideas?$7\"/pause 100/speak {{spouse}} \"Here, I don't often give gifts.[799 629 526 729 809]\"/pause 500/speak {{spouse}} \" But I wanted you to know how much your friendship means to me.\"/pause 100/speak {{spouse}} \"@, I feel honored to even be considered as a roommate. Amidst the shadows, we shall forge a unique bond, built on trust and understanding.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+
+  
+  //Spouse - Sebastian
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Sebastian": "Engaged", "Spouse": "Sebastian", "Sebastian - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530002": "woodsTheme/1000 1000/farmer 100 100 1 Lewis 100 100 1 {{spouse}} 100 100 3 Linus 100 100 2 Abigail 100 100 2 Sam 100 100 2 Robin 100 100 2 MrQi 100 100 2 Bouncer 100 100 2 Penny 100 100 2 Jodi 100 100 2 Jas 100 100 2 Harvey 100 100 2 Vincent 100 100 2 George 100 100 2 Krobus 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @, love? Hurry, let's go.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Sebastian 49/warp Lewis 14 14 1/warp Linus 11 11 1/warp Abigail 12 10 2/warp Sam 13 10 2/warp Robin 18 10 2/warp MrQi 19 10 2/warp Bouncer 20 11 3/warp Penny 12 8 2/warp Jodi 13 8 2/warp Jas 18 8 2/warp Harvey 19 8 2/warp Vincent 11 6 2/warp George 13 5 2/warp Krobus 19 4 2/pause 300/viewport 16 8/pause 1500/speak Lewis \"Dear friends and family, we are gathered here today to celebrate the union of @ and %spouse.\"/pause 500/speak Lewis \"As they stand before each other today, they embark on a journey that is both joyous and challenging, but also one of the most rewarding experiences life has to offer.\"/pause 500/speak Lewis \"Marriage is a sacred commitment, a bond between two individuals who have chosen to share their lives with one another. It is a union of two families, two cultures, and two hearts. As they exchange their vows today, they pledge to love, honor, and cherish each other, for better or for worse.\"/pause 1500/speak Lewis \"@，are you willing to accept %spouse as your husband?\"/pause 500/message \"I do.\"/pause 500/speak Lewis \"%spouse，are you willing to accept @ as your husband?^%spouse，are you willing to accept @ as your wife?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Lewis \"May their love continue to grow and flourish, and may their marriage be filled with blessings and happiness.\"/pause 500/speak Lewis \"If no one is against this union, I now pronounce you husband and well... husband. You may now kiss him!^If no one is against this union, I now pronounce you husband and wife. You may now kiss the bride!\"/pause 500/emote farmer 20/pause 100/positionOffset Sebastian -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Sebastian -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Sebastian -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Sebastian 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Robin 32/pause 500/emote Sam 36/pause 100/emote Abigail 18/pause 500/emote Krobus 40/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"In love, the silence between two people can be just as meaningful and powerful as their spoken words.\"/pause 500/end"
+    }
+  },
+  
+  
+   //Spouse - Sebastian
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Sebastian": "Married", "Spouse": "Sebastian", "Sebastian - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530102": "AbigailFlute/1000 1000/farmer 100 100 1 Lewis 100 100 1 {{spouse}} 100 100 3 Sam 100 100 2 Robin 100 100 2 Maru 100 100 2 Demetrius 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"@, do you still love me?$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Sebastian 49/warp Lewis 14 14 1/warp Sam 12 10 2/warp Robin 13 10 2/warp Maru 18 10 2/warp Demetrius 19 10 2/pause 300/viewport 16 8/pause 1500/speak Lewis \"Dear friends and family, as we gather here today, we celebrate the love between @ and %spouse.\"/pause 500/speak Lewis \"They have already shared so much together, building a life filled with joy and happiness.\"/pause 500/speak Lewis \"But today, they are taking another step in their journey together, renewing their vows and recommitting to each other once again.\"/pause 1500/speak Lewis \"@，are you willing to renew your vows with %spouse as your husband?\"/pause 500/message \"I do.\"/pause 500/speak Lewis \"%spouse，are you willing to renew your vows with @ as your husband?^%spouse，are you willing to renew your vows with @ as your wife?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Lewis \"This is a beautiful testament to your love, a love that has only grown stronger with each passing year.\"/pause 500/speak Lewis \"May your love continue to shine bright, and may your marriage be blessed with love, joy, and endless memories. You may now kiss each other.\"/pause 500/emote farmer 20/pause 100/positionOffset Sebastian -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Sebastian -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Sebastian -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Sebastian 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Robin 20/pause 100/emote Sam 56/pause 100/emote Maru 20/pause 100/emote Demetrius 32/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"Here's diving further down to the depths of our connection.\"/pause 500/end"
+    }
+  },
+  
+  
+    //Bestie - Sebastian
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Sebastian - Feelings": "Platonic", "Relationship:Sebastian": "Engaged", "Spouse": "Sebastian", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530202": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, don't tell anyone. But meet me at...****\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"It's actually nice to go out once in awhile -- as long as there aren't any people.\"/pause 500/speak {{spouse}} \"It's also nice to have someone to talk to who understands what I'm going through.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Hahahah!! Of course not! $4\"/pause 100/speak {{spouse}} \"Thank you... that's all I wanna say.\"/pause 100/speak {{spouse}} \"And also this...[795 632 523 454 809]\"/pause 500/speak {{spouse}} \"You've helped me more than you know. Thanks.\"/pause 100/speak {{spouse}} \"So, you want me as your roommate, huh?#$b#Well, I won't lie, it sounds like it could be fun.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Sebastian
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Sebastian - Feelings": "Platonic", "Relationship:Sebastian": "Married", "Spouse": "Sebastian", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530202": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, don't tell anyone. But meet me at...****\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"It's actually nice to go out once in awhile -- as long as there aren't any people.\"/pause 500/speak {{spouse}} \"It's also nice to have someone to talk to who understands what I'm going through.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Hahahah!! Of course not! $4\"/pause 100/speak {{spouse}} \"Thank you... that's all I wanna say.\"/pause 100/speak {{spouse}} \"And also this...[795 632 523 454 809]\"/pause 500/speak {{spouse}} \"You've helped me more than you know. Thanks.\"/pause 100/speak {{spouse}} \"So, you want me as your roommate, huh?#$b#Well, I won't lie, it sounds like it could be fun.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+   //Spouse - Harvey
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Harvey": "Engaged", "Spouse": "Harvey", "Harvey - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530003": "woodsTheme/1000 1000/farmer 100 100 1 Pierre 100 100 1 {{spouse}} 100 100 3 Elliott 100 100 2 Demetrius 100 100 2 Maru 100 100 2 Abigail 100 100 2 Sam 100 100 2 Leah 100 100 2 Sebastian 100 100 2 Evelyn 100 100 2 Lewis 100 100 2 Marnie 100 100 2 Gunther 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @, hon? Honestly, I feel nervous and very thrilled at the same time.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Harvey 49/warp Pierre 14 14 1/warp Elliott 12 10 2/warp Demetrius 18 10 2/warp Maru 19 10 2/warp Abigail 20 11 3/warp Sam 12 8 2/warp Sebastian 13 8 2/warp Leah 18 8 2/warp Evelyn 19 8 2/warp Lewis 11 6 2/warp Marnie 13 5 2/warp Gunther 19 4 2/pause 300/viewport 16 8/pause 1500/speak Pierre \"A pleasant day everyone. We are gathered here today to witness the union of @ and %spouse in holy matrimony.\"/pause 500/speak Pierre \"Marriage is a commitment to life, to the best that two people can find and bring out in each other. It offers opportunities for sharing and growth that no other human relationship can equal.\"/pause 500/speak Pierre \"As you stand before each other today, remember that love is patient and kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.\"/pause 1500/speak Pierre \"@，are you willing to accept %spouse as your partner?\"/pause 500/message \"I do.\"/pause 500/speak Pierre \"%spouse，are you willing to accept @ as your partner?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Pierre \"May your love for each other continue to grow and flourish, and may your marriage be a reflection of the true love that brought you together today.\"/pause 500/speak Pierre \"In the name of Yoba, I now pronounce you, Twin Flames.\"/pause 500/emote farmer 20/pause 100/positionOffset Harvey -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Harvey -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Harvey -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Harvey 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Demetrius 20/pause 300/emote Maru 40/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"True love is having the courage to soar high to the next level!\"/pause 500/end"
+    }
+  },
+  
+  
+     //Spouse - Harvey
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Harvey": "Married", "Spouse": "Harvey", "Harvey - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530103": "AbigailFlute/1000 1000/farmer 100 100 1 Pierre 100 100 1 {{spouse}} 100 100 3 Demetrius 100 100 2 Maru 100 100 2 Sam 100 100 2 Sebastian 100 100 2 George 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"@, I'm so happy to have spent my days with you. One more round, hon?$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Harvey 49/warp Pierre 14 14 1/warp Demetrius 12 10 2/warp Maru 13 10 2/warp Sebastian 18 10 2/warp Sam 19 10 2/warp George 13 5 2/pause 300/viewport 16 8/pause 1500/speak Pierre \"A wonderful day everyone. Today, we are here to bear witness to the renewal of vows between @ and %spouse.\"/pause 500/speak Pierre \"They have already shared many beautiful moments together, but today, they are choosing to reaffirm their love and commitment to each other.\"/pause 500/speak Pierre \"They have been through so much together, and yet their love continues to stand the test of time.\"/pause 1500/speak Pierre \"@，are you willing to renew your vows with %spouse as your partner?\"/pause 500/message \"I do.\"/pause 500/speak Pierre \"%spouse，are you willing to renew your vows with @ as your partner?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Pierre \"May your love for each other continue to grow and flourish, and may your bond remain strong every day.\"/pause 500/speak Pierre \"With Yoba's blessings, I pronounce you once more as Twin Flames.\"/pause 500/emote farmer 20/pause 100/positionOffset Harvey -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Harvey -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Harvey -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Harvey 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Sam 32/pause 300/pause 300/emote George 40/pause 300/emote Maru 20/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"Here's to reaching new heights!\"/pause 500/end"
+    }
+  },
+  
+  
+    //Bestie - Harvey
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Harvey - Feelings": "Platonic", "Relationship:Harvey": "Engaged", "Spouse": "Harvey", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530203": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, how are you? It's good to see you. Come with me for a bit...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"It's been great having you around, @.\"/pause 500/speak {{spouse}} \"You always manage to lift my spirits.$1\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"W-w-well, who knows what could've been, right?...$7\"/pause 100/speak {{spouse}} \"You have a way of making me see the good in things, and for that I'm grateful, especially for being there during my struggles.$1\"/pause 100/speak {{spouse}} \"I appreciate everything you do for me, so I wanna give you this.[805 629 524 454 809]\"/pause 500/speak {{spouse}} \"Your friendship has been a real bright spot in my life, thank you for being there.$1\"/pause 100/speak {{spouse}} \"@, are you sure about becoming roommates though?#$b#I mean, I'm not the most exciting person,#$b#and I tend to worry a lot.#$b#But if you think I can bring something positive to the table, I'm willing to give it a try.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Harvey
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Harvey - Feelings": "Platonic", "Relationship:Harvey": "Married", "Spouse": "Harvey", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530203": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, how are you? It's good to see you. Come with me for a bit...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"It's been great having you around, @.\"/pause 500/speak {{spouse}} \"You always manage to lift my spirits.$1\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"W-w-well, who knows what could've been, right?...$7\"/pause 100/speak {{spouse}} \"You have a way of making me see the good in things, and for that I'm grateful, especially for being there during my struggles.$1\"/pause 100/speak {{spouse}} \"I appreciate everything you do for me, so I wanna give you this.[805 629 524 454 809]\"/pause 500/speak {{spouse}} \"Your friendship has been a real bright spot in my life, thank you for being there.$1\"/pause 100/speak {{spouse}} \"@, are you sure about becoming roommates though?#$b#I mean, I'm not the most exciting person,#$b#and I tend to worry a lot.#$b#But if you think I can bring something positive to the table, I'm willing to give it a try.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+  
+  
+  //Spouse - Shane
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Shane": "Engaged", "Spouse": "Shane", "Shane - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530004": "woodsTheme/1000 1000/farmer 100 100 1 Morris 100 100 1 {{spouse}} 100 100 3 Harvey 100 100 2 Pam 100 100 2 Marnie 100 100 2 Jas 100 100 2 Lewis 100 100 2 Gus 100 100 2 Emily 100 100 2 Kent 100 100 2 Clint 100 100 2 Sam 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready, @? Let's get this over with.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Shane 49/warp Morris 14 14 1/warp Harvey 12 10 2/warp Pam 13 10 2/warp Marnie 18 10 2/warp Jas 19 10 2/warp Lewis 20 11 3/warp Gus 13 8 2/warp Emily 18 8 2/warp Kent 19 8 2/warp Clint 11 6 2/warp Sam 19 5 2/pause 300/viewport 16 8/pause 1500/speak Morris \"Ladies and gentlemen, honored guests, on behalf of Joja Corporation,  I would like to extend a warm welcome to each and every one of you on this joyous occasion.\"/pause 500/speak Morris \"We are gathered here today to witness the union of @ and %spouse.\"/pause 500/speak Morris \"At Joja Corporation, we pride ourselves on our ability to create unforgettable moments, and today is no exception. As we celebrate the love and commitment between @ and %spouse, we are reminded of the power of love, the beauty of unity, and the importance of creating memories that last a lifetime.\"/pause 1500/speak Morris \"@，are you willing to accept %spouse as your beloved partner for life?\"/pause 500/message \"I do.\"/pause 500/speak Morris \"%spouse，are you willing to accept @ as your beloved partner for life?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Morris \"As we bear witness to their union today, let us also remember to honor and celebrate the love that brought them together.\"/pause 500/speak Morris \"On behalf of Joja Corporation, I am honored to pronounce you husband and husband! You may now seal your union with a kiss.^On behalf of Joja Corporation, I am honored to pronounce you husband and wife! You may now seal your union with a kiss.\"/pause 500/emote farmer 20/pause 100/positionOffset Shane -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Shane -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Shane -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/pause 100/showFrame 101/showFrame Shane 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Pam 20/pause 300/emote Marnie 20/pause 500/emote Gus 32/pause 500/emote Harvey 40/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"Love may not always be easy, but it is always worth it in the end.\"/pause 500/end"
+    }
+  },
+  
+  
+  //Spouse - Shane
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Shane": "Married", "Spouse": "Shane", "Shane - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530104": "AbigailFlute/1000 1000/farmer 100 100 1 Morris 100 100 1 {{spouse}} 100 100 3 Pam 100 100 2 Penny 100 100 2 Marnie 100 100 2 Jas 100 100 2 Lewis 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you sure about this, dear? Thanks for staying with me.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Shane 49/warp Morris 14 14 1/warp Pam 12 10 2/warp Penny 13 10 2/warp Jas 18 10 2/warp Marnie 19 10 2/warp Lewis 18 8 2/pause 300/viewport 16 8/pause 1500/speak Morris \"Ladies and gentlemen, on behalf of Joja Corporation, we are gathered here today to celebrate the love and commitment between @ and %spouse.\"/pause 500/speak Morris \"They have already embarked on a beautiful journey together, filled with love, laughter, and endless memories.\"/pause 500/speak Morris \"But today, they have chosen to renew their vows and recommit to each other once again. They have stood by each other through thick and thin, through good times and bad, and today, they stand here together, stronger than ever.\"/pause 1500/speak Morris \"@，are you willing to renew your vows with %spouse as your beloved partner for life?\"/pause 500/message \"I do.\"/pause 500/speak Morris \"%spouse，are you willing to renew your vows with @ as your beloved partner for life?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Morris \"May their love continue to flourish and may their commitment to each other stand the test of time.\"/pause 500/speak Morris \"On behalf of Joja Corporation, I am honored to renew your vows as husband and husband! You may now seal your union with a kiss.^On behalf of Joja Corporation, I am honored to renew your vows as husband and wife! You may now seal your union with a kiss.\"/pause 500/emote farmer 20/pause 100/positionOffset Shane -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Shane -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Shane -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/pause 100/showFrame 101/showFrame Shane 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Marnie 20/pause 300/emote Pam 32/pause 500/emote Penny 20/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"There's no fixin' if it ain't broken to begin with.\"/pause 500/end"
+    }
+  },
+  
+  
+    //Bestie - Shane
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Shane - Feelings": "Platonic", "Relationship:Shane": "Engaged", "Spouse": "Shane", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530204": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hey! Come here...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, you must be surprised why I suddenly called you.\"/pause 500/speak {{spouse}} \"It's...you see... how do I say this?\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Don't get too ahead of yourself.$5\"/pause 100/speak {{spouse}} \"Here, just take this.[796 632 531 454 809]\"/pause 500/speak {{spouse}} \"I never thought I'd find someone who cares about me like you do. Thank you for sticking around.\"/pause 100/speak {{spouse}} \"So you think we can coexist as roommates, huh?#$b#Well, good luck with that.#$b#But maybe...#$b#just maybe...#$b#having you closer won't be the worst thing.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Shane
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Shane - Feelings": "Platonic", "Relationship:Shane": "Married", "Spouse": "Shane", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530204": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hey! Come here...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, you must be surprised why I suddenly called you.\"/pause 500/speak {{spouse}} \"It's...you see... how do I say this?\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Don't get too ahead of yourself.$5\"/pause 100/speak {{spouse}} \"Here, just take this.[796 632 531 454 809]\"/pause 500/speak {{spouse}} \"I never thought I'd find someone who cares about me like you do. Thank you for sticking around.\"/pause 100/speak {{spouse}} \"So you think we can coexist as roommates, huh?#$b#Well, good luck with that.#$b#But maybe...#$b#just maybe...#$b#having you closer won't be the worst thing.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+  
+  //Spouse - Sam
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Sam": "Engaged", "Spouse": "Sam", "Sam - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530005": "woodsTheme/1000 1000/farmer 100 100 1 Morris 100 100 1 {{spouse}} 100 100 3 Gunther 100 100 1 Penny 100 100 2 Jas 100 100 2 Vincent 100 100 2 Jodi 100 100 2 Kent 100 100 2 Sebastian 100 100 2 Abigail 100 100 2 Harvey 100 100 2 Alex 100 100 2 Haley 100 100 2 Robin 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @, dear? Alright, let's go!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Sam 49/warp Morris 14 14 1/warp Gunther 11 11 1/warp Penny 12 10 2/warp Jas 13 10 2/warp Vincent 18 10 2/warp Jodi 19 10 2/warp Kent 20 11 3/warp Sebastian 12 8 2/warp Abigail 13 8 2/warp Harvey 18 8 2/warp Alex 1 16 2/warp Haley 13 5 2/warp Robin 19 4 2/pause 300/viewport 16 8/pause 1500/speak Morris \"Ladies and gentlemen, honored guests, on behalf of Joja Corporation,  I would like to extend a warm welcome to each and every one of you on this joyous occasion.\"/pause 500/speak Morris \"We are gathered here today to witness the union of @ and %spouse.\"/pause 500/speak Morris \"At Joja Corporation, we pride ourselves on our ability to create unforgettable moments, and today is no exception. As we celebrate the love and commitment between @ and %spouse, we are reminded of the power of love, the beauty of unity, and the importance of creating memories that last a lifetime.\"/pause 1500/speak Morris \"@，are you willing to accept %spouse as your beloved partner for life?\"/pause 500/message \"I do.\"/pause 500/speak Morris \"%spouse，are you willing to accept @ as your beloved partner for life?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Morris \"As we bear witness to their union today, let us also remember to honor and celebrate the love that brought them together.\"/pause 500/speak Morris \"On behalf of Joja Corporation, I am honored to pronounce you husband and husband! You may now seal your union with a kiss.^On behalf of Joja Corporation, I am honored to pronounce you husband and wife! You may now seal your union with a kiss.\"/pause 500/emote farmer 20/pause 100/positionOffset Sam -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Sam -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Sam -6 0/pause 100/positionOffset farmer 0 10/showFrame Sam 50/faceDirection farmer 3 true/showFrame 101/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Jodi 20/pause 300/emote Penny 32/pause 300/emote Kent 40/pause 100/emote Sebastian 60/pause 300/emote Abigail 32/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"Home is where love resides and where sweet memories are created.\"/pause 500/end"
+    }
+  },
+  
+    //Spouse - Sam
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Sam": "Married", "Spouse": "Sam", "Sam - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530105": "AbigailFlute/1000 1000/farmer 100 100 1 Morris 100 100 1 {{spouse}} 100 100 3 Vincent 100 100 2 Jodi 100 100 2 Sebastian 100 100 2 Abigail 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"@! I'm excited to renew our vows!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Sam 49/warp Morris 14 14 1/warp Vincent 12 10 2/warp Jodi 13 10 2/warp Sebastian 18 10 2/warp Abigail 19 10 2/pause 300/viewport 16 8/pause 1500/speak Morris \"Ladies and gentlemen, on behalf of Joja Corporation, we are gathered here today to celebrate the love and commitment between @ and %spouse.\"/pause 500/speak Morris \"They have already embarked on a beautiful journey together, filled with love, laughter, and endless memories.\"/pause 500/speak Morris \"But today, they have chosen to renew their vows and recommit to each other once again. They have stood by each other through thick and thin, through good times and bad, and today, they stand here together, stronger than ever.\"/pause 1500/speak Morris \"@，are you willing to renew your vows with %spouse as your beloved partner for life?\"/pause 500/message \"I do.\"/pause 500/speak Morris \"%spouse，are you willing to renew your vows with @ as your beloved partner for life?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Morris \"May their love continue to flourish and may their commitment to each other stand the test of time.\"/pause 500/speak Morris \"On behalf of Joja Corporation, I am honored to renew your vows as husband and husband! You may now seal your union with a kiss.^On behalf of Joja Corporation, I am honored to renew your vows as husband and wife! You may now seal your union with a kiss.\"/pause 500/emote farmer 20/pause 100/positionOffset Sam -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Sam -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Sam -6 0/pause 100/positionOffset farmer 0 10/showFrame Sam 50/faceDirection farmer 3 true/showFrame 101/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Vincent 20/pause 300/emote Jodi 32/pause 300/emote Sebastian 20/pause 300/emote Abigail 20/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"Here's to another round of sweet memories!\"/pause 500/end"
+    }
+  },
+  
+  
+    //Bestie - Sam
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Sam - Feelings": "Platonic", "Relationship:Sam": "Engaged", "Spouse": "Sam", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530205": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hey, @! How's it going? By the way, come! Gotta show you something...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, I feel lucky to have you in my life.\"/pause 500/speak {{spouse}} \"You always seem to know exactly what to say to make me feel better.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Hahahah! Well.. if you want to -- I'm just kidding!$1\"/pause 100/speak {{spouse}} \"But no, I'm serious now. It means a lot to have someone to talk to when things get overwhelming.\"/pause 100/speak {{spouse}} \"I just wanna thank you, @.[809 629 530 454 809]\"/pause 500/speak {{spouse}} \"I feel lucky to meet you.$1\"/pause 100/speak {{spouse}} \"Also whoa, seriously?#$b#You want me as your roommate?#$b#Not gonna lie, that's pretty rad!#$b#I can't wait!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Sam
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Sam - Feelings": "Platonic", "Relationship:Sam": "Married", "Spouse": "Sam", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530205": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hey, @! How's it going? By the way, come! Gotta show you something...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, I feel lucky to have you in my life.\"/pause 500/speak {{spouse}} \"You always seem to know exactly what to say to make me feel better.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Hahahah! Well.. if you want to -- I'm just kidding!$1\"/pause 100/speak {{spouse}} \"But no, I'm serious now. It means a lot to have someone to talk to when things get overwhelming.\"/pause 100/speak {{spouse}} \"I just wanna thank you, @.[809 629 530 454 809]\"/pause 500/speak {{spouse}} \"I feel lucky to meet you.$1\"/pause 100/speak {{spouse}} \"Also whoa, seriously?#$b#You want me as your roommate?#$b#Not gonna lie, that's pretty rad!#$b#I can't wait!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+  
+  
+    //Spouse - Alex
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When":  { "Relationship:Alex": "Engaged", "Spouse": "Alex", "Alex - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530006": "woodsTheme/1000 1000/farmer 100 100 1 Gunther 100 100 1 {{spouse}} 100 100 3 Pam 100 100 2 Harvey 100 100 2 Haley 100 100 2 Evelyn 100 100 2 George 100 100 2 Lewis 100 100 2 Vincent 100 100 2 Sam 100 100 2 Jodi 100 100 2 Marlon 100 100 2 Marnie 100 100 2 Maru 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @, babe? Hurry, let's go!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Alex 49/warp Gunther 14 14 1/warp Pam 11 11 1/warp Harvey 12 10 2/warp Maru 13 10 2/warp Evelyn 18 10 2/warp George 19 10 2/warp Lewis 20 11 3/warp Vincent 12 8 2/warp Sam 13 8 2/warp Jodi 18 8 2/warp Marlon 11 6 2/warp Marnie 13 5 2/warp Haley 19 5 2/pause 300/viewport 16 8/pause 1500/speak Gunther \"Ladies and gentlemen, esteemed guests, it is my great pleasure to welcome you all to this beautiful celebration of love. We are here today to witness the union of @ and %spouse, two individuals who are not only in love but also committed to building a life together filled with happiness and success.\"/pause 500/speak Gunther \"Today, we celebrate not only the love between these two individuals but also the power of love itself. Love is an irresistible force, a force that can transform our lives and shape our destinies.\"/pause 500/speak Gunther \"As @ and %spouse exchange their vows today, they are making a solemn commitment to each other. They pledge to love and honor each other, to respect each other's dreams and goals.\"/pause 1500/speak Gunther \"@，are you willing to accept %spouse as your partner, and to stand by each other through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Gunther \"%spouse，are you willing to accept @ as your partner, and to stand by each other through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Gunther \"May your love for each other continue to grow and flourish, and may your marriage be a reflection of the true love that brought you together today.\"/pause 500/speak Gunther \"May the forces of the universe bless this union, and may your love shine brightly for all to see. You're now bound together in spirit and in love as Twin Flames.\"/pause 500/emote farmer 20/pause 100/emote Alex 20/pause 100/positionOffset Alex -6 0/pause 100/positionOffset farmer 8 5/positionOffset Alex -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Alex -6 0/pause 100/positionOffset farmer 0 10/faceDirection farmer 1 true/showFrame 101/showFrame Alex 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Haley 12/pause 500/emote Sam 32/pause 500/emote Evelyn 20/pause 100/emote George 40/emote Vincent 56/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"Love isn't about finding and aiming. It's about connecting and accepting.\"/pause 500/end"
+	}
+  },
+  
+  
+  
+  //Spouse - Alex
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When":  { "Relationship:Alex": "Married", "Spouse": "Alex", "Alex - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530106": "AbigailFlute/1000 1000/farmer 100 100 1 Gunther 100 100 1 {{spouse}} 100 100 3 Caroline 100 100 2 Evelyn 100 100 2 George 100 100 2 Penny 100 100 2 Emily 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"I'm excited about this, babe! Let's go!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Alex 49/warp Gunther 14 14 1/warp Caroline 13 10 2/warp Evelyn 18 10 2/warp George 19 10 2/warp Penny 12 8 2/warp Emily 18 8 2/pause 300/viewport 16 8/pause 1500/speak Gunther \"Today, we are here to bear witness to the renewal of vows between @ and %spouse.\"/pause 500/speak Gunther \"They have already shared many beautiful moments together, but today, they are choosing to reaffirm their love and commitment to each other.\"/pause 500/speak Gunther \"They have been through so much together, and yet their love continues to stand the test of time.\"/pause 1500/speak Gunther \"@，are you willing to renew your vows with %spouse as your partner, and to continue standing by each other through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Gunther \"%spouse，are you willing to renew your vows with @ as your partner, and to continue standing by each other through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Gunther \"May your love continue to blossom and may you always remember the promises you have made to each other today.\"/pause 500/speak Gunther \"May your union continue to be filled with love, laughter, and endless happiness as Twin Flames. You may now kiss each other.\"/pause 500/emote farmer 20/pause 100/emote Alex 20/pause 100/positionOffset Alex -6 0/pause 100/positionOffset farmer 8 5/positionOffset Alex -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Alex -6 0/pause 100/positionOffset farmer 0 10/faceDirection farmer 1 true/showFrame 101/showFrame Alex 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote George 20/pause 500/emote Evelyn 32/pause 500/emote Caroline 20/pause 100/emote Emily 20/pause 100/emote Penny 32/pause 500/globalFade/viewport -1000 -1000/pause 800/message \"Ready for the next action... Wilder days ahead.\"/pause 500/end"
+	}
+  },
+  
+    //Bestie - Alex
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Alex - Feelings": "Platonic", "Relationship:Alex": "Engaged", "Spouse": "Alex", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530206": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Where do you think you're going? @, let's go!\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, I know I come across as a bit full of myself, and I'm also not the sharpest guy here...\"/pause 500/speak {{spouse}} \"But I appreciate that you never judge me for it.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Huh? What?! No. I mean...$4\"/pause 100/speak {{spouse}} \"I just want you to know that I'm grateful for all your support.$1\"/pause 100/speak {{spouse}} \"Here...[803 632 529 454 809]\"/pause 500/speak {{spouse}} \"It's not much but I hope this will remind you that I'm here for you too.\"/pause 100/speak {{spouse}} \"Also, wow dude! I'm stoked to be your roommate!^Also, wow @! I'm stoked to be your roommate!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Alex
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Alex - Feelings": "Platonic", "Relationship:Alex": "Married", "Spouse": "Alex", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530206": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Where do you think you're going? @, let's go!\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, I know I come across as a bit full of myself, and I'm also not the sharpest guy here...\"/pause 500/speak {{spouse}} \"But I appreciate that you never judge me for it.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Huh? What?! No. I mean...$4\"/pause 100/speak {{spouse}} \"I just want you to know that I'm grateful for all your support.$1\"/pause 100/speak {{spouse}} \"Here...[803 632 529 454 809]\"/pause 500/speak {{spouse}} \"It's not much but I hope this will remind you that I'm here for you too.\"/pause 100/speak {{spouse}} \"Also, wow dude! I'm stoked to be your roommate!^Also, wow @! I'm stoked to be your roommate!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+  
+  
+  //Spouse - Leah
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Leah": "Engaged", "Spouse": "Leah", "Leah - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		  "1655530007": "woodsTheme/1000 1000/farmer 100 100 1 Lewis 100 100 1 {{spouse}} 100 100 3 MrQi 100 100 2 Marnie 100 100 2 Willy 100 100 2 Jas 100 100 2 Penny 100 100 2 Gunther 100 100 2 Abigail 100 100 2 Caroline 100 100 2 Emily 100 100 2 Elliott 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @, love? Here we go.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Leah 37/warp Lewis 14 14 1/warp MrQi 12 10 2/warp Marnie 18 10 2/warp Willy 19 10 2/warp Jas 20 11 3/warp Penny 12 8 2/warp Gunther 13 8 2/warp Abigail 18 8 2/warp Caroline 19 8 2/warp Emily 13 5 2/warp Elliott 19 4 2/pause 300/viewport 16 8/pause 1500/speak Lewis \"Dear friends and family, we are gathered here today to celebrate the union of @ and %spouse.\"/pause 500/speak Lewis \"As they stand before each other today, they embark on a journey that is both joyous and challenging, but also one of the most rewarding experiences life has to offer.\"/pause 500/speak Lewis \"Marriage is a sacred commitment, a bond between two individuals who have chosen to share their lives with one another. It is a union of two families, two cultures, and two hearts. As they exchange their vows today, they pledge to love, honor, and cherish each other, for better or for worse.\"/pause 1500/speak Lewis \"@，are you willing to accept %spouse as your wife?\"/pause 500/message \"I do.\"/pause 500/speak Lewis \"%spouse，are you willing to accept @ as your husband?^%spouse，are you willing to accept @ as your wife?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Lewis \"May their love continue to grow and flourish, and may their marriage be filled with blessings and happiness.\"/pause 500/speak Lewis \"If no one is against this union, I now pronounce you husband and wife. You may now kiss the bride!^If no one is against this union, I now pronounce you well..wife and wife. You may now kiss each other!\"/pause 500/emote farmer 20/pause 100/positionOffset Leah -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Leah -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Leah -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Leah 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Marnie 32/pause 500/emote Emily 20/pause 100/emote Penny 20/pause 100/emote Elliott 32/pause 200/emote Abigail 28/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"True love is about having someone who will stick by your side, even when you're struggling to find your way.\"/pause 500/end"
+	  
+    }
+  },
+  
+  
+   //Spouse - Leah
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Leah": "Married", "Spouse": "Leah", "Leah - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		  "1655530107": "AbigailFlute/1000 1000/farmer 100 100 1 Lewis 100 100 1 {{spouse}} 100 100 3 Jas 100 100 2 Marnie 100 100 2 Willy 100 100 2 Elliott 100 100 2 Clint 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Thank you for all your support, @ my love. Let's go.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Leah 37/warp Lewis 14 14 1/warp Marnie 12 10 2/warp Jas 13 10 2/warp Elliott 18 10 2/warp Willy 19 10 2/warp Clint 18 8 2/pause 300/viewport 16 8/pause 1500/speak Lewis \"Dear friends and family, as we gather here today, we celebrate the love between @ and %spouse.\"/pause 500/speak Lewis \"They have already shared so much together, building a life filled with joy and happiness.\"/pause 500/speak Lewis \"But today, they are taking another step in their journey together, renewing their vows and recommitting to each other once again.\"/pause 1500/speak Lewis \"@，are you willing to renew your vows with %spouse as your wife?\"/pause 500/message \"I do.\"/pause 500/speak Lewis \"%spouse，are you willing to renew your vows with @ as your husband?^%spouse，are you willing to renew your vows with @ as your wife?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Lewis \"This is a beautiful testament to your love, a love that has only grown stronger with each passing year.\"/pause 500/speak Lewis \"May your love continue to shine bright, and may your marriage be blessed with love, joy, and endless memories. You may now kiss each other.\"/pause 500/emote farmer 20/pause 100/positionOffset Leah -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Leah -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Leah -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Leah 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Marnie 32/pause 500/emote Marnie 20/pause 100/emote Elliott 20/pause 500/emote Clint 40/pause 200/emote Willy 8/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"Here's to creating more beautiful memories together.\"/pause 500/end"
+	  
+    }
+  },
+  
+    //Bestie - Leah
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Leah - Feelings": "Platonic", "Relationship:Leah": "Engaged", "Spouse": "Leah", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530207": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hi @! Right on time. Come! I got something for you.\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, my life has changed for the better ever since we've become friends.\"/pause 500/speak {{spouse}} \"I'd like to take this opportunity to thank you better.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Huh? No! I mean...$6\"/pause 100/speak {{spouse}} \"You're special to me.... as a close friend of course.$1\"/pause 100/speak {{spouse}} \"I just want to give you this.[798 629 528 454 809]\"/pause 500/speak {{spouse}} \"It's not much but I just wanna say thanks.\"/pause 100/speak {{spouse}} \"I'm really looking forward to being roommates, @.#$b#I know we'll have a blast exploring our creative endeavors together.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Leah
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Leah - Feelings": "Platonic", "Relationship:Leah": "Married", "Spouse": "Leah", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530207": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hi @! Right on time. Come! I got something for you.\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, my life has changed for the better ever since we've become friends.\"/pause 500/speak {{spouse}} \"I'd like to take this opportunity to thank you better.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Huh? No! I mean...$6\"/pause 100/speak {{spouse}} \"You're special to me.... as a close friend of course.$1\"/pause 100/speak {{spouse}} \"I just want to give you this.[798 629 528 454 809]\"/pause 500/speak {{spouse}} \"It's not much but I just wanna say thanks.\"/pause 100/speak {{spouse}} \"I'm really looking forward to being roommates, @.#$b#I know we'll have a blast exploring our creative endeavors together.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+    
+ //Spouse - Abigail
+ {		
+  "Action": "EditData",
+  "Target": "Data/Events/Farmhouse",
+  "Update": "OnLocationChange",
+"When": { "Relationship:Abigail": "Engaged", "Spouse": "Abigail", "Abigail - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+  "Entries": {
+   "1655530008": "woodsTheme/1000 1000/farmer 100 100 1 Marlon 100 100 0 {{spouse}} 100 100 3 Wizard 100 100 2 Emily 100 100 2 Sandy 100 100 2 Caroline 100 100 2 Jodi 100 100 2 Marnie 100 100 2 Sam 100 100 2 Penny 100 100 2 Robin 100 100 2 Jas 100 100 2 Leo 100 100 2 Sebastian 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"This is the beginning of our adventure. Are you ready @?$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Abigail 37/warp Marlon 14 14 0/warp Wizard 11 11 1/warp Emily 12 10 2/warp Sandy 13 10 2/warp Caroline 18 10 2/warp Jodi 19 10 2/warp Marnie 20 11 3/warp Sam 12 8 2/warp Penny 13 8 2/warp Robin 18 8 2/warp Jas 11 6 1/warp Leo 13 5 2/warp Sebastian 19 4 2/pause 300/viewport 16 8/pause 1500/speak Marlon \"A pleasant day everyone. We are gathered here today to witness the union of @ and %spouse in holy matrimony.\"/pause 500/speak Marlon \"Marriage is a commitment to life, to the best that two people can find and bring out in each other. It offers opportunities for sharing and growth that no other human relationship can equal.\"/pause 500/speak Marlon \"As you stand before each other today, remember that love is patient and kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.\"/pause 1500/speak Marlon \"@，are you willing to accept %spouse as your wife, through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Marlon \"%spouse，are you willing to accept @ as your husband, through thick and thin?^%spouse，are you willing to accept @ as your wife, through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Marlon \"May your love for each other continue to grow and flourish, and may your marriage be a reflection of the true love that brought you together today.\"/pause 500/speak Marlon \"In the name of Yoba, I now pronounce you, husband and wife!^In the name of Yoba, I now pronounce you, wife and well.. wife!\"/pause 500/emote farmer 20/pause 100/positionOffset Abigail -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Abigail -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Abigail -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Abigail 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Wizard 40/pause 500/emote Emily 20/pause 100/emote Sandy 20/pause 500/emote Caroline 32/pause 200/emote Sebastian 12/pause 200/emote Sam 28/pause 200/emote Penny 32/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"True love is about finding someone who loves and accepts every part of you, even the parts that others may find strange or unconventional.\"/pause 500/end"
+  
+  }
+},
+  
+  
+   //Spouse - Abigail
+ {		
+  "Action": "EditData",
+  "Target": "Data/Events/Farmhouse",
+  "Update": "OnLocationChange",
+"When": { "Relationship:Abigail": "Married", "Spouse": "Abigail", "Abigail - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+  "Entries": {
+   "1655530108": "woodsTheme/1000 1000/farmer 100 100 1 Marlon 100 100 0 {{spouse}} 100 100 3 Emily 100 100 2 Sandy 100 100 2 Caroline 100 100 2 Pierre 100 100 2 Sam 100 100 2 Sebastian 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"@, glad you're not tired of me yet. Let's go!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Abigail 37/warp Marlon 14 14 0/warp Sandy 12 10 2/warp Emily 13 10 2/warp Pierre 18 10 2/warp Caroline 19 10 2/warp Sam 18 8 2/warp Sebastian 19 8 2/pause 300/viewport 16 8/pause 1500/speak Marlon \"A wonderful day everyone. Today, we are here to bear witness to the renewal of vows between @ and %spouse.\"/pause 500/speak Marlon \"They have already shared many beautiful moments together, but today, they are choosing to reaffirm their love and commitment to each other.\"/pause 500/speak Marlon \"They have been through so much together, and yet their love continues to stand the test of time.\"/pause 1500/speak Marlon \"@，are you willing to renew your vows with %spouse as your partner?\"/pause 500/message \"I do.\"/pause 500/speak Marlon \"%spouse，are you willing to renew your vows with @ as your partner?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Marlon \"May your love for each other continue to grow and flourish, and may your bond remain strong every day.\"/pause 500/speak Marlon \"With Yoba's blessings, I pronounce you once more as Twin Flames.\"/pause 500/emote farmer 20/pause 100/positionOffset Abigail -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Abigail -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Abigail -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Abigail 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Emily 20/pause 100/emote Caroline 20/pause 500/emote Pierre 32/pause 200/emote Sandy 20/pause 200/emote Sebastian 20/pause 200/emote Sam 18/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"And off we explore the unknown some more...\"/pause 500/end"
+  
+  }
+},
+
+  //Bestie - Abigail
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Abigail - Feelings": "Platonic", "Relationship:Abigail": "Engaged", "Spouse": "Abigail", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530208": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, heard you actually used to be some kind of adventurer before. Well, I got a quest for you. Come!\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"Welp. I lied. I just wanna talk to you in private.\"/pause 500/speak {{spouse}} \"I always thought I had to prove myself to everyone. But with you @, I feel like I can just be myself.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Huh? Hahahah!$1\"/pause 100/speak {{spouse}} \"If you wanted to, we could. But @, thank you.\"/pause 100/speak {{spouse}} \"I'm glad I met you.[797 632 521 454 809]\"/pause 500/speak {{spouse}} \"(Hey, I struggled to get that, ok? So don't go pfft on me). Looking forward to having more exciting times with you!\"/pause 100/speak {{spouse}} \"I'm super stoked about being roommates, @!#$b#I'm always up for new adventures, and I know you are too.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Abigail
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Abigail - Feelings": "Platonic", "Relationship:Abigail": "Married", "Spouse": "Abigail", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530208": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, heard you actually used to be some kind of adventurer before. Well, I got a quest for you. Come!\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"Welp. I lied. I just wanna talk to you in private.\"/pause 500/speak {{spouse}} \"I always thought I had to prove myself to everyone. But with you @, I feel like I can just be myself.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Huh? Hahahah!$1\"/pause 100/speak {{spouse}} \"If you wanted to, we could. But @, thank you.\"/pause 100/speak {{spouse}} \"I'm glad I met you.[797 632 521 454 809]\"/pause 500/speak {{spouse}} \"(Hey, I struggled to get that, ok? So don't go pfft on me). Looking forward to having more exciting times with you!\"/pause 100/speak {{spouse}} \"I'm super stoked about being roommates, @!#$b#I'm always up for new adventures, and I know you are too.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+  
+    //Spouse - Maru
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Maru": "Engaged", "Spouse": "Maru", "Maru - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530009": "woodsTheme/1000 1000/farmer 100 100 1 Gunther 100 100 1 {{spouse}} 100 100 3 Harvey 100 100 2 Leah 100 100 2 Robin 100 100 2 Demetrius 100 100 2 Vincent 100 100 2 Penny 100 100 2 Shane 100 100 2 Jas 100 100 2 Morris 100 100 2 Sam 100 100 2 Linus 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @? Come, let's go.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Maru 37/warp Gunther 14 14 1/warp Harvey 12 10 2/warp Leah 13 10 2/warp Robin 18 10 2/warp Demetrius 19 10 2/warp Vincent 20 11 3/warp Morris 12 8 2/warp Shane 13 8 2/warp Jas 18 8 2/warp Penny 19 8 2/warp Sam 13 5 2/warp Linus 22 4 2/pause 300/viewport 16 8/pause 1500/speak Gunther \"Ladies and gentlemen, esteemed guests, it is my great pleasure to welcome you all to this beautiful celebration of love. We are here today to witness the union of @ and %spouse, two individuals who are not only in love but also committed to building a life together filled with happiness and success.\"/pause 500/speak Gunther \"Today, we celebrate not only the love between these two individuals but also the power of love itself. Love is an irresistible force, a force that can transform our lives and shape our destinies.\"/pause 500/speak Gunther \"As @ and %spouse exchange their vows today, they are making a solemn commitment to each other. They pledge to love and honor each other, to respect each other's dreams and goals.\"/pause 1500/speak Gunther \"@，are you willing to accept %spouse as your partner, and to stand by each other through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Gunther \"%spouse，are you willing to accept @ as your partner, and to stand by each other through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Gunther \"May your love for each other continue to grow and flourish, and may your marriage be a reflection of the true love that brought you together today.\"/pause 500/speak Gunther \"May the forces of the universe bless this union, and may your love shine brightly for all to see. You're now bound together in spirit and in love as Twin Flames.\"/pause 500/emote farmer 20/pause 100/emote Maru 20/pause 100/positionOffset Maru -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Maru -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Maru -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Maru 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/pause 500/emote Demetrius 40/pause 500/emote Robin 20/pause 100/emote Morris 18/pause 100/emote Penny 8/pause 100/emote Vincent 20/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"The best relationships are like a perfectly crafted machine - every part is important and works together seamlessly to create something amazing.\"/pause 500/end"
+    }
+  },
+  
+     //Spouse - Maru
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Maru": "Married", "Spouse": "Maru", "Maru - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530109": "AbigailFlute/1000 1000/farmer 100 100 1 Gunther 100 100 1 {{spouse}} 100 100 3 Robin 100 100 2 Demetrius 100 100 2 Sebastian 100 100 2 Linus 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Thanks for everything. No, I'm not replacing you with my robot! I'm glad to be with you.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Maru 37/warp Gunther 14 14 1/warp Robin 13 10 2/warp Sebastian 18 10 2/warp Demetrius 19 10 2/warp Linus 13 5 2/pause 300/viewport 16 8/pause 1500/speak Gunther \"Today, we are here to bear witness to the renewal of vows between @ and %spouse.\"/pause 500/speak Gunther \"They have already shared many beautiful moments together, but today, they are choosing to reaffirm their love and commitment to each other.\"/pause 500/speak Gunther \"They have been through so much together, and yet their love continues to stand the test of time.\"/pause 1500/speak Gunther \"@，are you willing to renew your vows with %spouse as your partner, and to continue standing by each other through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Gunther \"%spouse，are you willing to renew your vows with @ as your partner, and to continue standing by each other through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Gunther \"May your love continue to blossom and may you always remember the promises you have made to each other today.\"/pause 500/speak Gunther \"May your union continue to be filled with love, laughter, and endless happiness as Twin Flames. You may now kiss each other.\"/pause 500/emote farmer 20/pause 100/emote Maru 20/pause 100/positionOffset Maru -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Maru -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Maru -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Maru 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/pause 500/emote Demetrius 32/pause 500/emote Robin 20/pause 100/emote Sebastian 40/pause 100/emote Linus 20/pause 100/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"Here's to discovering new things together.\"/pause 500/end"
+    }
+  },
+  
+    //Bestie - Maru
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Maru - Feelings": "Platonic", "Relationship:Maru": "Engaged", "Spouse": "Maru", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530209": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, I've been looking for you! Come...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, how do I say this...\"/pause 500/speak {{spouse}} \"Where do I start...\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Oh! no. It's not like that, I'm sorry. I mean...$2\"/pause 100/speak {{spouse}} \"You're special to me.... as a close friend.\"/pause 100/speak {{spouse}} \"So I wanna give you this.[787 629 524 454 809]\"/pause 500/speak {{spouse}} \"I'm glad I have someone to share my nerdy interests with. Not many people like what I like. So, thanks. I really appreciate your company.\"/pause 100/speak {{spouse}} \"Living with you as roommates, @, is fantastic.#$b#I can't wait to bounce ideas off each other!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Maru
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Maru - Feelings": "Platonic", "Relationship:Maru": "Married", "Spouse": "Maru", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530209": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, I've been looking for you! Come...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, how do I say this...\"/pause 500/speak {{spouse}} \"Where do I start...\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Oh! no. It's not like that, I'm sorry. I mean...$2\"/pause 100/speak {{spouse}} \"You're special to me.... as a close friend.\"/pause 100/speak {{spouse}} \"So I wanna give you this.[787 629 524 454 809]\"/pause 500/speak {{spouse}} \"I'm glad I have someone to share my nerdy interests with. Not many people like what I like. So, thanks. I really appreciate your company.\"/pause 100/speak {{spouse}} \"Living with you as roommates, @, is fantastic.#$b#I can't wait to bounce ideas off each other!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+  //Spouse - Penny
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Penny": "Engaged", "Spouse": "Penny", "Penny - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530010": "woodsTheme/1000 1000/farmer 100 100 1 Gunther 100 100 1 {{spouse}} 100 100 3 Linus 100 100 2 Shane 100 100 2 Pam 100 100 2 Jas 100 100 2 Vincent 100 100 2 Maru 100 100 2 Robin 100 100 2 Jodi 100 100 2 Evelyn 100 100 2 Lewis 100 100 2 Marnie 100 100 2 Sam 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @, love? Hurry, let's go.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Penny 37/warp Gunther 14 14 1/warp Linus 11 11 1/warp Shane 12 10 2/warp Pam 18 10 2/warp Jas 19 10 2/warp Vincent 20 11 3/warp Maru 12 8 2/warp Robin 13 8 2/warp Jodi 18 8 2/warp Evelyn 19 8 2/warp Lewis 11 6 2/warp Marnie 13 5 2/warp Sam 19 4 2/pause 300/viewport 16 8/pause 1500/speak Gunther \"Ladies and gentlemen, esteemed guests, it is my great pleasure to welcome you all to this beautiful celebration of love. We are here today to witness the union of @ and %spouse, two individuals who are not only in love but also committed to building a life together filled with happiness and success.\"/pause 500/speak Gunther \"Today, we celebrate not only the love between these two individuals but also the power of love itself. Love is an irresistible force, a force that can transform our lives and shape our destinies.\"/pause 500/speak Gunther \"As @ and %spouse exchange their vows today, they are making a solemn commitment to each other. They pledge to love and honor each other, to respect each other's dreams and goals.\"/pause 1500/speak Gunther \"@，are you willing to accept %spouse as your partner, and to stand by each other through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Gunther \"%spouse，are you willing to accept @ as your partner, and to stand by each other through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Gunther \"May your love for each other continue to grow and flourish, and may your marriage be a reflection of the true love that brought you together today.\"/pause 500/speak Gunther \"May the forces of the universe bless this union, and may your love shine brightly for all to see. You're now bound together in spirit and in love as Twin Flames.\"/pause 500/emote farmer 20/pause 100/emote Penny 20/pause 100/positionOffset Penny -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Penny -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Penny -6 0/pause 100/positionOffset farmer 0 10/faceDirection farmer 1 true/showFrame 101/showFrame Penny 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Pam 32/pause 500/emote Linus 32/pause 500/emote Robin 20/pause 100/emote Jodi 20/pause 100/emote Evelyn 32/pause 100/emote Sam 36/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"True love is enduring and committed.\"/pause 500/end"
+	  
+    }
+  },
+  
+  
+    //Spouse - Penny
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Penny": "Married", "Spouse": "Penny", "Penny - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530110": "AbigailFlute/1000 1000/farmer 100 100 1 Gunther 100 100 1 {{spouse}} 100 100 3 Pam 100 100 2 Jas 100 100 2 Vincent 100 100 2 Maru 100 100 2 Marnie 100 100 2 Sam 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Thank you @, my love.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Penny 37/warp Gunther 14 14 1/warp Pam 18 10 2/warp Jas 19 10 2/warp Vincent 12 10 2/warp Maru 18 8 2/warp Marnie 13 10 2/warp Sam 19 8 2/pause 300/viewport 16 8/pause 1500/speak Gunther \"Today, we are here to bear witness to the renewal of vows between @ and %spouse.\"/pause 500/speak Gunther \"They have already shared many beautiful moments together, but today, they are choosing to reaffirm their love and commitment to each other.\"/pause 500/speak Gunther \"They have been through so much together, and yet their love continues to stand the test of time.\"/pause 1500/speak Gunther \"@，are you willing to renew your vows with %spouse as your partner, and to continue standing by each other through thick and thin?\"/pause 500/message \"I do.\"/pause 500/speak Gunther \"%spouse，are you willing to renew your vows with @ as your partner, and to continue standing by each other through thick and thin?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Gunther \"May your love continue to blossom and may you always remember the promises you have made to each other today.\"/pause 500/speak Gunther \"May your union continue to be filled with love, laughter, and endless happiness as Twin Flames. You may now kiss each other.\"/pause 500/emote farmer 20/pause 100/emote Penny 20/pause 100/positionOffset Penny -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Penny -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Penny -6 0/pause 100/positionOffset farmer 0 10/faceDirection farmer 1 true/showFrame 101/showFrame Penny 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Pam 32/pause 500/emote Sam 20/pause 200/emote Maru 32/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"Here's to another sweet and loving days with you.\"/pause 500/end"
+	  
+    }
+  },
+  
+  
+    //Bestie - Penny
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Penny - Feelings": "Platonic", "Relationship:Penny": "Engaged", "Spouse": "Penny", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530210": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hi, @! Lovely day, isn't it. Oh, I also got something for you...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, you've been such a great friend, you know?\"/pause 500/speak {{spouse}} \"I'd like to take this opportunity to... hmm, how do I say this...\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"What? No!$4\"/pause 100/speak {{spouse}} \"But you're very special to me.$1\"/pause 100/speak {{spouse}} \"Sorry if that made you uncomfortable. I actually just want to give you this.[802 632 530 454 809]\"/pause 500/speak {{spouse}} \"Thank you for being patient and kind with me -- for everything really.\"/pause 100/speak {{spouse}} \"Living with you as roommates is gonna be a totally different experience from what I've been used to...#$b#I can imagine feeling more at ease and safe with you.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Penny
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Penny - Feelings": "Platonic", "Relationship:Penny": "Married", "Spouse": "Penny", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530210": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hi, @! Lovely day, isn't it. Oh, I also got something for you...\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, you've been such a great friend, you know?\"/pause 500/speak {{spouse}} \"I'd like to take this opportunity to... hmm, how do I say this...\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"What? No!$4\"/pause 100/speak {{spouse}} \"But you're very special to me.$1\"/pause 100/speak {{spouse}} \"Sorry if that made you uncomfortable. I actually just want to give you this.[802 632 530 454 809]\"/pause 500/speak {{spouse}} \"Thank you for being patient and kind with me -- for everything really.\"/pause 100/speak {{spouse}} \"Living with you as roommates is gonna be a totally different experience from what I've been used to...#$b#I can imagine feeling more at ease and safe with you.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  
+      //Spouse - Emily
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Emily": "Engaged", "Spouse": "Emily", "Emily - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530011": "woodsTheme/1000 1000/farmer 100 100 1 MrQi 100 100 1 {{spouse}} 100 100 3 Bouncer 100 100 2 Gunther 100 100 2 Sandy 100 100 2 Haley 100 100 2 Alex 100 100 2 Sam 100 100 2 Gus 100 100 2 Pam 100 100 2 Shane 100 100 2 Marlon 100 100 2 Clint 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @, sweetie? Come, let's go!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Emily 37/warp MrQi 14 14 1/warp Bouncer 11 11 1/warp Gunther 12 10 2/warp Sandy 13 10 2/warp Haley 18 10 2/warp Alex 19 10 2/warp Sam 12 8 2/warp Gus 13 8 2/warp Pam 18 8 2/warp Shane 19 8 2/warp Marlon 11 6 2/warp Clint 19 4 2/pause 300/viewport 16 8/pause 1500/speak MrQi \"Dear friends, we are gathered here today to celebrate the union of two souls, @ and %spouse, bound together by the mysterious threads of fate and destiny.\"/pause 500/speak MrQi \"Love is a powerful force, a magic that can transform our lives in ways we never thought possible. As you exchange your vows today, you are not just making promises to each other, but to the universe itself. You are creating a bond that transcends time and space, a connection that will guide you through the joys and challenges of life.\"/pause 500/speak MrQi \"Remember that the journey you are embarking on today is not always an easy one. There will be trials and tribulations along the way, but through it all, may your love remain steadfast and strong. As we bear witness to your union today, let us also remember that love is not just a feeling, but an action. It requires effort and commitment, sacrifice and selflessness. But it is also the most rewarding journey you will ever undertake, a journey that will fill your lives with wonder and magic.\"/pause 1500/speak MrQi \"@，are you willing to accept %spouse as your partner, in this life and the after life?\"/pause 500/message \"I do.\"/pause 500/speak MrQi \"%spouse，are you willing to accept @ as your partner, in this life and the after life?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak MrQi \"May your love for each other continue to grow and flourish, and may your marriage be a reflection of the true love that brought you together today.\"/pause 500/speak MrQi \"In the name of Yoba, I now pronounce you, soulbound partners.\"/pause 500/emote farmer 20/pause 100/emote Emily 20/pause 100/positionOffset Emily -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Emily -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Emily -6 0/pause 100/positionOffset farmer 0 10/faceDirection farmer 1 true/showFrame 101/showFrame Emily 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Sandy 20/pause 500/emote Haley 20/pause 500/emote Gus 32/pause 100/emote Pam 20/pause 100/emote Clint 36/pause 100/emote Shane 18/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"Love isn't real enough until we vibe and connect on a spiritual level.\"/pause 500/end"
+	  
+    }
+  },
+  
+  
+  
+      //Spouse - Emily
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Emily": "Married", "Spouse": "Emily", "Emily - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530111": "AbigailFlute/1000 1000/farmer 100 100 1 MrQi 100 100 1 {{spouse}} 100 100 3 Bouncer 100 100 2 Sandy 100 100 2 Gus 100 100 2 Pam 100 100 2 Haley 100 100 2 Alex 100 100 2 Clint 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Sweetie @, it's a lovely day! Let's go!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Emily 37/warp MrQi 14 14 1/warp Bouncer 11 11 1/warp Sandy 18 10 2/warp Haley 13 10 2/warp Alex 12 10 2/warp Gus 13 8 2/warp Pam 18 8 2/warp Clint 19 8 2/pause 300/viewport 16 8/pause 1500/speak MrQi \"As we gather here today, we celebrate the bond between @ and %spouse.\"/pause 500/speak MrQi \"They have already shared so much together, building a life filled with joy and happiness.\"/pause 500/speak MrQi \"But today, they are taking another step in their journey together, renewing their vows and recommitting to each other once again.\"/pause 1500/speak MrQi \"@，are you willing to renew your vows with %spouse as your partner, in this life and the after life?\"/pause 500/message \"I do.\"/pause 500/speak MrQi \"%spouse，are you willing to renew your vows with @ as your partner, in this life and the after life?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak MrQi \"This is a beautiful testament to their love, a love that has only grown stronger with each passing year.\"/pause 500/speak MrQi \"With Yoba's blessings, may you continue to be soulbound partners.\"/pause 500/emote farmer 20/pause 100/emote Emily 20/pause 100/positionOffset Emily -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Emily -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Emily -6 0/pause 100/positionOffset farmer 0 10/faceDirection farmer 1 true/showFrame 101/showFrame Emily 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Haley 20/pause 500/emote Alex 32/pause 500/emote Sandy 20/pause 100/emote Pam 20/pause 100/emote Clint 36/pause 100/emote Gus 18/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"Vibe check: fulfilled soulmates.\"/pause 500/end"
+	  
+    }
+  },
+  
+  
+    //Bestie - Emily
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Emily - Feelings": "Platonic", "Relationship:Emily": "Engaged", "Spouse": "Emily", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530211": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, I got a great feeling about today! Mind if you join me?\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, I'm so glad I've met someone like you.\"/pause 500/speak {{spouse}} \"You know, someone I can talk with on a deep level.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"No, no, no. Not that kind. I mean...$3\"/pause 100/speak {{spouse}} \"It's rare to meet someone you're comfortable talking with and also just... jive, you know?$1\"/pause 100/speak {{spouse}} \"Some kinds spirits want me to give you this.[815 632 532 454 809]\"/pause 500/speak {{spouse}} \"Let's continue channeling that Lucky Townie energy!\"/pause 100/speak {{spouse}} \"I'm thrilled to be roommates with you, @!#$b#We'll both discover new ways to be more in tuned with the universe.#$b#It's going to be magical!$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Emily
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Emily - Feelings": "Platonic", "Relationship:Emily": "Married", "Spouse": "Emily", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530211": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"@, I got a great feeling about today! Mind if you join me?\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"@, I'm so glad I've met someone like you.\"/pause 500/speak {{spouse}} \"You know, someone I can talk with on a deep level.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"No, no, no. Not that kind. I mean...$3\"/pause 100/speak {{spouse}} \"It's rare to meet someone you're comfortable talking with and also just... jive, you know?$1\"/pause 100/speak {{spouse}} \"Some kinds spirits want me to give you this.[815 632 532 454 809]\"/pause 500/speak {{spouse}} \"Let's continue channeling that Lucky Townie energy!\"/pause 100/speak {{spouse}} \"I'm thrilled to be roommates with you, @!#$b#We'll both discover new ways to be more in tuned with the universe.#$b#It's going to be magical!.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+    //Spouse - Haley
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Haley": "Engaged", "Spouse": "Haley", "Haley - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		 "1655530012": "woodsTheme/1000 1000/farmer 100 100 1 Lewis 100 100 1 {{spouse}} 100 100 3 Alex 100 100 2 Vincent 100 100 2 Leah 100 100 2 Jas 100 100 2 Emily 100 100 2 Evelyn 100 100 2 George 100 100 2 Sebastian 100 100 2 Sam 100 100 2 Elliott 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready, farmer? I'm excited, let's go!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Haley 37/warp Lewis 14 14 1/warp Alex 19 5 2/showFrame Alex 2/warp Vincent 11 11 1/warp Leah 12 10 2/warp Jas 13 10 2/warp Emily 19 10 2/warp Evelyn 12 8 2/warp George 13 8 2/warp Sebastian 18 8 2/warp Sam 19 8 2/warp Elliott 11 6 2/pause 300/viewport 16 8/pause 1500/speak Lewis \"Dear friends and family, we are gathered here today to celebrate the union of @ and %spouse.\"/pause 500/speak Lewis \"As they stand before each other today, they embark on a journey that is both joyous and challenging, but also one of the most rewarding experiences life has to offer.\"/pause 500/speak Lewis \"Marriage is a sacred commitment, a bond between two individuals who have chosen to share their lives with one another. It is a union of two families, two cultures, and two hearts. As they exchange their vows today, they pledge to love, honor, and cherish each other, for better or for worse.\"/pause 1500/speak Lewis \"@，are you willing to accept %spouse as your wife?\"/pause 500/message \"I do.\"/pause 500/speak Lewis \"%spouse，are you willing to accept @ as your husband?^%spouse，are you willing to accept @ as your wife?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Lewis \"May their love continue to grow and flourish, and may their marriage be filled with blessings and happiness.\"/pause 500/speak Lewis \"If no one is against this union, I now pronounce you husband and wife. You may now kiss the bride!^If no one is against this union, I now pronounce you well..wife and wife. You may now kiss each other!\"/pause 500/emote farmer 20/pause 100/positionOffset Haley -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Haley -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Haley -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Haley 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Emily 20/pause 500/emote Elliott 40/pause 500/emote Leah 32/pause 100/emote Alex 12/pause 100/emote Vincent 28/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"True love isn't about being with someone who's perfect, it's about being with someone who's perfect for you.\"/pause 500/end"
+	  
+    }
+  },
+  
+  
+   //Spouse - Haley
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "Relationship:Haley": "Married", "Spouse": "Haley", "Haley - Feelings": "Love Interest", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		 "1655530112": "AbigailFlute/1000 1000/farmer 100 100 1 Lewis 100 100 1 {{spouse}} 100 100 3 Emily 100 100 2 Evelyn 100 100 2 George 100 100 2 Sam 100 100 2/pause 500/skippable/speak {{spouse}} \"@, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready, farmer? I'm excited, let's go!$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame Haley 37/warp Lewis 14 14 1/warp Emily 18 10 2/warp Evelyn 12 10 2/warp George 13 10 2/warp Sam 18 8 2/pause 300/viewport 16 8/pause 1500/speak Lewis \"Dear friends and family, as we gather here today, we celebrate the love between @ and %spouse.\"/pause 500/speak Lewis \"They have already shared so much together, building a life filled with joy and happiness.\"/pause 500/speak Lewis \"But today, they are taking another step in their journey together, renewing their vows and recommitting to each other once again.\"/pause 1500/speak Lewis \"@，are you willing to renew your vows with %spouse as your wife?\"/pause 500/message \"I do.\"/pause 500/speak Lewis \"%spouse，are you willing to renew your vows with @ as your husband?^%spouse，are you willing to renew your vows with @ as your wife?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak Lewis \"This is a beautiful testament to your love, a love that has only grown stronger with each passing year.\"/pause 500/speak Lewis \"May your love continue to shine bright, and may your marriage be blessed with love, joy, and endless memories. You may now kiss each other.\"/pause 500/emote farmer 20/pause 100/positionOffset Haley -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset Haley -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset Haley -6 0/pause 100/positionOffset farmer 0 10/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame Haley 38/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Emily 20/pause 500/emote Evelyn 40/pause 500/emote George 32/pause 100/emote Sam 40/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"Hey, are you ready tonight?\"/pause 500/end"
+	  
+    }
+  },
+  
+  
+    //Bestie - Haley
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Haley - Feelings": "Platonic", "Relationship:Haley": "Engaged", "Spouse": "Haley", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530212": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hey!$1 I got something for you! Hurry!\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"...\"/pause 500/speak {{spouse}} \"Well, first things first. Do you have anything to say to me?\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Well, you seem to already like someone else or not into labels and stuff, so...$2\"/pause 100/speak {{spouse}} \"I want us to always remain friends though.\"/pause 100/speak {{spouse}} \"Here.[154 629 525 454 809]\"/pause 500/speak {{spouse}} \"Thanks for putting up with me, I guess.$2\"/pause 100/speak {{spouse}} \"Fine, I admit it.#$b#I'm also looking forward to being roommates.#$b#Just don't expect something more, if you know what I mean...$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - Haley
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Amaranthacyan.PlatonicPartnersandFriendships": true, "Haley - Feelings": "Platonic", "Relationship:Haley": "Married", "Spouse": "Haley", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530212": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hey!$1 I got something for you! Hurry!\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"...\"/pause 500/speak {{spouse}} \"Well, first things first. Do you have anything to say to me?\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Well, you seem to already like someone else or not into labels and stuff, so...$2\"/pause 100/speak {{spouse}} \"I want us to always remain friends though.\"/pause 100/speak {{spouse}} \"Here.[154 629 525 454 809]\"/pause 500/speak {{spouse}} \"Thanks for putting up with me, I guess.$2\"/pause 100/speak {{spouse}} \"Fine, I admit it.#$b#I'm also looking forward to being roommates.#$b#Just don't expect something more, if you know what I mean...$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+  //Spouse - June
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Rafseazz.RSVCP": true, "June - Feelings": "Love Interest", "Relationship:June": "Engaged", "Spouse": "June", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+		  "1655530013/e 94620000/D June": "woodsTheme/1000 1000/farmer 100 100 1 MrQi 100 100 1 {{spouse}} 100 100 3 Sam 100 100 2 Elliott 100 100 2 Richard 100 100 2 Ysabelle 100 100 2 Bouncer 100 100 2 Sonny 100 100 2 Emily 100 100 2 Gus 100 100 2 Faye 100 100 2 Pika 100 100 2 Alissa 100 100 2 Penny 100 100 2/pause 500/skippable/speak {{spouse}} \"Honey, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Are you ready @? Let's go, hon.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame June 49/warp MrQi 14 14 1/warp Bouncer 11 11 1/warp Sam 12 10 2/warp Elliott 13 10 2/warp Richard 18 10 2/warp Ysabelle 19 10 3/warp Sonny 20 11 3/warp Emily 13 8 2/warp Gus 12 8 2/warp Faye 18 8 2/warp Pika 19 8 2/warp Penny 13 5 2/warp Alissa 19 5 2/showFrame Alissa 24/pause 300/viewport 16 8/pause 1500/speak MrQi \"Welcome, everyone. We are gathered here today to celebrate the union of @ and %spouse.\"/pause 500/speak MrQi \"As you stand before each other today, you embark on a journey that is both joyous and challenging, but also one of the most precious moments you can treasure.\"/pause 500/speak MrQi \"Marriage is a sacred bond between two individuals who are deeply connected to each other. It is a union of two families, two cultures, and two souls. As you exchange your vows today, you pledge to love, honor, and cherish each other, for better or for worse.\"/pause 1500/speak MrQi \"@，are you willing to accept %spouse as your husband?\"/pause 500/message \"I do.\"/pause 500/speak MrQi \"%spouse，are you willing to accept @ as your husband?^%spouse，are you willing to accept @ as your wife?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak MrQi \"May your love go forth and flourish, and may your marriage be filled with joy and love.\"/pause 500/speak MrQi \"I now pronounce you, well... husband and husband. You may now kiss each other!^I now pronounce you husband and wife. You may now kiss the bride!\"/pause 500/emote farmer 20/pause 100/positionOffset June -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset June -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset June -1 0/pause 100/positionOffset farmer 0 5/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame June 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Sam 32/pause 500/emote Emily 20/pause 100/emote Elliott 40/pause 500/emote Richard 32/pause 200/emote Alissa 12/pause 200/emote Penny 8/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"When you find true love, it's like finding the perfect rhythm that complements your own, creating a beautiful duet.\"/pause 500/end"
+	  
+    }
+  },
+  
+  
+   //Spouse - June
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Rafseazz.RSVCP": true, "June - Feelings": "Love Interest", "Relationship:June": "Married", "Spouse": "June", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+		  "1655530113/e 94620000/O June": "AbigailFlute/1000 1000/farmer 100 100 1 MrQi 100 100 1 {{spouse}} 100 100 3 Sam 100 100 2 Elliott 100 100 2 Richard 100 100 2 Penny 100 100 2 Sonny 100 100 2 Faye 100 100 2/pause 500/skippable/speak {{spouse}} \"Honey, I wasn't able to prepare much, but I hope you'll like this.[72 486]$1\"/pause 120/speak {{spouse}} \"Thank you for all your support, @. Come here, I got a surprise for you.$4\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 15 13 1/warp {{spouse}} 16 13 3/showFrame June 49/warp MrQi 14 14 1/warp Penny 12 10 2/warp Sam 13 10 2/warp Faye 18 10 2/warp Elliott 19 10 2/warp Richard 18 8 2/warp Sonny 19 8 2/pause 300/viewport 16 8/pause 1500/speak MrQi \"Dear friends and family, as we gather here today, we celebrate the love between @ and %spouse.\"/pause 500/speak MrQi \"Both of you have already shared so much together, building a life filled with joy and happiness.\"/pause 500/speak MrQi \"But today, you are taking another step in your journey together, exchanging your vows once more.\"/pause 1500/speak MrQi \"@，are you willing to renew your vows with %spouse as your husband?\"/pause 500/message \"I do.\"/pause 500/speak MrQi \"%spouse，are you willing to renew your vows with @ as your husband?^%spouse，are you willing to renew your vows with @ as your wife?\"/speak {{spouse}} \"I do.$4\"/pause 500/speak MrQi \"Both of your love has only grown stronger with each passing year.\"/pause 500/speak MrQi \"May it continue to shine bright, and may your marriage be blessed with love, joy, and endless memories. You may now kiss each other.\"/pause 500/emote farmer 20/pause 100/positionOffset June -6 0/pause 100/positionOffset farmer 8 5/pause 100/positionOffset June -6 0/pause 100/positionOffset farmer 0 5/pause 100/positionOffset June -1 0/pause 100/positionOffset farmer 0 5/pause 100/faceDirection farmer 1 true/showFrame 101/showFrame June 50/specificTemporarySprite heart 14 13/playSound dwop/pause 500/emote Sam 32/pause 500/emote Penny 20/pause 100/emote Elliott 20/pause 500/emote Richard 32/pause 200/emote Faye 20/pause 500/globalFade/viewport -1000 -1000/pause 1500/message \"Here's to living harmoniously together.\"/pause 500/end"
+	  
+    }
+  },
+  
+    //Bestie - June
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Rafseazz.RSVCP": true, "June - Feelings": "Platonic", "Relationship:June": "Engaged", "Spouse": "June", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", },
+    "Entries": {
+      "1655530213/e 94620000/D June": "woodsTheme/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hi, @. Right on time. I got a surprise for you.\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"You know, my life feels like it has more direction ever since we've become friends.\"/pause 500/speak {{spouse}} \"I'd like to take this opportunity to thank you better.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Oh, haha! Well, if such opportunity is even possible, then... But it seems like you're more comfortable with whatever it is that we have now, yes?$6\"/pause 100/speak {{spouse}} \"You're special to me.... as a close friend.$1\"/pause 100/speak {{spouse}} \"I want to give you this.[798 629 528 454 809]\"/pause 500/speak {{spouse}} \"It's not much but I just wanna say thanks.\"/pause 100/speak {{spouse}} \"Ah @...  Us becoming roommates soon is truly a serendipitous one.#$b#I can't wait being closer to you.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  },
+  
+  
+     //Bestie - June
+    {		
+    "Action": "EditData",
+    "Target": "Data/Events/Farmhouse",
+    "Update": "OnLocationChange",
+	"When": { "HasMod: |contains=Rafseazz.RSVCP": true, "June - Feelings": "Platonic", "Relationship:June": "Married", "Spouse": "June", "Enable More Wedding Venue": true, "Wedding Venue Location": "Garden Wedding", "Renew Vows": true, },
+    "Entries": {
+      "1655530213/e 94620000/O June": "AbigailFlute/1000 1000/farmer 100 100 1 {{spouse}} 100 100 3/skippable/speak {{spouse}} \"Hi, @. Right on time. I got a surprise for you.\"/pause 1200/changeLocation Custom_weddingvenuegarden/warp farmer 21 4 1/warp {{spouse}} 22 4 3/pause 300/viewport 16 8/pause 1500/speak {{spouse}} \"You know, my life feels like it has more direction ever since we've become friends.\"/pause 500/speak {{spouse}} \"I'd like to take this opportunity to thank you better.\"/pause 100/message \"Uhm, you're making me nervous... Do you like me -- more than friends?\"/pause 500/speak {{spouse}} \"Oh, haha! Well, if such opportunity is even possible, then... But it seems like you're more comfortable with whatever it is that we have now, yes?$6\"/pause 100/speak {{spouse}} \"You're special to me.... as a close friend.$1\"/pause 100/speak {{spouse}} \"I want to give you this.[798 629 528 454 809]\"/pause 500/speak {{spouse}} \"It's not much but I just wanna say thanks.\"/pause 100/speak {{spouse}} \"Ah @...  Us becoming roommates soon is truly a serendipitous one.#$b#I can't wait being closer to you.$1\"/pause 500/emote farmer 32/pause 100/globalFade/viewport -1000 -1000/stopMusic/end"
+    }
+  }
+  
+  
+        ]			
+					
+	
+       }
+  
+	
+	
+	

@@ -1,0 +1,22 @@
+{
+	"Changes": [
+
+{
+			"LogName": "Shane Pregnancy Event 1",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"When": {"Relationship:Shane": "Married",
+ 				"HavingChild": "@{{playerName}}",
+				"PlayerGetsPregnant":"true"},
+			"Entries": {"64780013/t 610 2550": "continue/28 30/farmer 27 30 0 Shane 29 25 3 Harvey 0 0 0/addConversationTopic FarmerPregnantShane 13/addMailReceived Pregnant1_Shane/skippable/pause 1250/viewport move 0 -5 1275/move farmer 0 -5 0/move farmer 1 0 1/speak Shane \"Hey - you look a little green... $3#$b# You feeling okay?\"/pause 500/playSound croak/animate farmer false false 350 104 105/pause 1000/emote farmer 28/pause 500/speak Shane \"I'll take that as a 'no.'$s#$b#We should probably go to the clinic.\"/viewport -100 100/changeLocation Hospital/viewport 5 5/warp farmer 3 5/warp Shane 2 5/showFrame Shane 4/warp Harvey 5 8/move Harvey 0 -3 3 false/speak Harvey \"I just ran some tests, and it looks like @ isn't sick!\"/emote Shane 8/speak Harvey \"@ - you're pregnant! Congratulations!$h\"/speak Shane \"...$10#$b#...$10#$b#...$l#$b#We're going to be parents, babe!$h\"/pause 500/emote farmer 32/fade/warp farmer 15 15 0/pause 250/speak Shane \"Hey doc... Before I go, I gotta know...#$b#This kid isn't...#$b# Our baby is going to end up like me, right? With the drinking?$s\"/emote Shane 28/speak Harvey \"You know Shane, I have a feeling that you'll all be just fine.$h\"/emote Shane 32/end"},
+		},
+{			"LogName": "Shane Birth Event 1", 
+			"Action": "EditData",
+    			"Target": "Data/Events/Farmhouse",
+			"When": {"PlayerGetsPregnant":"true",
+				"Relationship:Shane": "Married",},
+   			"Entries": {"64780025/e 64780013/n Pregnant1_Shane/A FarmerPregnantShane/O Shane/t 600 700": "sappypiano/-100 -100/farmer 19 12 2 Shane 20 12 2 Harvey 5 15 2/addConversationTopic ShaneBabySleep 14/skippable/pause 500/speak Shane \"You doing okay, babe? #$b# You said the baby is coming?!$10\"/changeLocation Hospital/showFrame 5/ambientLight 150 150 150/viewport 14 11 true/pause 1000/speak Shane \"Are you comfortable?#$b#Or at least as comfortable as you can be? $4#$b#I know these beds can be kind of lumpy...$2 \"/faceDirection Shane 3/pause 500/emote farmer 60/emote Shane 28/pause 500/speak Shane \"I wish I could do more for you, babe. $s\"/pause 500/move Shane 0 1 3/pause 500/speak Shane \"Hey uhh. I just wanted to say thanks for giving me a chance. #$b# I know when you got here, I wasn't exactly nice to you. $1\"/pause 500/move Shane 0 -1 3/speak Shane \"I guess I'm just trying to say thanks for starting a family with me.$l #$b# I'm a little nervous, but I think we'll be great parents.\"/pause 500/emote farmer 20/pause 500/speak Shane \"Just let me know when the time comes, and I'll hold your hand. We'll go through this together, babe.\"/pause 500/emote farmer 60/pause 500/speak Shane \"I made a promise to myself when I married you that I would always be there during your time of need. #$b# And that time is now...\"/pause 1000/fade/viewport -100 -100 true/warp Harvey 21 12/faceDirection Harvey 3/warp Shane 20 11/faceDirection Shane 2/speak Shane \"Is it time? The baby's coming?$10 #$b#I'll get Harvey. You know what to do, babe. I'll do my best to stay calm for you. $l\"/pause 1500/speak Harvey \"That's it @. Just one more push!\"/addTemporaryActor {{BabyorBaby_Dark}} 23 15 20 12 2 False Character/positionOffset {{BabyorBaby_Dark}} 0 -50/pause 500/message \"Your baby's cry pierces the air.\"/pause 500/speak Harvey \"Well, your baby's lungs are certainly strong and healthy!$h\"/fade/viewport 18 11 true/pause 500/emote Shane 20/pause 2000/speak Shane \"Oh @. %kid1 is perfect. Just like you.$l\"/emote farmer 20 true/emote Harvey 32 false/pause 1500/viewport -100 -100 true/message \"Your family just got a little bigger! Time to take your new baby home!\"/pause 1000/end"},
+		},
+		
+]
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Retro Floors & Walls",
+    "Author": "Novaphene",
+    "Version": "1.2",
+    "Description": "A retro styled floor and wall converted to Content Patcher",
+    "UniqueID": "Novaphene.RetroWallsAndFloors",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "1.23.6-beta.20210918"
+    },
+    "UpdateKeys": ["Nexus:17127"]
+}

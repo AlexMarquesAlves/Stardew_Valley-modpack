@@ -1,0 +1,240 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {
+    "MeadowBlock": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Forest_Road",
+      "Name": null,
+      "Tile": "9, 0",
+      "Type": "ResourceClump",
+      "ID": "672",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Daffodil",
+      "Tile": "8, 9",
+      "Type": "Forage",
+      "ID": "18",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Daffodil",
+      "Tile": "15, 11",
+      "Type": "Forage",
+      "ID": "18",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Common Mushroom",
+      "Tile": "10, 14",
+      "Type": "Forage",
+      "ID": "404",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Dandelion",
+      "Tile": "12, 11",
+      "Type": "Forage",
+      "ID": "22",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Dandelion",
+      "Tile": "7, 13",
+      "Type": "Forage",
+      "ID": "22",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Blue Jazz",
+      "Tile": "14, 14",
+      "Type": "Forage",
+      "ID": "597",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Blue Jazz",
+      "Tile": "14, 13",
+      "Type": "Forage",
+      "ID": "597",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Tulip",
+      "Tile": "13, 14",
+      "Type": "Forage",
+      "ID": "591",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Meadow",
+      "Name": "Blue Jazz",
+      "Tile": "8, 10",
+      "Type": "Forage",
+      "ID": "597",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Ghost_Town",
+      "Name": "Artifact Spot",
+      "Tile": "55, 15",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Ghost_Town",
+      "Name": "Artifact Spot",
+      "Tile": "6, 19",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Ghost_Town",
+      "Name": "Artifact Spot",
+      "Tile": "26, 52",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Ghost_Town",
+      "Name": "Artifact Spot",
+      "Tile": "10, 40",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Ghost_Town",
+      "Name": "Artifact Spot",
+      "Tile": "7, 18",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "8, 51",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "1, 31",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "15, 20",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Interchange",
+      "Name": "Artifact Spot",
+      "Tile": "12, 42",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Forest_Road",
+      "Name": "Artifact Spot",
+      "Tile": "32, 11",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Tarniyar.CP.WalkToDesert_Forest_Road",
+      "Name": "Artifact Spot",
+      "Tile": "27, 8",
+      "Type": "Forage",
+      "ID": "590",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

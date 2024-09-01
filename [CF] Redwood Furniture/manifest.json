@@ -1,0 +1,12 @@
+{
+  "Name": "Redwood Furniture",
+  "Author": "Spotteddotted",
+  "Version": "1.0.1",
+  "Description": "Adds new furniture to game",
+  "UniqueID": "Platonymous.CustomFurniture.RedwoodFurniture",
+  "UpdateKeys": ["Nexus:3128"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

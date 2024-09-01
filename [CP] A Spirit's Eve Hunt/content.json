@@ -1,0 +1,397 @@
+{
+  "Format": "1.9",
+    "ConfigSchema": { 
+//Config Settings
+//Off: Normal game mechanics; On: Makes the mod active
+        "ModActive": {
+			"AllowValues": "Off, On",
+			"Default": "On", 
+				     },		 				 
+				    }, 
+
+
+
+  "Changes": [
+	///Mail
+		{
+		"LogName": "A Spirits Eve Hunt Mail Year 1",
+		"Action": "EditData",
+        "Target": "Data/Mail",
+        "Entries": {
+		        "Spirit1a": "Greetings O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee. As you see, my darling little friends have left gifts all across the valley in their excitement for tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'I am a body with a leg, an arm and a head, but I look like I am naked and bare. What am I?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit1b": "Greetings Once More O @,^^ How did thee fair in the hunt? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ Though, I must bid thee forgive me. For it seems you may have encountered creatures during thy hunt as a result of my negligence. ^^ Had I known Lux wished to participate in the merriment as well, I would have sought her hand. We have talked much about this incident since. And I do believe you have nothing to fear in the coming years. ^^ Oh, and to that riddle I posed to thee, an answer I shall give: What am I? Why, I am a Skeleton, of course. Come from the depths of the mines to enjoy the merriment of this day. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 499 5 %%",
+		        "Spirit1alux": "To Whom It May Concern, ^^ I know not how one such as yourself enticed Nix to invite you to their Spirit's Eve festivities. Nor do I know your connection with the apple creatures they seem to hold so dear. But. If someone like you were deigned worthy  to partake in the fun and not I? Well, that just does not do, now does it? ^^ Enjoy Nix's hunt to your fullest. But be wary while scouring the valley. For I invited a few guests of my own to enjoy Spirit's Eve alongside you. From the darkest of mines and the most treacherous of caverns, they will rise. ^^ Best bring a sword. ^^ -- Lux, Paradox of Spirit's Eve",
+		        "Spirit1blux": "Apologies @, ^^ I know that I did not make the greatest of impressions upon you. And instead of furthering the joy of Spirit's Eve, my actions only made it worse for you. After a long tête-à-tête with Nix, I have come to realize the difficulty I must have put upon you. ^^ For that, I do apologize. ^^ In my sullenness about not getting to be with Nix for this holiday, I punished you unjustly. Which was unforgiveable, I know. ^^ Still, I do hope, one day, you can find it in your heart to forgive me. In the coming years, I wish you nothing but the most wondrous of Spirit's Eves. Whether that mean partaking in Nix's hunt or not. ^^ -- Lux, Paradox of Spirit's Eve",
+		        "Spirit2a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'I am wrapped, but I am not a gift. I am kept neatly in a chamber and people find me to be a great treasure. What am I?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit2b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What am I? Why, I am a Mummy, of course. Come from the darkest depths of Skull Cavern to enjoy the merriment of this day in the light. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 347 5 %%",
+		        "Spirit2alux": "To @, ^^ Apologies for sending you another letter, though it seemed my previous one would be my last. But I must warn you of something most unfortuitous. ^^ You see, as a result of my summoning last year, the creatures I bid forth have appeared to have aquired a taste for the surface world. Especially on days such as Spirit's Eve. ^^ As such, despite Nix and my pleas to them to celebrate with us, some still seem determined to surface. Though, I will not have you suffer again due to me. ^^ With help, I managed to cast a charm on those that choose leave for your world. Although not enough to stop them, it will be enough to weaken them significantly should you run into them. ^^ I wish you nothing but good fortune today, @. ^^ -- Lux, Paradox of Spirit's Eve",
+		        "Spirit3a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'I live in a spooky castle or even in a hot cave. I sleep upside down and I am so creepy that people run because they're scared. What am I?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit3b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What am I? Why, I am a Lava Bat, of course. Come from the hottest depths of the mines to enjoy the merriment of this day in the light. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 439 5 %%",
+		        "Spirit4a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'Some people believe in me and others don't. At night I roam around and sometimes I float. If you hear a troubled noise coming from the ground, go run and hide from my creepy sound. What am I?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit4b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What am I? Why, I am a Ghost, of course. Come from the depths of the mines to enjoy the merriment of this day. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 347 5 %%",
+		        "Spirit5a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'This is rectangular, hollow and has a lid, and where you'll find it you might wonder, is is just six feet under. What is it?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit5b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What is it? Why, tis a coffin, of course. Ready and waiting for thee after your next adventure into the mines. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 499 5 %%",
+		        "Spirit6a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'I am known to be bad luck when you see me in the dark. And oh how I hate the rain, but one thing is for sure, you won't hear me bark. What am I?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit6b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What am I? Why, I am a Black Cat, of course. Come from the Witches' lair to enjoy the merriment of this day in the light. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 347 5 %%",
+		        "Spirit7a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'You can find me from head to toe. I am a liquid. I make some faint and I am in every living being you know. What am I?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit7b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What am I? Why, I am Blood, of course. Nourishing all. Coursing through thy veins. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 439 5 %%",
+		        "Spirit8a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'Poor people have it. Rich people need it. If you eat it you die. What is it?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit8b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What am I? Why, I am Nothing, of course. Come to enjoy the merriment of this day. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 347 5 %%",
+		        "Spirit9a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'This is a legendary creature whose fiery breath can be quite ruthless. With wings so large and scales like armor. What am I?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit9b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What am I? Why, I am a Dragon, of course. Come from beyond the Gem Sea to enjoy the merriment of this day. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 499 5 %%",
+		        "Spirit10a": "Greetings Again O @,^^ On this the day Spirit's Eve, a special hunt of sorts awaits thee once more. As you recall, my darling little friends enjoy leaving gifts all across the valley due to their excitement about tonight's festivities. Treasures from the deepest depths of Skull Cavern. Riches found in the rarest of ores. All of them scattered, awaiting anyone to find them. ^^ I welcome thee to partake in the merriment of the day and seek out what you will. Enjoy today to its fullest, whether that mean scavenging or no. ^^ Lastly, as thanks for playing along with my dear apple friends, here's a riddle I pose for thee. ^^ 'You’ll find me in the quietest, creepiest place in town, yet people are dying to get in. What am I?' A special surprise awaits thee in the morrow. ^^ -- Nix, Enigma of Spirit's Eve",
+		        "Spirit10b": "Greetings Once More O @,^^ How did thee fair in the hunt this year? Did thou scour the land for the secret treasures my friends scattered about before enjoying the night's festivities? Or did thee partake in some other activity instead? No matter what thou chose, I wish thee had a mystical and wonderous Spirit's Eve regardless. ^^ And to that riddle I posed to thee, an answer I shall give: What am I? Why, I am the Pelican Town Cemetary, of course. Ready and waiting for all who enjoy the merriment of this day. ^^ Until the coming year, I bid thee adieu. ^^ -- Nix, Enigma of Spirit's Eve %item object 439 5 %%",
+				   },					 
+            },
+			
+///Events
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"77707514/x Spirit1a": "null",
+                  	},
+                "When": {
+				    "Year": "1",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"91554153/x Spirit1b": "null",
+                  	},
+                "When": {
+				    "Year": "1",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"12177082/x Spirit1alux": "null",
+                  	},
+                "When": {
+				    "Year": "1",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"34364682/x Spirit1blux": "null",
+                  	},
+                "When": {
+				    "Year": "1",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"24440277/x Spirit2a": "null",
+                    },
+                "When": {
+				    "Year": "2",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"16522470/x Spirit2b": "null",
+                  },
+                "When": {
+				    "Year": "2",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"47594272/x Spirit2alux": "null",
+                  },
+                "When": {
+				    "Year": "2",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"70486798/x Spirit3a": "null",
+                  },
+                "When": {
+				    "Year": "3",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"32753783/x Spirit3b": "null",
+                  },
+                "When": {
+				    "Year": "3",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"20898938/x Spirit4a": "null",
+                  },
+                "When": {
+				    "Year": "4",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"26283769/x Spirit4b": "null",
+                  },
+                "When": {
+				    "Year": "4",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"56399816/x Spirit5a": "null",
+                  },
+                "When": {
+				    "Year": "5",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"90427731/x Spirit5b": "null",
+                  },
+                "When": {
+				    "Year": "5",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"77346013/x Spirit6a": "null",
+                  },
+                "When": {
+				    "Year": "6",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"81995622/x Spirit6b": "null",
+                  },
+                "When": {
+				    "Year": "6",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"70673452/x Spirit7a": "null",
+                  },
+                "When": {
+				    "Year": "7",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"33495680/x Spirit7b": "null",
+                  },
+                "When": {
+				    "Year": "7",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"83378464/x Spirit8a": "null",
+                  },
+                "When": {
+				    "Year": "8",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"85245168/x Spirit8b": "null",
+                  },
+                "When": {
+				    "Year": "8",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"14684048/x Spirit9a": "null",
+                  },
+                "When": {
+				    "Year": "9",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"31569554/x Spirit9b": "null",
+                  },
+                "When": {
+				    "Year": "9",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"69565388/x Spirit10a": "null",
+                  },
+                "When": {
+				    "Year": "10",
+					"Season": "fall",
+					"Day": "26",
+                }
+            },
+				{    
+				"Action": "EditData",
+				"Target": "data/events/farm",
+				"Entries": {
+					"19601106/x Spirit10b": "null",
+                  },
+                "When": {
+				    "Year": "10",
+					"Season": "fall",
+					"Day": "27",
+                }
+            },
+		
+///Dialogue
+		{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_1": "Greetings, @. I heard you received an invitation to Nix's hunt this year. Quite an unusual affair they hold every Spirit's Eve, but intriguing nonetheless.#$b#Though, I did hear that Lux caused a rucus. How did you fare with the depth creatures?",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_2": "Greetings once again, @. How was Nix's hunt? I presume less stressful due to Lux actually charming the depth creatures this year.#$b#Hmm, how did I know that?$2#$b#Why, before the festival in town, I always make an appearance at Nix's gathering. They throw mesmerizing celebrations, you see.#&b#After arriving, I found Lux there, dancing with the junimos. They informed me of their attempts to thwart the depth creatures.#$b#Hopefully her charm at least made the hunt less difficult.",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_3": "Greetings once more, @. How was the hunt this year? Nix and Lux send their regards.",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_4": "Greetings once more, @. How was the hunt this year? Nix and Lux send their regards, as always.",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_5": "Greetings once more, @. How was the hunt this year? Nix and Lux send their regards, as always.",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_6": "Greetings once more, @. How was the hunt this year? Nix and Lux send their regards, as always.",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_7": "Greetings once more, @. How was the hunt this year? Nix and Lux send their regards, as always.",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_8": "Greetings once more, @. How was the hunt this year? Nix and Lux send their regards, as always.",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_9": "Greetings once more, @. How was the hunt this year? Nix and Lux send their regards, as always.",
+				},
+			},
+			{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"fall_28_10": "Greetings once more, @. How was the hunt this year? Nix and Lux send their regards, as always.",
+				},
+			},
+			  ]
+}			  

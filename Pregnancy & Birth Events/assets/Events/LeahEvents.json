@@ -1,0 +1,25 @@
+{
+	"Changes": [
+
+{		
+			"LogName": "Leah Pregnancy Event 1",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"When": {"Relationship:Leah": "Married",
+ 				"Pregnant":"Leah",
+				"PlayerGetsPregnant":"false"},
+			"Entries":{"64780017/t 610 2550": "continue/28 30/farmer 27 30 0 Leah 29 25 3 Harvey 0 0 0/addConversationTopic LeahPregnant 13/addMailReceived Pregnant1_Leah/skippable/pause 1250/viewport move 0 -5 1275/move farmer 0 -5 0/move farmer 1 0 1/speak Leah \"Hi, love. I feel sick to my stomach... $s\"/pause 1000/emote Leah 28/pause 500/speak Leah \"Can you come with me to the clinic?$s\"/viewport -100 100/changeLocation Hospital/viewport 5 5/warp farmer 2 5/warp Leah 3 5/showFrame Leah 4/warp Harvey 5 8/move Harvey 0 -3 3 false/speak Harvey \"I just ran some tests, and it looks like Leah isn't sick!\"/emote farmer 8/emote Leah 8/speak Harvey \"Leah, you're pregnant! Congratulations!$h\"/playmusic musicboxsong/emote farmer 16/speak Leah \"...$6#$b#...$6#$b#...$l#$b#We're going to be parents!$l\"/faceDirection Leah 3/emote Leah 20/emote farmer 32/end"},
+		},
+
+{	"LogName": "Leah Birth Event",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"When": {"PlayerGetsPregnant":"false",
+				"Relationship:Leah": "Married",},
+			"Entries": {"64780029/e 64780017/n Pregnant1_Leah/A LeahPregnant/t 600 700": "sappypiano/-100 -100/Leah 19 12 2 farmer 20 12 2 Harvey 5 15 2/addConversationTopic LeahBabySleep 14/faceDirection farmer 3/positionOffset Leah -25 0/skippable/pause 500/speak Leah \"@ - are you awake? #$b# I think the baby is coming!$4\"/changeLocation Hospital/showFrame Leah 0/showFrame farmer 6 true/ ambientLight 150 150 150/viewport 14 11 true/pause 1000/speak Leah \"I'm okay dear, really.\"/pause 500/emote Leah 20/emote farmer 60/pause 500/speak Leah \"Don't worry too much about me. $h #$b# Childbirth is a natural occurence! I probably could have even done it at home. #$b# Thank you for taking me to the clinic, though. #$b# To be completely honest, I am a little nervous. $2\"/pause 500/shake Leah 500/ speak Leah \"But I'm glad that you're here with me.$l\"/pause 500/emote farmer 20/pause 500/speak Leah \"And I thank Yoba every day that you chose to marry me instead of one of those other girls! $h #$b# And I'm looking forward to raising a family with you.\"/pause 500/emote farmer 20/pause 500/speak Leah \"I have a feeling that we'll even be decent parents! $h\"/pause 1000/fade/viewport -100 -100 true/warp Harvey 21 12/faceDirection Harvey 3/warp farmer 20 11/faceDirection Leah 2/speak Harvey \"It's time for the baby to come, @. Leah is going to need to start pushing now.\"/pause 1500/speak Harvey \"That's it, Leah! Just one more push!\"/addTemporaryActor {{BabyorBaby_Dark}} 23 15 20 12 2 False Character/positionOffset {{BabyorBaby_Dark}} 0 -65/move farmer 0 0 2/pause 500/message \"Your baby's cry pierces the air.\"/pause 500/speak Harvey \"Well, your baby's lungs are certainly strong and healthy!$h\"/fade/viewport 18 11 true/pause 500/emote farmer 20/pause 2000/speak Leah \"Oh @. %kid1 is perfect. Just like you.$l\"/emote farmer 20 true/emote Harvey 32 false/pause 1500/viewport -100 -100 true/message \"Your family just got a little bigger! Time to take your new baby home!\"/pause 1000/end"},
+		}, 
+		
+//64780054 pregnancy 2
+
+]
+}

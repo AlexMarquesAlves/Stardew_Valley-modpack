@@ -1,0 +1,132 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp1",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_1.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_1.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp2",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_2.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_2.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp3",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_3.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_3.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp4",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_4.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_4.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp5",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_5.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_5.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp6",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_6.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_6.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp7",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_7.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_7.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp8",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_8.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_8.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp9",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_9.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_9.png:1"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "lamp10",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "assets/lamp/texture_10.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+				"NightTexture": "assets/lamp/texture_10.png:1"
+            }
+        ]
+    }
+]

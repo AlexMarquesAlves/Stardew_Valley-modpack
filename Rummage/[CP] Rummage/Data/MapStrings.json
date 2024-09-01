@@ -1,0 +1,19 @@
+{
+"Changes": [
+	
+	//MAP Strings
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"Entries": {
+				
+				"rs.rummage": "Parece que você encontrou algo de interessante aqui...",
+				
+				"rs.norummage": "Isso realmente é muito triste...",
+				
+				}
+	}
+
+	
+]
+}

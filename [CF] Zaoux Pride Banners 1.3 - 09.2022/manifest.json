@@ -1,0 +1,11 @@
+{
+  "Name": "[CF] LGBT Pride Banners",
+  "Author": "Zaoux",
+  "Version": "1.3",
+  "Description": "Adds LGBT+ Pride Banners to your game!",
+  "UniqueID": "Zaoux.LGBTPride",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

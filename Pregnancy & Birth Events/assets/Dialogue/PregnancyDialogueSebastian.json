@@ -1,0 +1,46 @@
+{
+	"Changes": [
+{	"LogName": "Sebastian Pregnancy Dialogue 1",
+   			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",	
+			"When": {"Relationship:Sebastian": "Married",
+				"Pregnant":"@{{playerName}}",
+				"HasSeenEvent": "64780011",
+				"PlayerGetsPregnant":"true"},
+			"Entries": {
+					"spouseRoom_Sebastian": "I should try to get through the newest 'Cave Saga X' before the baby arrives.",
+					"Indoor_Day_0": "Hey, did you sleep okay last night? You kept tossing and turning. #$b# Oh, that was just the baby kicking? $h",
+					"Indoor_Day_1": "I've been thinking about names for the baby. #$b# What do you think of %name?",
+					"Indoor_Day_2": "I promise that I'll be a better father than my dad was... #$b# Hey, at least it'll be easy to do, right? $h",
+					"Indoor_Day_3": "Wow, your belly is getting bigger. #$b# Don't worry, I still think you're beautiful. $l", 
+					"Indoor_Day_4": "I had a nightmare that our baby ended up like Alex. #$b# Could you imagine me parenting a jock? $s", 
+					"Indoor_Night_0": "I'll have to get used to waking up in the middle of the night to feed the baby... $s #$b# I guess my sleeping problems will finally come in handy for something. $h",
+					"Indoor_Night_1": "Maru told me that she wants to be your midwife. #$b# That's kind of weird, right?$s", 
+					"Indoor_Night_2": "I used to hang out with Sam and Abigail all the time before we got married. #$b# It's a little strange to think that our lives are so different now.", 
+					"Indoor_Night_3": "Here, I picked up some ginger ale for you today. [903]$7 #$b# My mom said it would help with morning sickness.$7",
+					"Indoor_Night_4": "My mom said she's more than willing to babysit when the baby is here. #$b# I told her that we'll call her if we ever want some time to ourselves.$h", 
+					"Rainy_Day_0": "Do you think we're ready to be parents?$s #$b# I know we are—I just don't want to let you down.$s", 
+					"Rainy_Day_1": "I hope the baby likes the rain as much as I do. $h", 
+					"Rainy_Day_2": "I hope my motorcycle isn't getting too wet. #$b# If it gets rusty, I can't take you and the baby out for a drive. $2",
+					"Rainy_Day_3": "I still can't picture myself as a father. #$b# But I know I can do anything with you by my side. $h",
+					"Rainy_Day_4": "What if the baby grows up to be like Haley? $s #$b# And likes... shopping. $s",
+					"Rainy_Night_0":"I can't wait to take you and the baby to Zuzu City. #$b# We can recreate our first date on the cliff. $l",  
+					"Rainy_Night_1":"We still have a few more days before you give birth, right? #$b# I'm excited, but I'm not quite sure I'm ready to be a father just yet. $s", 
+					"Rainy_Night_2":"I'm trying to quit smoking for you and the baby... I don't want to die on either of you. #$b# I want to live a long, long life with our little family. $l", 
+					"Rainy_Night_3":"I'm glad I didn't end up moving to the city. #$b# I couldn't imagine raising a kid out there.", 
+					"Rainy_Night_4":"Want to cuddle tonight like we used to? $7 #$b# No, we don't have to do *that.* #$b# Unless, you want to, of course. $l",  
+					"Outdoor_0": "Don't work too hard, okay? #$b# You spend enough energy growing our baby. $1", 
+					"Outdoor_1": "You look great today. $h #$b# It's like you're glowing. $l",
+					"Outdoor_2": "I got some milk for you from Pierre's. [184] #$b# You know, for the baby.", 
+					"Outdoor_3": "Be careful out there today. Don't overexert yourself.", 
+					"Outdoor_4": "Sam said he wants to be our baby's godfather. #$b# I had to tell him it won't be like the movie.$h",
+  					"funLeave_Sebastian": "I'm going to take a walk today. I need some time to myself before the baby gets here. I'll see you in the evening.",	
+					"spring_23": "Oh... tomorrow's the flower dance, isn't it? Do we have to go? $2#$e# Can't you just say that you have morning sickness?",
+					"summer_10": "Remember that if there's any alcohol in the soup, you can't eat it.#$e#I'll make sure to grab some of the kids' soup for you.$7",
+  					"fall_26": "This is our last Spirit's Eve without kids. #$b# This time next year we'll be planning family costumes.$1",
+				        "winter_28": "It's been a great year, @. We should celebrate a little. [350] $h#$b# You really thought I was going to give you beer? #$b# C'mon, I'm not THAT irresponsible.$h"
+
+},
+}
+]
+}

@@ -1,0 +1,21 @@
+{
+	"Changes": [
+
+		{	"LogName": "Alex Pregnancy Event 1",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"When": {"Relationship:Alex": "Married",
+ 				"HavingChild": "@{{playerName}}",
+				"PlayerGetsPregnant":"true"},
+			"Entries": {"64780015/t 610 2550": "continue/28 30/farmer 27 30 0 Alex 29 25 3 Harvey 0 0 0/skippable/addConversationTopic FarmerPregnantAlex 13/addMailReceived Pregnant1_Alex/Skippable/pause 1250/viewport move 0 -5 1275/move farmer 0 -5 0/move farmer 1 0 1/speak Alex \"Hey babe. You look a little green.#$b# Are you feeling okay?\"/pause 500/playSound croak/animate farmer false false 350 104 105/pause 1000/emote farmer 28/pause 500/speak Alex \"Oh, man. $s#$b# Let's get you to the clinic.$s\"/viewport -100 100/changeLocation Hospital/viewport 5 5/warp farmer 3 5/warp Alex 2 5/showFrame Alex 4/warp Harvey 5 8/move Harvey 0 -3 3 false/speak Harvey \"I just ran some tests, and it looks like @ isn't sick!\"/emote Alex 8/speak Harvey \"@ - you're pregnant! Congratulations!$h\"/speak Alex \"...$7#$b#...$7#$b#...$l#$b# @ I promise you now that I'm going to be a better father than my dad ever was.#$b#I'm gonna take care of both of you, okay? I love you. $l\"/pause 500/emote farmer 20/end"},
+		},
+		{	"LogName": "Alex Birth Event 1", 
+			"Action": "EditData",
+    			"Target": "Data/Events/Farmhouse",
+			"When": {"PlayerGetsPregnant":"true",
+				"Relationship:Alex": "Married",},
+   			"Entries": {"64780027/e 64780015/n Pregnant1_Alex/A FarmerPregnantAlex/O Alex/t 600 700": "sappypiano/-100 -100/farmer 19 12 2 Alex 20 12 2 Harvey 5 15 2/addConversationTopic AlexBabySleep 14/skippable/pause 500/speak Alex \"Hey babe, is everything okay? $s #$b# *gulp* Y-you said the baby is coming?!$7\"/changeLocation Hospital/showFrame 5/ambientLight 150 150 150/viewport 14 11 true/pause 1000/speak Alex \"Are you comfortable?#$b#Or at least as comfortable as you can be? $4\"/faceDirection Alex 3/pause 500/emote farmer 60/emote Alex 28/pause 500/speak Alex \"I wish I could do more for you, babe. $s\"/pause 500/move Alex 0 1 3/pause 500/speak Alex \"Oh, I guess this is as good a time as any to mention this... #$b# But I wanted to say that I'm really excited to start a family with you. $1\"/pause 500/move Alex 0 -1 3/speak Alex \"I know I wasn't the nicest to you when you first moved here, and I'm still so sorry about that. #$b# I guess I didn't know that you would put up with a dumb jock like me. $4\"/pause 500/emote farmer 20/pause 500/speak Alex \"Just let me know when %kid1 is ready to pop out, and I'll hold your hand. We'll go through this together, babe. $h\"/pause 500/emote farmer 60/pause 500/speak Alex \"I made a promise to myself when I married you that I would always be there during your time of need. #$b# And that time is now...\"/pause 1000/fade/viewport -100 -100 true/warp Harvey 21 12/faceDirection Harvey 3/warp Alex 20 11/faceDirection Alex 2/speak Alex \"Is it time? The baby's coming?$8#$b#I'll get Harvey. You know what to do, babe. I'll try to stay calm for you!$l\"/pause 1500/speak Harvey \"That's it @. Just one more push!\"/addTemporaryActor {{BabyorBaby_Dark}} 23 15 20 12 2 False Character/positionOffset {{BabyorBaby_Dark}} 0 -50/pause 500/message \"Your baby's cry pierces the air.\"/pause 500/speak Harvey \"Well, your baby's lungs are certainly strong and healthy!$h\"/fade/viewport 18 11 true/pause 500/emote Alex 20/pause 2000/speak Alex \"Oh @. %kid1 is perfect. Just like you.$l\"/emote farmer 20 true/emote Harvey 32 false/pause 1500/viewport -100 -100 true/message \"Your family just got a little bigger! Time to take your new baby home!\"/pause 1000/end"},
+		},
+				
+]
+}

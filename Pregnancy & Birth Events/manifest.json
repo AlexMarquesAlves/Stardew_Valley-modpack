@@ -1,0 +1,12 @@
+{
+	"Name": "Pregnancy and Birth Events",
+	"Author": "KristinTheRed",
+	"Version": "2.0.10",
+	"Description": "Adds a birthing event for when the player is pregnant.",
+	"UniqueID": "KristinTheRed.PregnancyEvents",
+	"MinimumApiVersion": "3.0.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.11.0"
+			}
+}

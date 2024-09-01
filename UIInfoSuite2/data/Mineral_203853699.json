@@ -25,6 +25,6 @@
   "ShowSeasonalBerry": true,
   "ShowSeasonalBerryHazelnut": false,
   "ShowTodaysGifts": true,
-  "HideBirthdayIfFullFriendShip": true,
+  "HideBirthdayIfFullFriendShip": false,
   "ShowLocationOfFriends": {}
 }

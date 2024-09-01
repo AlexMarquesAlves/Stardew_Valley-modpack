@@ -1,0 +1,157 @@
+[
+//Butterfly Fountain
+	{
+		"$ItemType": "Furniture",
+		"ID": "Butterfly Fountain",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/butterflyfountain.png:0@10, assets/butterflyfountain.png:1@10, assets/butterflyfountain.png:2@10, assets/butterflyfountain.png:3@10, assets/butterflyfountain.png:4@10, assets/butterflyfountain.png:5@10,assets/butterflyfountain.png:6@10,assets/butterflyfountain.png:7@10,assets/butterflyfountain.png:8@10,assets/butterflyfountain.png:9@10,assets/butterflyfountain.png:10@10,assets/butterflyfountain.png:11@10,assets/butterflyfountain.png:12@10,assets/butterflyfountain.png:13@10,assets/butterflyfountain.png:14@10,assets/butterflyfountain.png:15@10,",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		],
+		"ShowInCatalogue":true
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 2000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairyfountains/Butterfly Fountain"
+		}
+	},
+
+//Square Fountain
+	{
+		"$ItemType": "Furniture",
+		"ID": "Square Fountain",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/squarefountain.png:0@10, assets/squarefountain.png:1@10, assets/squarefountain.png:2@10, assets/squarefountain.png:3@10, assets/squarefountain.png:4@10, assets/squarefountain.png:5@10,assets/squarefountain.png:6@10,assets/squarefountain.png:7@10,assets/squarefountain.png:8@10,assets/squarefountain.png:9@10,assets/squarefountain.png:10@10,assets/squarefountain.png:11@10,assets/squarefountain.png:12@10,assets/squarefountain.png:13@10,assets/squarefountain.png:14@10,assets/squarefountain.png:15@10,",
+				"DisplaySize": { "X": 5, "Y": 4 },
+				"CollisionHeight": 4
+			}
+		],
+		"ShowInCatalogue":true
+	},	
+
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 2000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "himewildflour.fairyfountains/Square Fountain"
+		}
+	},
+
+//Bird Fountain
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Bird Fountain",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/birdfountain.png:0@10, assets/birdfountain.png:1@10, assets/birdfountain.png:2@10, assets/birdfountain.png:3@10, assets/birdfountain.png:4@10, assets/birdfountain.png:5@10,assets/birdfountain.png:6@10,assets/birdfountain.png:7@10,assets/birdfountain.png:8@10,assets/birdfountain.png:9@10,assets/birdfountain.png:10@10,assets/birdfountain.png:11@10,assets/birdfountain.png:12@10,assets/birdfountain.png:13@10,assets/birdfountain.png:14@10,assets/birdfountain.png:15@10,assets/birdfountain.png:16@10,assets/birdfountain.png:17@10,assets/birdfountain.png:18@10,assets/birdfountain.png:19@10,assets/birdfountain.png:20@10,assets/birdfountain.png:21@10,assets/birdfountain.png:22@10,assets/birdfountain.png:23@10,",
+			"DisplaySize": { "X": 3, "Y": 3 },
+			"CollisionHeight": 2
+		}
+	],
+	"ShowInCatalogue":true
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 2000,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairyfountains/Bird Fountain"
+	}
+},
+
+//Large Brick Fountain
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Large Brick Fountain",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/LargeBrickFountain.png:0@10, assets/LargeBrickFountain.png:1@10, assets/LargeBrickFountain.png:2@10, assets/LargeBrickFountain.png:3@10, assets/LargeBrickFountain.png:4@10, assets/LargeBrickFountain.png:5@10,assets/LargeBrickFountain.png:6@10,assets/LargeBrickFountain.png:7@10,assets/LargeBrickFountain.png:8@10,assets/LargeBrickFountain.png:9@10,assets/LargeBrickFountain.png:10@10,assets/LargeBrickFountain.png:11@10,assets/LargeBrickFountain.png:12@10,assets/LargeBrickFountain.png:13@10,assets/LargeBrickFountain.png:14@10,assets/LargeBrickFountain.png:15@10,",
+			"DisplaySize": { "X": 6, "Y": 5 },
+			"CollisionHeight": 3
+		}
+	],
+	"ShowInCatalogue":true
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 2000,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairyfountains/Large Brick Fountain"
+	}
+},
+
+//Small Round Fountain
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Small Round Fountain",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/SmallRoundFountain.png:0@10, assets/SmallRoundFountain.png:1@10, assets/SmallRoundFountain.png:2@10, assets/SmallRoundFountain.png:3@10, assets/SmallRoundFountain.png:4@10, assets/SmallRoundFountain.png:5@10,assets/SmallRoundFountain.png:6@10,assets/SmallRoundFountain.png:7@10,",
+			"DisplaySize": { "X": 3, "Y": 2 },
+			"CollisionHeight": 2
+		}
+	],
+	"ShowInCatalogue":true
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 2000,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairyfountains/Small Round Fountain"
+	}
+},
+
+//Small Brick Fountain
+
+{
+	"$ItemType": "Furniture",
+	"ID": "Small Brick Fountain",
+	"Type": "Decoration",
+	"Configurations": [
+		{
+			"Texture": "assets/SmallBrickFountain.png:0@10, assets/SmallBrickFountain.png:1@10, assets/SmallBrickFountain.png:2@10, assets/SmallBrickFountain.png:3@10, assets/SmallBrickFountain.png:4@10, assets/SmallBrickFountain.png:5@10,assets/SmallBrickFountain.png:6@10,assets/SmallBrickFountain.png:7@10,",
+			"DisplaySize": { "X": 2, "Y": 3 },
+			"CollisionHeight": 2
+		}
+	],
+	"ShowInCatalogue":true
+},	
+{
+	"$ItemType": "ShopEntry",
+	"ShopId": "Carpenter",
+	"Cost": 2000,
+	"Item":  
+	{
+		"Type": "DGAItem",
+		"Value": "himewildflour.fairyfountains/Small Brick Fountain"
+	}
+},
+
+]

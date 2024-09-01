@@ -1,0 +1,166 @@
+{
+    "Format": "1.23.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+	    "Entries": {
+		"68110001/f Sebastian 1750 Demetrius 1750 Robin 1750/t 1800 2300/d Mon Tue Wed Sat Sun/z summer/z fall/z winter": "continue/57 36/farmer 46 34 0 Sebastian 57 36 1 Demetrius -1000 -1000 2 Robin -1000 -1000 2/skippable/faceDirection Sebastian 3/move farmer 2 0 1/move farmer 0 2 1/speak Sebastian \"{{i18n: SebF.Seb1}}\"/move farmer 0 -2 1/pause 700/message \"{{i18n: SebF.Pl1}}\"/pause 100/speak Sebastian \"{{i18n: SebF.Seb2}}\"/move farmer 9 0 2/faceDirection Sebastian 0/pause 500/speak Sebastian \"{{i18n: SebF.Seb3}}\"/pause 1000/speak Sebastian \"{{i18n: SebF.Seb4}}\"/move farmer 0 -1 1/speak Sebastian \"{{i18n: SebF.Seb5}}\"/warp Demetrius 40 32/speak Sebastian \"{{i18n: SebF.Seb6}}\"/faceDirection Sebastian 3/move Sebastian 0 -2 3/move Sebastian -3 0 3/faceDirection farmer 3/speak Sebastian \"{{i18n: SebF.Seb7}}\"/move Demetrius 4 0 1/speak Demetrius \"{{i18n: SebF.Dem1}}\"/move Demetrius 3 0 2/speak Demetrius \"{{i18n: SebF.Dem2}}\"/pause 1000/speak Sebastian \"{{i18n: SebF.Seb8}}\"/speak Demetrius  \"{{i18n: SebF.Dem3}}\"/pause 1000/speak Demetrius \"{{i18n: SebF.Dem4}}\"/pause 200/speak Sebastian \"{{i18n: SebF.Seb9}}\"/speak Demetrius \"{{i18n: SebF.Dem5}}\"/pause 1000/speak Demetrius \"{{i18n: SebF.Dem6}}\"/warp Robin 40 32/move Robin 4 0 1/speak Robin \"{{i18n: SebF.Rob1}}\"/pause 1000/message \"{{i18n: SebF.Pl2}}\"/speak Sebastian \"{{i18n: SebF.Seb10}}\"/speak Demetrius \"{{i18n: SebF.Dem7}}\"/Speak Robin \"{{i18n: SebF.Rob2}}\"/end"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Data/Events/Town",
+	    "Entries": {
+		"68110002/e 68110001/t 1000 1600/d Mon Thu Fri Sat Sun": "continue/32 29/farmer 29 29 1 Demetrius 31 29 3/skippable/speak Demetrius \"{{i18n: SebF.Dem8}}\"/message \"{{i18n: SebF.Pl3}}\"/pause 100/speak Demetrius \"{{i18n: SebF.Dem9}}\"/pause 100/move farmer 1 0 1/speak Demetrius \"{{i18n: SebF.Dem10}}\"/message \"{{i18n: SebF.Pl4}}\"/pause 100/speak Demetrius \"{{i18n: SebF.Dem11}}\"/message \"{{i18n: SebF.Pl5}}\"/pause 100/move farmer 0 1 1/speak Demetrius \"{{i18n: SebF.Dem12}}\"/pause 100/message \"{{i18n: SebF.Pl6}}\"/move Demetrius 0 1 3/speak Demetrius \"{{i18n: SebF.Dem13}}\"/startJittering/pause 1000/stopJittering/speak Demetrius \"{{i18n: SebF.Dem14}}\"/pause 200/message \"{{i18n: SebF.Pl7}}\"/end"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Data/Events/Farm",
+	    "Entries": {
+		"68110003/e 68110002/x SebFather": "null"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Data/Events/SebastianRoom",
+	    "Entries": {
+		"68110004/e 68110002/n SebFather/t 1000 1730/d Mon Wed Thu Fri Sat Sun/w sunny": "continue/-1000 -1000/farmer 1 1 2 Sebastian 9 4 3/skippable/doAction 1 3/removeTile 1 3 Buildings/removeTile 1 2 Front/showFrame Sebastian 24/viewport 6 6 true/speak Sebastian \"{{i18n: SebF.Seb11}}\"/move farmer 0 4 1/move farmer 5 0 1/pause 500/message \"{{i18n: SebF.Pl8}}\"/faceDirection Sebastian 3/speak Sebastian \"{{i18n: SebF.Seb12}}\"/pause 200/speak Sebastian \"{{i18n: SebF.Seb13}}\"/message \"{{i18n: SebF.Pl9}}\"/pause 200/speak Sebastian \"{{i18n: SebF.Seb14}}\"/pause 1000/speak Sebastian \"{{i18n: SebF.Seb15}}\"/question null \"{{i18n: SebF.Pl10}}\"/Speak Sebastian \"{{i18n: SebF.Seb16}}\"/end"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Data/Events/BusStop",
+	    "Entries": {
+		"68110005/e 68110004/t 0630 1400/z spring/z summer/z winter": "continue/14 18/farmer 5 23 1 Sebastian 12 15 0/addConversationTopic Murder/skippable/move farmer 7 0 0/move farmer 0 -6 0/faceDirection Sebastian 2/speak Sebastian \"{{i18n: SebF.Seb17}}\"/pause 500/message \"{{i18n: SebF.Pl11}}\"/pause 500/speak Sebastian \"{{i18n: SebF.Seb18}}\"/pause 500/message \"{{i18n: SebF.Pl12}}\"/pause 1000/speak Sebastian \"{{i18n: SebF.Seb19}}\"/faceDirection Sebastian 0/move Sebastian 0 -3 0/end"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Data/mail",
+	    "When": {"HasSeenEvent": "68110002"},
+	    "Entries": {
+		"SebFather": "{{i18n: SebF.mail}}" 
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Demetrius",
+	    "When": {"HasSeenEvent": "68110002"},
+	    "Entries": {
+		"summer_ Mon": "{{i18n: SebF.summer_Mon}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Demetrius",
+	    "When": {"HasSeenEvent": "68110002"},
+	    "Entries": {
+		"summer_16": "{{i18n: SebF.summer_16}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Demetrius",
+	    "When": {"HasSeenEvent": "68110002"},
+	    "Entries": {
+		"fall_Mon": "{{i18n: SebF.fall_Mon}}"  
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Demetrius",
+	    "When": {"HasSeenEvent": "68110002"},
+	    "Entries": {
+		"spring_Mon": "{{i18n: SebF.spring_Mon}}"
+	    },
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Demetrius",
+	    "When": {"HasSeenEvent": "68110002"},
+	    "Entries": {
+		"winter_Mon": "{{i18n: SebF.winter_Mon}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Maru",
+	    "When": {"HasSeenEvent": "68110002"},
+	    "Entries": {
+	    "summer_Tue4": "{{i18n: SebF.summer_Tue4}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Maru",
+	    "When": {"HasSeenEvent": "68110002"},
+	    "Entries": {
+	    "winter_Mon8": "{{i18n: SebF.winter_Mon8}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Maru",
+	    "Entries": {
+	"Murder": "{{i18n: SebF.murderMaru}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Robin",
+	    "Entries": {
+		"Murder": "{{i18n: SebF.murderRobin}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Robin",
+	    "When": {"HasSeenEvent": "68110005"},
+	    "Entries": {
+	    "Sat8": "{{i18n: SebF.Sat8}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Robin",
+	    "When": {"HasSeenEvent": "68110005"},
+	    "Entries": {
+		"Fri8": "{{i18n: SebF.Fri8}}"
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Sebastian",
+	    "Entries": {
+		"Murder": "{{i18n: SebF.murderSeb}}" 
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Sebastian",
+	    "When": {"HasSeenEvent": "68110004"},
+	    "Entries": {
+		"fall_Tue6": "{{i18n: SebF.fall_Tue6}}" 
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Sebastian",
+	    "When": {"HasSeenEvent": "68110004"},
+	    "Entries": 	    {
+		"winter_Sun6": "{{i18n: SebF.winter_Sun6}}" 
+	    }
+	},
+	{
+	    "Action": "EditData",
+	    "Target": "Characters/Dialogue/Sebastian",
+	    "When": {"HasSeenEvent": "68110005"},
+	    "Entries": {
+		"Thu8": "{{i18n: SebF.Thu8}}"
+	    }
+	}
+    ]
+}
+

@@ -1,0 +1,25 @@
+{
+	
+	"Name": "Rummage - Content Patcher",
+
+	
+	"Author": "ApryllForever",
+
+		
+	"Version": "1.24.0",
+		
+	"Description": "Rummage - CP",
+		
+	"UniqueID": "ApryllForever.RummageContentPatcher",
+
+			
+	"UpdateKeys": ["Nexus:-1"],
+		
+	"ContentPackFor":
+	{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+		
+	"MinimumApiVersion": "3.0.0",
+
+}

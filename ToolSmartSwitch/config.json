@@ -1,5 +1,5 @@
 {
-  "EnableMod": true,
+  "EnableMod": false,
   "ToggleButton": "None",
   "HoldingTool": true,
   "FromWeapon": true,

@@ -1,0 +1,25 @@
+{
+	"Changes": [
+
+{		
+			"LogName": "Abigail Pregnancy Event 1",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"When": { "Relationship:Abigail": "Married",
+			       	"Pregnant": "Abigail",
+				"PlayerGetsPregnant":"false"},
+			"Entries":{"64780019/t 610 2550": "continue/28 30/farmer 27 30 0 Abigail 29 25 3 Harvey 0 0 0/addConversationTopic AbigailPregnant 13/addMailReceived Pregnant1_Abigail/skippable/pause 1250/viewport move 0 -5 1275/move farmer 0 -5 0/move farmer 1 0 1/speak Abigail \"#$b# Ughhhh. My stomach is killing me... $s\"/pause 500/showframe Abigail 24/pause 1000/emote Abigail 28/pause 500/speak Abigail \"Can you take me to the clinic?$s\"/viewport -100 100/changeLocation Hospital/viewport 5 5/warp farmer 2 5/warp Abigail 3 5/showFrame Abigail 4/warp Harvey 5 8/move Harvey 0 -3 3 false/speak Harvey \"I just ran some tests, and it looks like Abigail isn't sick!\"/emote farmer 8/emote Abigail 8/speak Harvey \"Abigail, you're pregnant! Congratulations!$h\"/playmusic musicboxsong/emote farmer 16/speak Abigail \"I'M WHAT?!$7#$b#...$7#$b#...Actually...#$b#...having a baby with you doesn't sound half bad.$l\"/faceDirection Abigail 3/emote Abigail 20/emote farmer 32/end"},
+		},
+
+{			"LogName": "Abigail Birth Event 1",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"When": {"PlayerGetsPregnant":"false",
+				"Relationship:Abigail": "Married",},
+			"Entries": {"64780031/e 64780019/n Pregnant1_Abigail/A AbigailPregnant/t 600 700 ": "sappypiano/-100 -100/Abigail 19 12 2 farmer 20 12 0 Harvey 5 15 2/addConversationTopic AbigailBabySleep 14/faceDirection farmer 3/positionOffset Abigail -25 0/skippable/pause 500/speak Abigail \"@?! Are you awake?! $7 #$b# I think the baby is coming! $7\"/changeLocation Hospital/showFrame Abigail 0/showFrame farmer 6 true/ ambientLight 150 150 150/viewport 14 11 true/pause 1000/speak Abigail \"Thanks for getting me here. I didn't mean to scare you earlier. I just... #$b# I just don't know if I'm ready to be a mom yet. $s\"/pause 500/showFrame Abigail 26/emote farmer 8/shake Abigail 500/pause 500/speak Abigail \"I mean look at you. #$b# You have your whole life together. #$b# And I feel like I just moved out of my parents' house.$s #$b# I know you'll be a good parent... but I'm not convinced I'll be. $s\"/pause 500/speak Abigail \"I mean, what am I going to do? Teach the baby how to hold a sword while you change their diapers? $1\"/pause 500/emote farmer 32/showFrame Abigail 0/pause 500/speak Abigail \"Yeah, that would be pretty cute, huh? $h\"/pause 500/emote Abigail 32/pause 500/speak Abigail \"Thanks for being here, @. And I don't just mean at the clinic. #$b# I mean being in my life. $l\"/pause 500/emote farmer 32/speak Abigail \"I don't know what I would do without you.$l #$b# And I guess we'll figure out this parenting thing together... #$b# Just like how we figured out the first level of Journey of the Prairie King together. $1\"/pause 500/emote farmer 20/emote Abigail 20/pause 1000/fade/viewport -100 -100 true/warp Harvey 21 12/faceDirection Harvey 3/warp farmer 20 11/faceDirection Abigail 2/speak Harvey \"It's time for the baby to come, @. Abigail is going to need to start pushing now.\"/pause 1500/speak Harvey \"That's it, Abigail! Just one more push!\"/addTemporaryActor {{BabyorBaby_Dark}} 23 15 20 12 2 False Character/positionOffset {{BabyorBaby_Dark}} 0 -65/move farmer 0 0 2/pause 500/message \"Your baby's cry pierces the air.\"/pause 500/speak Harvey \"Well, your baby's lungs are certainly strong and healthy!$h\"/fade/viewport 18 11 true/pause 500/emote farmer 20/pause 2000/speak Abigail \"Oh @. %kid1 is perfect. Just like you.$l\"/emote farmer 20 true/emote Harvey 32 false/pause 1500/viewport -100 -100 true/message \"Your family just got a little bigger! Time to take your new baby home!\"/pause 1000/end"},
+		}, 
+
+//64780056 pregnancy 2
+
+]
+}
