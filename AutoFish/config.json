@@ -1,9 +1,9 @@
 {
   "maxCastPower": true,
   "autoHit": true,
-  "fastBite": true,
+  "fastBite": false,
   "catchTreasure": true,
-  "fasterSpeed": true,
+  "fasterSpeed": false,
   "triggerKeepAutoFish": true,
   "keepAutoFishKey": "Insert",
   "autoLootTreasure": true,
