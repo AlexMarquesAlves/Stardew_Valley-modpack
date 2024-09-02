@@ -1,6 +1,6 @@
 {
-  "EnableMod": false,
-  "ToggleButton": "None",
+  "EnableMod": true,
+  "ToggleButton": "Q",
   "HoldingTool": true,
   "FromWeapon": true,
   "SwitchForObjects": true,

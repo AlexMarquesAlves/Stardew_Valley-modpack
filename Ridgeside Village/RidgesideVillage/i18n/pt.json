@@ -167,8 +167,6 @@
     "RSV.WarpFail": "Não é possível usar o totem de teletransporte.",
 	"RSV.WarpFestival": "O festival Brasa das Resoluções ainda está sendo montado. Volte mais tarde!",
 
-	"RSV.RiveraSecret": "Segredo da Família Rivera",
-
 	"Shiro.RejectProposal": "Oh, me desculpe, @. Você sabe que eu te amo tanto, e eu quero isso tanto quanto você, mas eu seria um péssimo irmão mais velho se dissesse sim.$s#$b#Com nossos pais longe, Yuuma não tem mais ninguém para cuidar dele...$s#$b#E com tudo o que eu o fiz passar nos últimos anos, seria egoísta da minha parte afastá-lo do último pedaço de sua antiga vida que ele deixou.$s#$b#Desculpe, mas espero que você entenda.$s",
 	"Kiarra.RejectProposal": "Desculpe, @, mas sei o que você fez para ajudar a Joja a construir aquele armazém, e não acho que nossos valores se alinhem.$a",
 
@@ -255,4 +253,8 @@
 	"SeasonalRSVMap.Description": "Ativar/desativar o mapa mundial RSV sazonal.",
 	"EnableTouristNPCs": "AtivarTuristNPCs",
 	"EnableTouristNPCs.Description": "Habilitar/Desabilitar a decoração de NPCs turísticos no hotel.",
+	"ShowRSVCustomMap": "MostrarRSVCustomMap",
+	"ShowRSVCustomMap.Description": "Ativar/desativar o botão no mapa do mundo para a sobreposição do mapa do mundo RSV personalizado",
+
+	"ErrorMessage": "O Ridgeside Village parece ter sido instalado incorretamente. Verifique o registro para obter mais detalhes."
 }

@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {
     "RSV Summit Farm Initial Debris": 1,
     "RSV Ridge Log": 1,
@@ -176,17 +176,6 @@
       "MapName": "Custom_Ridgeside_SummitFarm",
       "Name": "679",
       "Tile": "39, 47",
-      "Type": "Forage",
-      "ID": "679",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": "679",
-      "Tile": "66, 72",
       "Type": "Forage",
       "ID": "679",
       "DaysUntilExpire": 0,

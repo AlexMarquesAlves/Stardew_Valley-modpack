@@ -1,3 +1,49 @@
 {
-  "cordialityList": []
+  "cordialityList": [
+    {
+      "farmer": "Ellie",
+      "npc": "Caroline",
+      "point": 76.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Abigail",
+      "point": 0.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Lewis",
+      "point": 0.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "George",
+      "point": 14.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Haley",
+      "point": 8.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "MarlonFay",
+      "point": 0.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Penny",
+      "point": 0.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Linus",
+      "point": 113.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Robin",
+      "point": 0.0
+    }
+  ]
 }
