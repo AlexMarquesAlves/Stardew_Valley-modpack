@@ -1,4 +1,5 @@
 {
   "ShowTotalValueBanner": true,
-  "InvertScrollWheelDirection": false
+  "InvertScrollWheelDirection": false,
+  "ShowTotalValueMiniBin": true
 }

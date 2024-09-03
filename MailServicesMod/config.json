@@ -15,7 +15,16 @@
   "ShowDialogOnItemDelivery": false,
   "DisablePerPlayerConfig": false,
   "EnableAskToUpgradeTool": false,
-  "PlayerRecoveryConfig": {},
+  "PlayerRecoveryConfig": {
+    "-7127647128983653891": {
+      "PlayerName": "Ellie",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    }
+  },
   "DisableRecoveryConfigInGameChanges": false,
   "EnableRecoveryService": false,
   "RecoverAllItems": false,

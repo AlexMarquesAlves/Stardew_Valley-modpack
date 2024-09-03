@@ -27,7 +27,6 @@
     "generic.price": "{{price}}G",
     "generic.price-for-quality": "{{price}}G ({{quality}})",
     "generic.price-for-stack": "{{price}}g (スタック:{{count}})",
-    "generic.show-x-results": "show {{count}} results", // TODO
 
     // types
     "type.building": "建物",
