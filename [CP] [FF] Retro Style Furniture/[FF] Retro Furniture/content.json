@@ -1,0 +1,6074 @@
+{
+    //DO NOT modify. This is only used for debugging purposes
+    //  reload_furniture_pack Novaphene.RetroFurnitures
+
+    "$schema": "https://raw.githubusercontent.com/Leroymilo/FurnitureFramework/main/doc/schemas/content.json",
+    "Format": 2,
+    "Furniture": {
+        //catalogue
+        "{{ModID}}.custom_catalogue": {
+            "Display Name": "Novaphene's Catalogue",
+            "Description": "Catalogue for Retro Furniture",
+            "Price": 2000,
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/catalogue.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Shop Id": "{{ModID}}.custom_catalogue",
+            "Shows in Shops": [
+                "Carpenter", "Furniture Catalogue"
+            ]
+        },
+        //armchair
+        "{{ModID}}.armchair": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Armchair",
+            "Rotations": 4,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": {
+                "Green": "assets/armchair/1.png",
+                "Red": "assets/armchair/2.png",
+                "White": "assets/armchair/3.png",
+                "Patterned Red": "assets/armchair/4.png",
+                "Patterned Soft Light": "assets/armchair/5.png",
+                "Patterned Green": "assets/armchair/6.png",
+                "Patterned Yellow": "assets/armchair/7.png"
+            },
+            "Source Rect": {
+                "Down": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Right": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Up": {
+                    "X": 64,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 96,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                }
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "Right": {
+                            "X": 32,
+                            "Y": 32,
+                            "Width": 32,
+                            "Height": 32
+                        },
+                        "Up": {
+                            "X": 64,
+                            "Y": 32,
+                            "Width": 32,
+                            "Height": 32
+                        },
+                        "Left": {
+                            "X": 96,
+                            "Y": 32,
+                            "Width": 32,
+                            "Height": 32
+                        }
+                    }
+                }
+            ],
+            "Seats": [
+                {
+                    "Position": {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    "Player Direction": {
+                        "Up": 0,
+                        "Down": 2
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    "Player Direction": {
+                        "Right": 1
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    "Player Direction": {
+                        "Left": 3
+                    }
+                }
+            ]
+        },
+        //single bed
+        "{{ModID}}.single_bed": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Single Bed",
+            "Special Type": "Bed",
+            "Bed Type": "Single",
+            "Bed Spot": {
+                "X": 1,
+                "Y": 1
+            },
+            "Bed Area": {"X": 0, "Y": 1, "Width": 1, "Height": 1},
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 3,
+                "Map": "XX/../XX"
+            },
+            "Placement Restriction": 0,
+            "Source Image": {
+                "Autumn": "assets/bed/Single/1.png",
+                "Green": "assets/bed/Single/2.png",
+                "Red": "assets/bed/Single/3.png",
+                "Teal": "assets/bed/Single/4.png",
+                "Forest Green": "assets/bed/Single/5.png",
+                "Forest Yellow": "assets/bed/Single/6.png",
+                "Forest Pink": "assets/bed/Single/7.png",
+                "Checkered Pink": "assets/bed/Single/8.png",
+                "Checkered Yellow": "assets/bed/Single/9.png",
+                "Checkered Blue": "assets/bed/Single/10.png",
+                "Checkered Green": "assets/bed/Single/11.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 64
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "X": 32,
+                        "Y": 26,
+                        "Width": 32,
+                        "Height": 38
+                    },
+                    
+                    "Draw Pos": {
+                        "X": 0,
+                        "Y": 26
+                    },
+                    "Depth": 2,
+                    
+                }
+                
+            ]
+        },
+
+        //child bed 
+        "{{ModID}}.child_bed": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Child Bed",
+            "Special Type": "Bed",
+            "Bed Type": "Child",
+            "Bed Spot": {
+                "X": 1,
+                "Y": 1
+            },
+            "Bed Area": {"X": 0, "Y": 1, "Width": 1, "Height": 1},
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 3,
+                "Map": "XX/../XX"
+            },
+            "Placement Restriction": 0,
+            "Source Image": {
+                "Autumn": "assets/bed/Single/1.png",
+                "Green": "assets/bed/Single/2.png",
+                "Red": "assets/bed/Single/3.png",
+                "Teal": "assets/bed/Single/4.png",
+                "Forest Green": "assets/bed/Single/5.png",
+                "Forest Yellow": "assets/bed/Single/6.png",
+                "Forest Pink": "assets/bed/Single/7.png",
+                "Checkered Pink": "assets/bed/Single/8.png",
+                "Checkered Yellow": "assets/bed/Single/9.png",
+                "Checkered Blue": "assets/bed/Single/10.png",
+                "Checkered Green": "assets/bed/Single/11.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 64
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "X": 32,
+                        "Y": 26,
+                        "Width": 32,
+                        "Height": 38
+                    },
+                    
+                    "Draw Pos": {
+                        "X": 0,
+                        "Y": 26
+                    },
+                    "Depth": 2
+                    
+                }
+                
+            ]
+        },
+
+        //double bed
+        "{{ModID}}.double_bed": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Double Bed",
+            "Special Type": "Bed",
+            "Bed Type": "Double",
+            "Bed Spot": {
+                "X": 1,
+                "Y": 1
+            },
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 3,
+                "Height": 3,
+                "Map": "XXX/.../XXX"
+            },
+            "Placement Restriction": 0,
+            "Source Image": {
+                "Autumn": "assets/bed/Double/1.png",
+                "Green": "assets/bed/Double/2.png",
+                "Red": "assets/bed/Double/3.png",
+                "Teal": "assets/bed/Double/4.png",
+                "Forest Green": "assets/bed/Double/5.png",
+                "Forest Yellow": "assets/bed/Double/6.png",
+                "Forest Pink": "assets/bed/Double/7.png",
+                "Checkered Pink": "assets/bed/Double/8.png",
+                "Checkered Yellow": "assets/bed/Double/9.png",
+                "Checkered Blue": "assets/bed/Double/10.png",
+                "Checkered Green": "assets/bed/Double/11.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 48,
+                "Height": 64
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "X": 48,
+                        "Y": 25,
+                        "Width": 48,
+                        "Height": 39
+                    },
+                    "Draw Pos": {
+                        "X": 0,
+                        "Y": 25
+                    },
+                    "Depth": 2
+                }
+            ]
+        },
+        //chair
+        "{{ModID}}.chair": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Chair",
+            "Rotations": 4,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": {
+                "Dotted Green": "assets/chair/Chair/1.png",
+                "Dotted Red": "assets/chair/Chair/2.png",
+                "Dotted Brown": "assets/chair/Chair/3.png",
+                "Green": "assets/chair/Chair/4.png",
+                "Red": "assets/chair/Chair/5.png",
+                "Yellow": "assets/chair/Chair/6.png",
+                "White": "assets/chair/Chair/7.png"
+            },
+            "Source Rect": {
+                "Down": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Right": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Up": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 48,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Layers": {
+                "Up": [
+                    {
+                        "Source Rect": {
+                            "X": 32,
+                            "Y": 32,
+                            "Width": 16,
+                            "Height": 32
+                        }
+                    }
+                ]
+            },
+            "Seats": [
+                {
+                    "Position": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "Player Direction": {
+                        "Up": 0,
+                        "Right": 1,
+                        "Down": 2,
+                        "Left": 3
+                    }
+                }
+            ]
+        },
+        //corkboards
+        "{{ModID}}.corkboards": {
+			"Display Name": "{{ImageVariant}}",
+
+			"Rotations": 1,
+			"Collisions": {"Width": 2, "Height": 2},
+
+			"Placement Restriction": 0,
+			"Placement Type": "Mural",
+
+			"Source Image": {
+                "Wall Shelf":"assets/corkboards/1.png",
+                "Classic Corkboard (Light Oak)":"assets/corkboards/2.png",
+                "Classic Corkboard (Dark Oak)":"assets/corkboards/3.png"
+            },
+			"Source Rect": {"X": 0, "Y": 0, "Width": 32, "Height": 32},	// in pixels
+
+			"Shows in Shops": ["{{ModID}}.custom_catalogue"]
+		},
+
+        //couch
+        "{{ModID}}.couch": {
+
+			"Display Name": "{{ImageVariant}}",
+
+			"Rotations": 4,
+			"Collisions": {
+				"Down": 	{"Width": 3, "Height": 1},
+				"Right": 	{"Width": 2, "Height": 2},
+				"Up": 		{"Width": 3, "Height": 1},
+				"Left": 	{"Width": 2, "Height": 2}
+			},
+
+			"Placement Restriction": 2,
+
+			"Source Image": {
+                "Elegant Oak Sofa - White":"assets/couch/1.png",
+                "Elegant Oak Sofa - Green":"assets/couch/2.png",
+                "Elegant Oak Sofa - Red":"assets/couch/3.png",
+                "Vintage Amber Sofa":"assets/couch/4.png",
+                "Vintage Dark Green Sofa":"assets/couch/5.png",
+                "Vintage Rose Sofa":"assets/couch/6.png",
+                "Vintage Teal Sofa":"assets/couch/7.png",
+                "Vintage Soft Pink Sofa":"assets/couch/8.png",
+                "Vintage Mauve Sofa":"assets/couch/9.png",
+                "Vintage Pink Sofa":"assets/couch/10.png"
+            },
+			"Source Rect": {
+				"Down":		{"X": 0,	"Y": 0, "Width": 48, "Height": 32},
+				"Right":	{"X": 48,	"Y": 0, "Width": 32, "Height": 48},
+				"Up":		{"X": 80,	"Y": 0, "Width": 48, "Height": 32},
+				"Left":		{"X": 128,	"Y": 0, "Width": 32, "Height": 48}
+			},
+
+			"Layers": {
+				"Right": [
+					{
+						"Source Rect": {"X": 48, "Y": 48, "Width": 32, "Height": 48},
+						"Depth": {"Tile": 1, "Sub": 1000}
+					}
+				],
+				"Up": [
+					{
+						"Source Rect": {"X": 80, "Y": 48, "Width": 48, "Height": 32},
+						"Depth": {"Tile": 0, "Sub": 1000}
+					}
+				],
+				"Left": [
+					{
+						"Source Rect": {"X": 128, "Y": 48, "Width": 32, "Height": 48},
+						"Depth": {"Tile": 1, "Sub": 1000}
+					}
+				]
+			},
+
+			"Seats": {
+				"Up": [
+					{
+						"Position": {"X": 0.5, "Y": 0},
+						"Player Direction": 0
+					},
+					{
+						"Position": {"X": 1.5, "Y": 0},
+						"Player Direction": 0
+					}
+				],
+				"Right": [
+					{
+						"Position": {"X": 1, "Y": 0},
+						"Player Direction": 1
+					},
+					{
+						"Position": {"X": 1, "Y": 1},
+						"Player Direction": 1
+					}
+				],
+				"Down": [
+					{
+						"Position": {"X": 0.5, "Y": 0},
+						"Player Direction": 2
+					},
+					{
+						"Position": {"X": 1.5, "Y": 0},
+						"Player Direction": 2
+					}
+				],
+				"Left": [
+					{
+						"Position": {"X": 0, "Y": 0},
+						"Player Direction": 3
+					},
+					{
+						"Position": {"X": 0, "Y": 1},
+						"Player Direction": 3
+					}
+				]
+			},
+
+			"Shows in Shops": ["{{ModID}}.custom_catalogue"]
+		},
+        
+        //stool
+        "{{ModID}}.stool": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Stool",
+            "Rotations": 4,
+            "Collisions": {
+				"Width": 1, "Height": 1
+
+                //4-sided
+                // "Down": {
+                //     "Width": 2,
+                //     "Height": 1
+                // },
+                // "Right": {
+                //     "Width": 1,
+                //     "Height": 2
+                // },
+                // "Up": {
+                //     "Width": 2,
+                //     "Height": 1
+                // },
+                // "Left": {
+                //     "Width": 1,
+                //     "Height": 2
+                // }
+            },
+            "Placement Restriction": 2,
+            "Source Image": {
+                "Dotted Green": "assets/chair/Stool/1.png",
+                "Dotted Red": "assets/chair/Stool/2.png",
+                "Dotted Brown": "assets/chair/Stool/3.png"
+            },
+            "Source Rect": {
+                "Down": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Right": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Up": {
+                    "X": 64,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 96,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                }
+            },
+            "Seats": [
+                {
+                    "Position": {
+                        "X": 0.5, //0.4 for 4sided collision
+                        "Y": 0 //0 for 4sided collision
+                    },
+                    "Player Direction": {
+                        "Up": 0,
+                        "Right": 1,
+                        "Down": 2,
+                        "Left": 3
+                    }
+                }
+            ]
+        },
+        //cushion
+        "{{ModID}}.cushion": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Cushion",
+            "Rotations": [
+                "Down",
+                "Right",
+                "Left"
+            ],
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": {
+                "Green": "assets/cushion/1.png",
+                "Red": "assets/cushion/2.png",
+                "Yellow": "assets/cushion/3.png",
+                "Purple": "assets/cushion/4.png",
+                "Teal": "assets/cushion/5.png"
+            },
+            "Source Rect": {
+                "Down": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 16
+                },
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 16
+                },
+                "Left": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 16
+                }
+            },
+            "Seats": [
+                {
+                    "Position": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "Player Direction": {
+                        "Right": 1,
+                        "Down": 2,
+                        "Left": 3
+                    }
+                }
+            ]
+        },
+        //DECORATION
+        //bookcase
+        "{{ModID}}.bookcase 1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Bookcase",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Source Image": "assets/decoration/Bookcase/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.bookcase 2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Bookcase",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Source Image": "assets/decoration/Bookcase/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.bookcase 3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Bookcase",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Source Image": "assets/decoration/Bookcase/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.bookcase  4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Bookcase",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Source Image": "assets/decoration/Bookcase/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.antique 1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}}",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Source Image": {
+                "Deorated Antique Piano": "assets/decoration/Bookcase/5.png",
+                "Antique Piano": "assets/decoration/Bookcase/6.png",
+                "Wine Cabinet": "assets/decoration/Bookcase/6.png",
+                "Plate Cabinet": "assets/decoration/Bookcase/6.png",
+                "Small Plate Cabinet": "assets/decoration/Bookcase/6.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        //cabinet
+        "{{ModID}}.cabinet": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}}",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 3,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Source Image": {
+                "Striped Glass Wardrobe": "assets/decoration/Cabinet/1.png",
+                "Plain Gauze Curtain Wardrobe": "assets/decoration/Cabinet/2.png",
+                "Gauze Curtain Wardrobe": "assets/decoration/Cabinet/3.png",
+                "Kitchen Storage Cabinet": "assets/decoration/Cabinet/4.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 48,
+                "Height": 48
+            }
+        },
+        //ceiling leaves
+        "{{ModID}}.ceiling_leaves 1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 5": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/5.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 6": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/6.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 7": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/7.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 8": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/8.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 9": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/9.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.ceiling_leaves 10": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Ceiling Leaves",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": "assets/decoration/Ceiling Leaves/10.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        //-- end of deocrations
+        //plants 1
+        "{{ModID}}.plants1 1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Tall House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 1/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.plants1 2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Tall House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 1/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.plants1 3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Tall House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 1/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.plants1 4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Tall House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 1/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.plants1 5": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Tall House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 1/5.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.plants1 6": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Tall House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 1/6.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.plants1 7": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Tall House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 1/7.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.plants1 8": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Tall House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 1/8.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        // Plants 2
+        "{{ModID}}.plants2-1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 0,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 16,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 32,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 48,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-5": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 64,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-6": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 80,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-7": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 96,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-8": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 112,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-9": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 128,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-10": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 144,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-11": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 160,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-12": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 176,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-13": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 192,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-14": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 208,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-15": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 224,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-16": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 240,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-17": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 256,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-18": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 272,
+                    "Y": 0
+                }
+            }
+        },
+        "{{ModID}}.plants2-19": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{RectVariant}} Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 2/plants.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            },
+            "Source Rect Offsets": {
+                "House": {
+                    "X": 288,
+                    "Y": 0
+                }
+            }
+        },
+        //plants 3
+        "{{ModID}}.plants3 1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.plants3 2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.plants3 3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.plants3 4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.plants3 5": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/5.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.plants3 6": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/6.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.plants3 7": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/7.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.plants3 8": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/8.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.plants3 9": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "House Plant",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Plants 3/9.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            }
+        },
+        //table centers
+        "{{ModID}}.TC 1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 5": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/5.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 6": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/6.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 7": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/7.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 8": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/8.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 9": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/9.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 10": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/10.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 11": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/11.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 12": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/12.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 13": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/13.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 14": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/14.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 15": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/15.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 16": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/16.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 17": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/17.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        "{{ModID}}.TC 18": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Table Center",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/decoration/Table Centers/18.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        //wall panel
+        "{{ModID}}.wall_screens": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Screen",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 3,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Source Image": {
+                "Black Striped Glass": "assets/decoration/Wall Panel/1.png",
+                "Brown Striped Glass": "assets/decoration/Wall Panel/2.png",
+                "Red Chinese": "assets/decoration/Wall Panel/3.png",
+                "Yellow Chinese": "assets/decoration/Wall Panel/4.png",
+                "Blue Chinese": "assets/decoration/Wall Panel/5.png",
+                "Dark Brown Gauze": "assets/decoration/Wall Panel/6.png",
+                "Light Brown Gauze": "assets/decoration/Wall Panel/7.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 48,
+                "Height": 48
+            }
+        },
+        //--END OF DECORATIONS
+        //dressers
+        "{{ModID}}.dresser": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}} Dresser",
+            "Special Type": "Dresser",
+            "Rotations": 4,
+            "Collisions": {
+                "Down": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Right": {
+                    "Width": 1,
+                    "Height": 2
+                },
+                "Up": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 0,
+            "Source Image": {
+                "Classic Oak": "assets/dresser/1.png",
+                "Decorated Rich Oak": "assets/dresser/2.png",
+                "Classic Mahogany": "assets/dresser/3.png",
+                "Decorated Rich Mahogany": "assets/dresser/4.png",
+                "Classic Etched Glass": "assets/dresser/5.png",
+                "Rich Mahogany with Etched Glass": "assets/dresser/6.png"
+            },
+            "Source Rect": {
+                "Down": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Right": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                },
+                "Up": {
+                    "X": 0,
+                    "Y": 32,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 48,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            }
+        },
+        //lamp
+        "{{ModID}}.lamp-1": {
+			"Display Name": "{{ImageVariant}} Lamp",
+			"Description": "A simple Lamp",
+
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},	// in tiles
+
+			"Placement Restriction": 2,
+
+			"Source Image": {
+                 "Fairy (L)":"assets/lamp/1.png",
+                 "Fairy (R)":"assets/lamp/2.png",
+                 "Red":"assets/lamp/3.png",
+                 "Autumn":"assets/lamp/4.png",
+                 "Green":"assets/lamp/5.png",
+                 "Fancy Green":"assets/lamp/6.png",
+                 "Fancy Blue":"assets/lamp/7.png",
+                 "Fancy Pink":"assets/lamp/8.png"
+                            },
+			"Source Rect": {"X": 0, "Y": 0, "Width": 16, "Height": 48},	// in pixels,
+
+			"Time Based": true,
+
+			"Light Sources": [
+				{
+					"Position": {"X": 7, "Y": 0},
+					"Source Image": "Content/LooseSprites/Lighting/indoorWindowLight.png",
+					"Mode": "when_dark_out",
+					"Radius": 2.0
+				}
+			],
+
+			"Shows in Shops": ["{{ModID}}.custom_catalogue"]
+		},
+        "{{ModID}}.lamp-2": {
+			"Display Name": "{{ImageVariant}} Lamp",
+			"Description": "A simple Lamp",
+
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},	// in tiles
+
+			"Placement Restriction": 2,
+
+			"Source Image": {
+                 "Small Green":"assets/lamp/9.png",
+                 "Small Red":"assets/lamp/10.png"
+            },
+			"Source Rect": {"X": 0, "Y": 0, "Width": 16, "Height": 32},	// in pixels,
+
+			"Time Based": true,
+
+			"Light Sources": [
+				{
+					"Position": {"X": 8, "Y": 0},
+					"Source Image": "Content/LooseSprites/Lighting/indoorWindowLight.png",
+					"Mode": "when_dark_out",
+					"Radius": 1.0
+				}
+			],
+
+			"Shows in Shops": ["{{ModID}}.custom_catalogue"]
+		},
+
+        //misc
+        "{{ModID}}.misc": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}}",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": {
+                "Black Rimmed Mirror": "assets/misc/1.png",
+                "Gold Rimmed Mirror": "assets/misc/2.png",
+                "Rectangle Window (L)": "assets/misc/3.png",
+                "Rectangle Window (M1)": "assets/misc/4.png",
+                "Rectangle Window (M2)": "assets/misc/5.png",
+                "Rectangle Window (R)": "assets/misc/6.png",
+                "Classic Window with Lace Curtain (R)": "assets/misc/7.png",
+                "Classic Window with Lace Curtain (L)": "assets/misc/8.png",
+                "Built-in Bookcase Wall A": "assets/misc/9.png",
+                "Built-in Bookcase Wall B": "assets/misc/10.png",
+                "Built-in Bookcase Wall C": "assets/misc/11.png",
+                "Built-in Bookcase Wall D": "assets/misc/12.png",
+                "Panel Painting Side 1": "assets/misc/13.png",
+                "Panel Painting Side 2": "assets/misc/14.png",
+                "Panel Painting Side 3": "assets/misc/15.png",
+                "Panel Painting Side 4": "assets/misc/16.png",
+                "Antique Clock": "assets/misc/17.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 48
+            }
+        },
+        //painting
+        "{{ModID}}.small-paintings": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}}",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 1,
+                "Height": 2
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": {
+                "Blue Morpho Butterfly Painting": "assets/painting/small/1.png",
+                "Tailed Jay Butterfly Painting": "assets/painting/small/2.png",
+                "Agrias Butterfly Painting": "assets/painting/small/3.png",
+                "Retro Decorative Painting": "assets/painting/small/4.png",
+                "Decorative Painting": "assets/painting/small/5.png",
+                "Abstract Painting": "assets/painting/small/6.png",
+                "Modern Small Decorative Painting": "assets/painting/small/7.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 32
+            }
+        },
+        "{{ModID}}.wide-paintings": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "{{ImageVariant}}",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 3,
+                "Height": 2
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Mural",
+            "Source Image": {
+                "'Aesthetic Tales: A Timeless Ensemble'": "assets/painting/wide/1.png",
+                "'Visual Harmony: A Blend of Classics'": "assets/painting/wide/2.png",
+                "'Once Upon a Plum Blossom in Winter'": "assets/painting/wide/3.png",
+                "'Once Upon a Plum Blossom in Spring'": "assets/painting/wide/4.png"
+            },
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 48,
+                "Height": 32
+            }
+        },
+        //large rug
+        "{{ModID}}.large-rug-1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-5": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/5.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-6": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/6.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-7": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/7.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-8": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/8.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-9": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/9.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-10": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/10.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-11": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/11.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-12": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/12.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-13": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/13.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-14": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/14.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        "{{ModID}}.large-rug-15": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Large Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 5,
+                "Height": 4
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Large Rug/15.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 80,
+                "Height": 64
+            }
+        },
+        //rug
+        "{{ModID}}.rug-1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-5": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/5.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-6": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/6.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-7": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/7.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-8": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/8.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-9": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/9.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-10": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/10.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-11": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/11.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.rug-12": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Rug",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 3
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Rug/12.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            }
+        },
+        //small rug
+        "{{ModID}}.small-rug-1": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                
+                    "Width": 1,
+                    "Height": 1
+                
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/1.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-2": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/2.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-3": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/3.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-4": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/4.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-5": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/5.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-6": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/6.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-7": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/7.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-8": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/8.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-9": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/9.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        "{{ModID}}.small-rug-10": {
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Display Name": "Small Rug",
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 0,
+            "Placement Type": "Rug",
+            "Source Image": "assets/rug/Small Rug/10.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 16
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            }
+        },
+        //coffee table
+        "{{ModID}}.coffee-table-1": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/1.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-2": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/2.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-3": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/3.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-4": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/4.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-5": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/5.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-6": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/6.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-7": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/7.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-8": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/8.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-9": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/9.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.coffee-table-10": {
+            "Display Name": "Coffee Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 2,
+                    "Height": 1
+                },
+                "Vertical": {
+                    "Width": 1,
+                    "Height": 2
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Coffee Table/10.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 32,
+                    "Height": 32
+                },
+                "Vertical": {
+                    "X": 32,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 48
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 16,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 24,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        //dining table
+        "{{ModID}}.dining-table-2": {
+            "Display Name": "Rich Mahogany Dining Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 5,
+                    "Height": 2
+                },
+                "Vertical": {
+                    "Width": 2,
+                    "Height": 4
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Dining Table/2.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 80,
+                    "Height": 48
+                },
+                "Vertical": {
+                    "X": 80,
+                    "Y": 0,
+                    "Width": 48,
+                    "Height": 80
+                }
+            }
+        },
+        "{{ModID}}.dining-table-4": {
+            "Display Name": "Light Oak Wood Dining Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 5,
+                    "Height": 2
+                },
+                "Vertical": {
+                    "Width": 2,
+                    "Height": 4
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Dining Table/4.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 80,
+                    "Height": 48
+                },
+                "Vertical": {
+                    "X": 80,
+                    "Y": 0,
+                    "Width": 48,
+                    "Height": 80
+                }
+            }
+        },
+        //with 3 slots
+        "{{ModID}}.dining-table-1-3S": {
+            "Display Name": "Dining Table with 3 Slots",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 5,
+                    "Height": 2
+                },
+                "Vertical": {
+                    "Width": 2,
+                    "Height": 4
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Dining Table/1.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 80,
+                    "Height": 48
+                },
+                "Vertical": {
+                    "X": 80,
+                    "Y": 0,
+                    "Width": 48,
+                    "Height": 80
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 11,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 31,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    },
+                    {
+                        "Area": {
+                            "X": 51,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Brown"
+                    }
+                ],
+                "Vertical": [
+                    //8,26,44
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 26,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 44,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "White",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.dining-table-3-3S": {
+            "Display Name": "Dining Table wth 3 Slots",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 5,
+                    "Height": 2
+                },
+                "Vertical": {
+                    "Width": 2,
+                    "Height": 4
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Dining Table/3.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 80,
+                    "Height": 48
+                },
+                "Vertical": {
+                    "X": 80,
+                    "Y": 0,
+                    "Width": 48,
+                    "Height": 80
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    {
+                        "Area": {
+                            "X": 11,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 31,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    },
+                    {
+                        "Area": {
+                            "X": 51,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Brown"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 12,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 28,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 44,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "White",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        // Dining table with 4slots
+        "{{ModID}}.dining-table-5-4S": {
+            "Display Name": "Dining Table wit 4 Slots",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 5,
+                    "Height": 2
+                },
+                "Vertical": {
+                    "Width": 2,
+                    "Height": 4
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Dining Table/1.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 80,
+                    "Height": 48
+                },
+                "Vertical": {
+                    "X": 80,
+                    "Y": 0,
+                    "Width": 48,
+                    "Height": 80
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    //4 slots: 4,21,39,57
+                    //4 slots: 7,23,40,57
+                    {
+                        "Area": {
+                            "X": 7,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 23,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    },
+                    {
+                        "Area": {
+                            "X": 40,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Brown"
+                    },
+                    {
+                        "Area": {
+                            "X": 57,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "White"
+                    }
+                ],
+                "Vertical": [
+                    //8,26,44
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 7,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 21,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 36,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 49,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.dining-table-6-4S": {
+            "Display Name": "Dining Table wit 4 Slots",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 2,
+            "Collisions": {
+                "Horizontal": {
+                    "Width": 5,
+                    "Height": 2
+                },
+                "Vertical": {
+                    "Width": 2,
+                    "Height": 4
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Dining Table/3.png",
+            "Source Rect": {
+                "Horizontal": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 80,
+                    "Height": 48
+                },
+                "Vertical": {
+                    "X": 80,
+                    "Y": 0,
+                    "Width": 48,
+                    "Height": 80
+                }
+            },
+            "Slots": {
+                "Horizontal": [
+                    //old = 4 slots: 4,21,39,57
+                    //4 slots: 7,23,40,57
+                    {
+                        "Area": {
+                            "X": 7,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 23,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Green"
+                    },
+                    {
+                        "Area": {
+                            "X": 40,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Brown"
+                    },
+                    {
+                        "Area": {
+                            "X": 57,
+                            "Y": 15,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "White"
+                    }
+                ],
+                "Vertical": [
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 7,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 21,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 36,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    },
+                    {
+                        "Area": {
+                            "X": 8,
+                            "Y": 49,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Green",
+                        "Depth": 1
+                    }
+                ]
+            }
+        },
+        //end table
+        "{{ModID}}.end-table-1": {
+            "Display Name": "Plain End Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/1.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.end-table-2": {
+            "Display Name": "Plain End Table (Conjunction)",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/2.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.end-table-3": {
+            "Display Name": "Decorated End Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/3.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.end-table-4": {
+            "Display Name": "Decorated End Table (Conjunction)",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/4.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.end-table-5": {
+            "Display Name": "Round End Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/5.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.end-table-6": {
+            "Display Name": "Round End Table (Conjunction)",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/6.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.end-table-7": {
+            "Display Name": "Glass End Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/7.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.end-table-8": {
+            "Display Name": "End Table with Shelf",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/8.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        "{{ModID}}.end-table-9": {
+            "Display Name": "Striped End Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": ["Right", "Left"],
+            "Collisions": {
+                "Right": {
+                    "Width": 1,
+                    "Height": 1
+                },
+                "Left": {
+                    "Width": 1,
+                    "Height": 1
+                }
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/End Table/9.png",
+            "Source Rect": {
+                "Right": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                },
+                "Left": {
+                    "X": 16,
+                    "Y": 0,
+                    "Width": 16,
+                    "Height": 32
+                }
+            },
+            "Slots": {
+                "Right": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 11,
+                            "Width": 16,
+                            "Height": 13
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ],
+                "Left": [
+                    {
+                        "Area": {
+                            "X": 0,
+                            "Y": 8,
+                            "Width": 16,
+                            "Height": 16
+                        },
+                        "Debug Color": "Blue"
+                    }
+                ]
+            }
+        },
+        
+        //table
+        "{{ModID}}.table-1": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 20,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-2": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-3": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 20,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-4": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-5": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/5.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 20,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-6": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/6.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-7": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/7.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 20,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-8": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/8.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+            
+        },
+        "{{ModID}}.table-9": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/9.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 20,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-10": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/10.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-11": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/11.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 20,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-12": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/12.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-13": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/13.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 15,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-14": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/14.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-15": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/15.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 8,
+                        "Y": 15,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-16": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/16.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-17": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/17.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 15,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-18": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/18.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-19": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/19.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 14,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-20": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/20.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 14,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-21": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/21.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-22": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/22.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 14,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-23": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/23.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-24": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/24.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 14,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-25": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/25.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-26": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/26.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 14,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-27": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/27.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-28": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/28.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 14,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-29": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/29.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        "{{ModID}}.table-30": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/30.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "Slots": [
+                {
+                    "Area": {
+                        "X": 9,
+                        "Y": 14,
+                        "Width": 16,
+                        "Height": 16
+                    },
+                    "Debug Color": "Green"
+                }
+            ]
+        },
+        "{{ModID}}.table-31": {
+            "Display Name": "Tea Table",
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 2,
+                "Height": 2
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/table/Table/31.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            }
+        },
+        //   fish tank
+        "{{ModID}}.fishtank-1": {
+            "Display Name": "Fish Tank",
+            "Description": "A Fish tank to test Custom Fish tanks",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/tank/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "X": 64,
+                        "Y": 0,
+                        "Width": 64,
+                        "Height": 48
+                    },
+                    "Depth": {
+                        "Tile": 0,
+                        "Sub": 1000
+                    }
+                }
+            ],
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Special Type": "FishTank",
+            "Fish Area": {
+                "X": 1,
+                "Y": 16,
+                "Width": 62,
+                "Height": 25
+            }
+        },
+        "{{ModID}}.fishtank-2": {
+            "Display Name": "Fish Tank",
+            "Description": "A Fish tank to test Custom Fish tanks",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/tank/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "X": 64,
+                        "Y": 0,
+                        "Width": 64,
+                        "Height": 48
+                    },
+                    "Depth": {
+                        "Tile": 0,
+                        "Sub": 1000
+                    }
+                }
+            ],
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Special Type": "FishTank",
+            "Fish Area": {
+                "X": 1,
+                "Y": 16,
+                "Width": 62,
+                "Height": 25
+            }
+        },
+        "{{ModID}}.fishtank-3": {
+            "Display Name": "Fish Tank",
+            "Description": "A Fish tank to test Custom Fish tanks",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/tank/3.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "X": 64,
+                        "Y": 0,
+                        "Width": 64,
+                        "Height": 48
+                    },
+                    "Depth": {
+                        "Tile": 0,
+                        "Sub": 1000
+                    }
+                }
+            ],
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Special Type": "FishTank",
+            "Fish Area": {
+                "X": 1,
+                "Y": 16,
+                "Width": 62,
+                "Height": 25
+            }
+        },
+        "{{ModID}}.fishtank-4": {
+            "Display Name": "Fish Tank",
+            "Description": "A Fish tank to test Custom Fish tanks",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/tank/4.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "X": 64,
+                        "Y": 0,
+                        "Width": 64,
+                        "Height": 48
+                    },
+                    "Depth": {
+                        "Tile": 0,
+                        "Sub": 1000
+                    }
+                }
+            ],
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Special Type": "FishTank",
+            "Fish Area": {
+                "X": 1,
+                "Y": 16,
+                "Width": 62,
+                "Height": 25
+            }
+        },
+        "{{ModID}}.fishtank-5": {
+            "Display Name": "Fish Tank",
+            "Description": "A Fish tank to test Custom Fish tanks",
+            "Rotations": 1,
+            "Collisions": {
+                "Width": 4,
+                "Height": 1
+            },
+            "Placement Restriction": 2,
+            "Source Image": "assets/tank/5.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 48
+            },
+            "Layers": [
+                {
+                    "Source Rect": {
+                        "X": 64,
+                        "Y": 0,
+                        "Width": 64,
+                        "Height": 48
+                    },
+                    "Depth": {
+                        "Tile": 0,
+                        "Sub": 1000
+                    }
+                }
+            ],
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Special Type": "FishTank",
+            "Fish Area": {
+                "X": 1,
+                "Y": 16,
+                "Width": 62,
+                "Height": 25
+            }
+        },
+        //tv
+        "{{ModID}}.tv-1": {
+            "Display Name": "Plasma TV",
+            "Rotations": 1,
+            "Source Image": "assets/tv/1.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 48,
+                "Height": 48
+            },
+            "Collisions": {
+                "Width": 3,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Special Type": "TV",
+            
+
+            "Screen Position": {
+                "X": 5,
+                "Y": 3
+            },
+            "Screen Scale": 3.7
+        },
+        "{{ModID}}.tv-2": {
+            "Display Name": "Plasma TV",
+            "Rotations": 1,
+            "Source Image": "assets/tv/2.png",
+            "Source Rect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 48,
+                "Height": 48
+            },
+            "Collisions": {
+                "Width": 3,
+                "Height": 1
+            },
+            "Placement Restriction": 0,
+            "Shows in Shops": [
+                "{{ModID}}.custom_catalogue"
+            ],
+            "Special Type": "TV",
+            
+
+            "Screen Position": {
+                "X": 5,
+                "Y": 3
+            },
+            "Screen Scale": 3.7
+        },
+        //window
+        "{{ModID}}.window-1": {
+			"Display Name": " {{ImageVariant}}",
+			"Description": "A simple Window",
+
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 2
+			},	
+
+			"Placement Restriction": 0,
+			"Placement Type": "Mural",
+
+			"Source Image": {
+                "Wooden Rectangular V1 Window":"assets/window/1.png",
+                "Wooden Rectangular V2 Window":"assets/window/2.png",
+                "Wooden Rectangular V3 Window":"assets/window/3.png",
+                "Wooden Rectangular V4 Window":"assets/window/4.png",
+                "Iron Rectangular V1 Window":"assets/window/5.png",
+                "Iron Rectangular V2 Window":"assets/window/6.png",
+                "Window Blinds":"assets/window/7.png"
+            },
+			"Source Rect": {"X": 0, "Y": 0, "Width": 16, "Height": 32},	// in pixels,
+			"Time Based": true,
+			"Light Sources": [
+				{
+					"Position": {"X": 9, "Y": 25},
+					"Source Image": "assets/window/light.png",
+					"Mode": "when_bright_out",
+					"Is Glow": true
+				}
+			],
+
+			"Shows in Shops": ["{{ModID}}.custom_catalogue"]
+		}
+
+    } //---end
+}
