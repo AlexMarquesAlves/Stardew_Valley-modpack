@@ -1,8 +1,10 @@
 {
-    /////////////////////
-    //*********There are 1.6 vanilla spoilers shortly after the scroll***********
-    /////////////////////
-   
+  /////////////////////
+  //SDV 1.14.25//
+  //*********There are 1.6 vanilla spoilers shortly after the scroll***********
+  /////////////////////
+
+  //New in SDV 1.14.38 - above the first break is from pre 1.6, but this is to keep config data together. 
     //CONFIGS
     "Config.SeasonalEdits.name": "Edições Sazonais",
     "Config.ReplaceDefaultFences.name": "Substituir cercas padrão",
@@ -23,9 +25,11 @@
     "Config.ShorterPathToBlueMoonVineyard.name": "Caminho mais curto para o Vinhedo Lua Azul",
     "Config.UseGaldoranThemeAllTimes.name": "Use a Música de Galdora o tempo inteiro",
     "Config.DisableGaldoranTheme.name": "Desabilite a Música de Galdora",
+    ///////(new stuff below here)
     "Config.WarpLocation.name": "Localização do Teletransporte",
     "Config.EnchantedGroveWarpX.name": "Bosque Encantado Dobra X",
     "Config.EnchantedGrovwWarpY.name": "Bosque Encantado Dobra Y",
+//
     "Config.WarpLocation.description": "'default' coloca o ponto de dobra um ladrilho abaixo da estátua do coelho nos mapas SVE e vanilla. 'Custom' permite que o ponto de dobra seja movido na fazenda. A opção 'Grandpa's Shed' move o ponto de warp para fora da fazenda. O uso de um mod de fazenda que adicione um novo tipo de fazenda colocará o warp no Grandpa's Shed independentemente da escolha. Selecionar 'Grandpa's Shed' ao jogar em um mapa SVE será o mesmo que selecionar 'default'.",
     "Config.EnchantedGroveWarpX.description": "Selecione a coordenada X para o ponto de teletransporte. Só é importante ao selecionar 'custom' para a dobra de teletransporte.",
     "Config.EnchantedGrovwWarpY.description": "Selecione a coordenada Y para o ponto de teletransporte. Só é importante ao selecionar 'custom' para a dobra de teletransporte.",
@@ -48,68 +52,11 @@
     "Config.ShorterPathToBlueMoonVineyard.description": "O ponto de teletransporte da Floresta Cinzaseiva > Vinhedo da Lua Azul fica mais perto da Fazenda Fairhaven, reduzindo o tempo de viagem.",
     "Config.UseGaldoranThemeAllTimes.description": "Altera a interface de usuário da região do Vale do Orvalho para a interface de usuário da região de Galdoran em todos os locais.",
     "Config.DisableGaldoranTheme.description": "Desativa a interface do usuário de Galdoran em todos os locais. Útil se os jogadores já tiverem um mod editando a Interface.",
-    
-    //Location Names
-    "DisplayName.MiscellaneousLocations": "Localizações diversas",
-    "DisplayName.Shops": "Shops",
-    "DisplayName.Galdora": "Galdora",
-    "DisplayName.FarmEntrance": "Entrada da Fazenda",
-    "DisplayName.GrandpasShed": "Cabana do Vovô",
-    "DisplayName.Hotspring": "Fonte",
-    "DisplayName.FarmQuarry": "Farm Quarry",
-    "DisplayName.HardwoodGlade": "Glade de Madeira Lei",
-    "DisplayName.FarmCave": "Caverna da Fazenda",
-    "DisplayName.EnchantedGrove": "Bosque Encantado",
-    "DisplayName.GrampletonSuburbs": "Subúrbios de Grampleton",
-    "DisplayName.TravellingMerchant": "Comerciante Ambulante",
-    "DisplayName.KrobusShop": "Mercadinho do Krobus",
-    "DisplayName.Clinic": "Clínica",
-    "DisplayName.Jenkins": "Mansão dos Jenkins",
-    "DisplayName.SamHome": "Casa do Sam",
-    "DisplayName.GuntherHome": "Quarto do Gunther",
-    "DisplayName.EmilyHaleyHome": "Casa da Emily e da Haley",
-    "DisplayName.Manor": "Casa do Lewis",
-    "DisplayName.MullerResidence": "Casa do Alex",
-    "DisplayName.PennyHome": "Casa da Penny",
-    "DisplayName.Garden": "Jardim",
-    "DisplayName.MarnieShed": "Galpão da Marnie",
-    "DisplayName.ShearwaterBridge": "Ponte Shearwater",
-    "DisplayName.LeahCabin": "Cabana da Leah",
-    "DisplayName.AndyFarm": "Fazenda do Andy",
-    "DisplayName.AuroraVineyard": "Vinhedo Aurora",
-    "DisplayName.AppleRoom": "Quarto do Apples",
-    "DisplayName.BearCave": "Caverna do Urso",
-    "DisplayName.JunimoWoods": "Floresta dos Junimos",
-    "DisplayName.JunimoVillage": "Vila dos Junimos",
-    "DisplayName.SpriteSpring": "Santuário dos Espíritos",
-    "DisplayName.SewerGrate": "Esgoto",
-    "DisplayName.SophiaVineyard": "Vinhedo da Sophia",
-    "DisplayName.SophiaLedger": "Livro da Sophia",
-    "DisplayName.LinusTent": "Tenda do Linus",
-    "DisplayName.RoadTunnel": "Túnel",
-    "DisplayName.GoldenScythe": "Lâmina de Ouro",
-    "DisplayName.SusanFarm": "Fazenda da Susan",
-    "DisplayName.TrainPlatform": "Estação de Trem",
-    "DisplayName.SummitPostPerfection": "Cúme - PÓS PERFEIÇÃO",
-    "DisplayName.SummitPrePerfection": "Cúme - PRÉ PERFEIÇÃO",
-    "DisplayName.Highlands": "Terras Altas",
-    "DisplayName.HighlandsCavern": "Caverna das Terras Altas",
-    "DisplayName.ElliottCabin": "Cabana do Elliot",
-    "DisplayName.DesertDragonSkeleton": "Esqueleto de Dragão do Deserto",
-    "DisplayName.CastleVillageOutpost": "Posto Avançado da Vila Castelo",
-    "DisplayName.CrimsonBadlands": "Areias Carmesim",
-    "DisplayName.IridiumQuarry": "Pedreira de Irídio",
-    "DisplayName.TreasureCave": "Caverna do Tesouro",
-    "DisplayName.FableReef": "Recífe de Fábulas",
-    "DisplayName.RailCart": "Carrinho de trilho",
-    "DisplayName.FirstSlashGuild": "Guilda do Primeiro Corte",
-    "DisplayName.GrampletonSuburbsTrainStation": "Estação de trem dos Surbúbios de Grampleton",
-    "DisplayName.ScarlettHouse": "Casa da Scarlett",
-    "DisplayName.HighlandsOutpost": "Posto avançado as Terras Altas",
-    "DisplayName.WizardsBasement": "Porão do Mago",
-    
-    //New in SDV 1.14.36, replaces original Green Rain dilaogue. 
-    "Martin.GreenRainFinished": "Meus pais não queriam que eu fosse trabalhar. Eles disseram algo sobre o clima estranho no vale..#$e#Aliás, sabe me dizer o por que o tanto de musgo por toda parte?",
+
+
+  
+  //New in SDV 1.14.36, replaces original Green Rain dilaogue. 
+  "Martin.GreenRainFinished": "Meus pais não queriam que eu fosse trabalhar. Eles disseram algo sobre o clima estranho no vale..#$e#Aliás, sabe me dizer o por que o tanto de musgo por toda parte?",
     //New in SDV 1.14.34
     "ClairePortrait": "Retrato da Claire",
     "SophiaPortrait": "Retrato da Sophia",
@@ -361,7 +308,7 @@
     "Morris.Gift730": "Ah... bisque de lagosta cremoso, suave e temperado! Essa é a minha refeição favorita no mundo. Agradeço sua gentileza!$1",
     "Morris.Gift727": "Sopa de Peixe é uma das minhas comidas reconfortantes favoritas! Como você sabia? $1",
     "Morris.Gift167": "Ah... Uma joja cola? Não, obrigado. Você pode pegar isso de volta [167].$0",
-    "Morris.GiftBDPos": "Ah, que surpresa deliciosa de aniversário. Os moradores do vale são realmente generosos de coração!$1",
+    "Morris.GiftBDPos": "Ah, que surpresa deliciosa de aniversário. Os moradores dp vale são realmente generosos de coração!$1",
     "Morris.GiftBDNeg": "Isso não atende ao meu padrão mínimo do que constitui um presente de aniversário...$3",
     "Morris.marriedShane": "Você realmente se casou com o Shane. Que notícia maravilhosa! Parabéns a vocês dois.$1#$e#Eu espero que o Shane ainda venha trabalhar. Ele é um dos meus funcionários em que mais confio!$0",
     "Morris.marriedClaire": "Parabéns pelo casamento de você e Claire, @.$1",
@@ -371,8 +318,8 @@
     "Scarlett.GreenRainFinished": "O que estava acontecendo com aquele clima estranho? A Sophia disse que todos os tipos de coisas estranhas cresceram no vale.$0",
     "Scarlett.GiftStardropTea": "Uau, isso é muito bom! Eu beberia tudo de um só gole se não estivesse tão quente!$1",
     "Scarlett.Gift426": "*gasp* Queijo de cabra!? Como sabia que eu estava com fome? Obrigada!$1",
-    "Scarlett.Gift436": "Ah, sim! Isso é exatamente o que eu queria. Eu estava começando a ficar com sede.$1#$b$#*glup* *glup*... Ahh... o leite de cabra é ótimo.$0",
-    "Scarlett.Gift438": "Oh, sim! Isso é exatamente o que eu queria. Eu estava começando a ficar com sede.$1#$b$#*gulp* *gulp*... Ahh... o leite de cabra é perfeito. Vou guardar o resto para mais tarde.$0",
+    "Scarlett.Gift436": "Ah, sim! Isso é exatamente o que eu queria. Eu estava começando a ficar com sede.$1#$b$*glup* *glup*... Ahh... o leite de cabra é ótimo.$0",
+    "Scarlett.Gift438": "Oh, sim! Isso é exatamente o que eu queria. Eu estava começando a ficar com sede.$1#$b$*gulp* *gulp*... Ahh... o leite de cabra é perfeito. Vou guardar o resto para mais tarde.$0",
     "Scarlett.GiftBDPos": "Eu não poderia ter pedido um presente de aniversário melhor! Obrigada!$1",
     "Scarlett.GiftBDNeg": "Uhh, @? Isso é para o meu aniversário...?$2#$e#%Scarlett parece desapontada.",
     "Scarlett.marriedSophia": "Ei! Estou muito feliz por você e pela Sophia. É importante que ela tenha alguém como você na vida dela.$1",
@@ -998,7 +945,7 @@
 	
 	//Weapons
 	"weapon.diamond-wand.name": "Varinha de Diamante",
-	"weapon.diamond-wand.description": "Uma relíquia mágica de Galdora. Teleporta os inimigos para longe do usuário. Eficaz contra insetos.",
+	"weapon.diamond-wand.description": "Uma relíquia mágica de Galdora. Teleporta os inimigos para longe do usuário. Eficaz contra panfletos.",
 	"weapon.tempered-galaxy-dagger.name": "Adaga Galáctica Temperada",
 	"weapon.tempered-galaxy-dagger.description": "O poder do cosmos flui através de você, concedendo poder incrível e habilidades defensivas.",
 	"weapon.tempered-galaxy-hammer.name": "Martelo Galáctico Temperado",
@@ -4322,7 +4269,7 @@
   "Olivia.MarriageDialogue.066": "Na noite passada, sonhei que estávamos envelhecendo juntos.$0#$b#Sei que é um pouco brega, querido. Mas me fez pensar em pintar um retrato de nós em nosso futuro, felizes juntos.$3^Sei que é um pouco brega, querida. Mas me fez pensar em pintar um retrato de nós em nosso futuro, felizes juntos.$3",
   "Olivia.MarriageDialogue.067": "Podemos fazer uma viagem ao deserto um dia desses?$3#$e#Eu gostaria de experimentar algumas frutas frescas de cactos.$1",
   "Olivia.MarriageDialogue.068": "Estou pensando em fazer um pedido de caixas de vinhos em cidades distantes. Poderíamos conseguir algumas caixas por um preço razoavelmente baixo.$0#$b#Temos uma pequena e agradável comunidade aqui, não é?$0",
-  "Olivia.MarriageDialogue.069": "Estarei limpando a casa hoje, querido. Tente não deixar rastros de lama no chão.$0^Estarei limpando a casa hoje, querida. Tente não deixar rastros de lama no chão.$0#$e#Eu sei que você é cuidadoso.$3^Eu sei que você é cuidadosa.$3",
+  "Olivia.MarriageDialogue.069": "Estarei limpando a casa hoje, queridp. Tente não deixar rastros de lama no chão.$0^Estarei limpando a casa hoje, querida. Tente não deixar rastros de lama no chão.$0#$e#Eu sei que você é cuidadoso.$3^Eu sei que você é cuidadosa.$3",
   "Olivia.MarriageDialogue.070": "Você já conheceu o mago que mora ao sul da vila?$0#$e#Você é mais corajoso do que eu. Admiro sua capacidade de fazer amizade até com as pessoas mais estranhas.$3^Você é mais corajosa do que eu. Admiro sua capacidade de fazer amizade até com as pessoas mais estranhas.$3",
   "Olivia.MarriageDialogue.071": "Gostaria de apresentá-lo a alguns de meus amigos na cidade um dia desses.$0^Gostaria de apresentá-la a alguns de meus amigos na cidade um dia desses.$0#$e#Tenho certeza de que vocês se dariam bem.$3",
   "Olivia.MarriageDialogue.072": "Victor deixou um livro para você, querido.$6^Victor deixou um livro para você, querida.$6#$b#Ele disse que acha que você vai gostar - é um livro de memórias dos primeiros dias da Guilda dos Aventureiros.$3#$e#Estou feliz por vocês dois estarem se dando bem.$1",
@@ -4940,7 +4887,7 @@
   "Apples.Movies.08": "Isso é bastante intrigante!$1",
   "Apples.Movies.09": "Realmente coloca o mundo em perspectiva. Você acha que algum dia visitaremos as estrelas??$1",
   "Apples.Movies.10": "Rápido! Apples quer assistir ao filme!#$e#Ninguém aqui está vendo me vendo!$1",
-  "Apples.Movies.11": "Apples não entende o filme, mas é divertido!$1",
+  "Apples.Movies.11": "Apples não entende o filme, mas é divertidp!$1",
   "Apples.Movies.12": "Apples está curioso sobre o filme!$1",
   "Apples.Movies.13": "Divertido! Vamos de novo!$1",
   "Apples.Movies.14": "Ninguém aqui ver Apples!$1",
@@ -5563,7 +5510,7 @@
   "Morris.2hearts.02": "Boa tarde, Morris.$0",
   "Morris.2hearts.03": "...$2",
   "Morris.2hearts.04": "Ah, Morris. Cumprimentando os habitantes da vila?$0",
-  "Morris.2hearts.05": "Haha! Estou! Em um dia tão glorioso como este, como eu poderia não estar?$1#$b#Continue com o bom trabalho, prefeito!$4",
+  "Morris.2hearts.05": "Haha! Eu sou! Em um dia tão glorioso como este, como eu poderia não estar?$1#$b#Continue com o bom trabalho, prefeito!$4",
   "Morris.2hearts.06": "Err... obrigado, Morris!$1",
   "Morris.2hearts.07": "Está um lindo dia!",
   "Morris.2hearts.08": "Haha!",
@@ -6665,7 +6612,7 @@
   "Susan.Intro.02": "Dê uma passada e visite a Emerald Farm quando tiver tempo!$1",
   "Susan.Intro.03": "Estou agradecida por Joja ter removido o deslizamento de terra. Lewis e eu tivemos tanto trabalho para fazer com que eles removessem as pedras.$2#$b#Joja ainda se recusa a pedir desculpas...$3#$e#Verei você novamente em breve, querida!$1#$b#É adorável ter outro fazendeiro no vale.$0",
   "Susan.2hearts.01": "@! Olá!$1#$b#Estou refrescando meus pequeninos com fertilizante caseiro patenteado.$0#$b#Nitrogênio, potássio e fósforo são parte do que torna os produtos da Emerald Farm deliciosos.$4#$b#Apenas adicione sol, água e um pouco de amor e você terá uma temporada lucrativa!$1",
-  "Susan.2hearts.02": "A Fazenda Esmeralda é pequena em comparação com a Fazenda %farm. Não consigo me imaginar administrando tanto espaço.$0",
+  "Susan.2hearts.02": "A Emerald Farm é pequena em comparação com a %farm Farm. Não consigo me imaginar administrando tanto espaço.$0",
   "Susan.2hearts.03": "Como você consegue cuidar de toda essa terra?#Sinceramente, é porque nunca faço pausas.#Automatizo a irrigação com aspersores.",
   "Susan.2hearts.04": "Ah! Tentei criar aspersores, mas não consigo acertar o encanamento.$0#$b#Estou impressionada como você consegue criar dispositivos tão sofisticados.$4",
   "Susan.2hearts.05": "Com a quantidade de terras que a Fazenda %farm cobre, se você quiser usar todo esse espaço, a automação é provavelmente uma necessidade.$1#$b#Não acho que seria possível para uma pessoa manter, a menos que você contratasse alguns trabalhadores rurais para ajudar.$0#$b#A maioria dos fazendeiros perto da Vila Pelicanos é pequena o suficiente para ser autossuficiente, mas os pomares em Chestervale trazem ajuda sazonal para a colheita.$1",
@@ -6679,7 +6626,7 @@
   "Susan.2hearts.NoBreaks.05": "Obrigado por me visitar mais cedo, @!$1#$b#O nome da minha instrutora de artesanato é Charlotte. Ela é uma excelente marceneira. Você deveria conhecê-la algum dia!$0",
   "Susan.4hearts.01": "Olá, @.$1#$b#Eu sou grata por você ter tirado um tempo do seu dia para me visitar!$4",
   "Susan.4hearts.02": "Estou colhendo minhas uvas. Uso barris feitos à mão para envelhecê-las e transformá-las em vinho.$0#$b#Agora só produzo pequenos lotes, mas talvez a Fazenda Esmeralda se torne uma vinícola completa como o Vinhedo Lua Azul. Há muito dinheiro no vinho!$1",
-  "Susan.4hearts.03": "#Tenho certeza de que a Fazenda Esmeralda se sairá muito bem.#O que você pode me dizer sobre a caverna lá em cima?",
+  "Susan.4hearts.03": "Tenho certeza de que a Fazenda Esmeralda se sairá muito bem. O que você pode me dizer sobre a caverna lá em cima?",
   "Susan.4hearts.04": "Obrigada, querido.$0^Obrigada, querida.$0#$b#Eu moro no vale há muito tempo. A Fazenda Esmeralda cresceu muito em meu tempo aqui!$1#$b#Ver o progresso que você fez na Fazenda %farm me inspira a trabalhar ainda mais!$4",
   "Susan.4hearts.05": "Estou entusiasmada com o fato de haver outro fazendeiro no vale.$1^Estou entusiasmada com o fato de haver outra fazendeira no vale.$1",
   "Susan.4hearts.06": "Preciso terminar de colher essas uvas e depois elas vão para os barris!$1#$b#Tenha um dia esplêndido, @.$0",
@@ -6868,7 +6815,7 @@
   "Treyvon.CharacterDialogue.016": "%Treyvon: Ouvi falar da Fazenda %farm no jornal. Não sabia que você era famoso!^%Treyvon: Ouvi falar da Fazenda %farm no jornal. Não sabia que você era famoso!",
   "Treyvon.CharacterDialogue.017": "%Treyvon: Estou incrivelmente orgulhoso de quem a Scarlett se tornou. Ela é meu anjinho.#$e#%Treyvon: Tenho a sensação de que ela quer ser dona de uma fazenda algum dia, assim como você.",
   "Treyvon.CharacterDialogue.018": "%Treyvon: As últimas notícias sobre a guerra têm sido sombrias ultimamente...#$e#%Treyvon: Espero que um dia tudo isso acabe e todos possam voltar para suas famílias.",
-  "Treyvon.CharacterDialogue.019": "%Treyvon: Eu poderia fazer um contrato com seu prefeito para comprar produtos de sua fazenda para minha loja. Que tipo de produtos a Fazenda %farm produz?#$e#%Treyvon: Ah, vocês produzem uma grande variedade de coisas. Posso imaginar como é a exposição de sua granja",
+  "Treyvon.CharacterDialogue.019": "%Treyvon: Eu poderia fazer um contrato com seu prefeito para comprar produtos de sua fazenda para minha loja. Que tipo de produtos a %farm Farm produz?#$e#%Treyvon: Ah, vocês produzem uma grande variedade de coisas. Posso imaginar como é a exposição de sua granja",
   "Treyvon.CharacterDialogue.020": "%Treyvon: Ah, está visitando a Scarlett hoje?#$e#%Treyvon: Vocês dois se divertem, certo?",
   "Treyvon.CharacterDialogue.021": "%Treyvon: Como vai a vida de agricultor no Vale do Orvalho?#$e#%Treyvon: Fico feliz que esteja funcionando bem para você.",
   "Treyvon.CharacterDialogue.022": "%Treyvon: Vamos ser atingidos por uma nevasca em breve. Fique agasalhado lá fora e se proteja.",
@@ -7433,7 +7380,7 @@
   "Lewis.Event2.04": "Devo estar a caminho, @.$0#$b#Não se preocupe em usar sua picareta para tentar remover essas pedras. Isso levaria meses.$3",
   "Lewis.Event2.05": "*suspira* Desde que a Joja se mudou para a Vila Pelicanos...$2#$b#Eles causaram inúmeros deslizamentos de rochas com suas operações de perfuração e estão poluindo o rio...$2#$b#Tenho um encontro com Morris em uma semana. Espero que eu consiga lhe dar um pouco de bom senso.$3#$e#Ah? Susan? Ela está muito bem. Ela me disse que está ansiosa para conhecê-lo pessoalmente quando o deslizamento de terra for finalmente removido.$0",
   "Lewis.MiniEvent.01": "Eu estava verificando sua caixa de remessa.$1#$b#Pierre e Sophia tinham um grande número de produtos para enviar esta manhã.$0",
-  "Lewis.MiniEvent.02": "@, estou muito feliz por você estar se dando bem aqui no Vale do Orvalho. E você está fazendo um grande progresso na Fazenda %farm!",
+  "Lewis.MiniEvent.02": "@, estou muito feliz por você estar se dando bem aqui no Vale do Orvalho. E você está fazendo um grande progresso na %farm Farm!",
   "Lewis.MiniEvent.03": "Preciso ir até a Fazenda Fairhaven e verificar se Andy está enviando alguma coisa. Ele geralmente tem forragem de alta qualidade da Floresta Cinzaseiva.$1#$b#Deve ser conveniente poder forragear no seu quintal.$0#$b#Vou deixá-lo com seu trabalho na fazenda.$1",
   "Lewis.CropField.01": "Olá, @. Eu estava apenas verificando este antigo espaço de jardim.$0",
   "Lewis.CropField.02": "Costumava ser a horta comunitária antes de ser transferida para perto da biblioteca.$0#$b#Sem ninguém cuidando do campo, ele já viu dias melhores.$2#$b#É uma pena que essa seja a primeira coisa que os viajantes de Grampleton veem quando visitam a Vila Pelicanos...$2",
@@ -8598,9 +8545,9 @@
   //************************
   "Dusty.Event.01": "#Dar carinho no Dusty#Não dar carinho no Dusty",
   "Dusty.Event.02": "Ei, vi você fazendo carinho no Dusty.$1#$e#Ele é um bom garoto.$0",
-  "Dusty.PlayerResponse.01": "*Você acaricia o Dusty*$0",
-  "Dusty.PlayerResponse.02": "*Você acaricia o Dusty*$1",
-  "Dusty.PlayerResponse.03": "*Você acaricia o Dusty*$4",
+  "Dusty.PlayerResponse.01": "*Você dar vários carinhos no Dusty$0",
+  "Dusty.PlayerResponse.02": "*Você dar vários carinhos no Dusty$1",
+  "Dusty.PlayerResponse.03": "*Você dar vários carinhos no Dusty$4",
   //************************
   //DWARF NPC
   //************************
@@ -9235,10 +9182,10 @@
   "String.104": "\"NÃO HÁ PROSPECÇÃO\"",
   "String.105": "Você notou algo à esquerda...",
   "String.106": "Oh, é uma placa que diz:^^\"NÃO PASSE POR CIMA\"",
-  "String.107": "-Residência dos Jenkins-",
-  "String.108": "Evelyn se orgulha de decorar a praça da vila pelicanos.",
-  "String.109": "-O Salão Fruta Estrelar-",
-  "String.110": "A placa está escrita em um texto vermelho brilhante. Ela diz:^^\"CASINHA DO DUSTY\"",
+    "String.107": "-Residência dos Jenkins-",
+    "String.108": "Evelyn se orgulha de decorar a praça da vila pelicanos.",
+    "String.109": "-O Salão Fruta Estrelar-",
+    "String.110": "A placa está escrita em um texto vermelho brilhante. Ela diz:^^\"CASINHA DO DUSTY\"",
   "String.111": "Há madeira armazenada nesse quintal",
   "String.112": "Os residentes da Vila Pelicanos usam esses barris para transformar seus produtos em vinho e geléia",
   "String.113": "É o quintal do prefeito Lewis.",
@@ -9655,7 +9602,7 @@
   "String.504": "É um travesseiro mofado.",
   "String.505": "É um taco de madeira.",
   //Hmmmmm... something happened here.
-  "String.506": "\"VINHEDO AURORA EST- A FALÊN--- DEVIDO AO MAL LUCR-!\"^^\"Vale do Orva-- --- ------ o e-e-t- --- ------ ---- ---baixado n- demand- do lu-ro. Local fa----- estão ine-- -- fi-- vend---- ou ------ para vender --------. Não é esperado -------- em ---- ---- ----- --- --- rea--- ---- -------- -- ------. O Governo Fern----- está admi---- uma ----- ven- do-----. Prefeito Le--- ---- ---- Faze-d- do Va-- d- ----lho ----- - ------- ---- financial insec---ty----- ---- -- ---- Notícias do----- e lo---- --- ---- de Grample--- ------- ------- -- -exportações para outras regiões---- -- --- ------ --- ----- Espera-se que muitos sigam..., Porra entendi nada dessa carta...\"^^C.S COMPANIA REUTERS",
+  "String.506": "\"VINHEDO AURORA - BANKRU-- DEVIDO AO MAL Lucr-!\"^^\"Vale do Orva-- --- ------ o e-e-t- --- ------ ---- ---baixado n- demand- do lu-ro. Local fa----- estão ine-- -- fi-- vend---- ou ------ para vender --------. Não é esperado -------- em ---- ---- ----- --- --- rea--- ---- -------- -- ------. O Governo Fern----- está admi---- uma ----- ven- do-----. Prefeito Le--- ---- ---- Faze-d- do Va-- d- ----lho ----- - ------- ---- financial insec---ty----- ---- -- ---- Notícias do----- e lo---- --- ---- de Grample--- ------- ------- -- -exportações para outras regiões---- -- --- ------ --- ----- Espera-se que muitos sigam..., Porra que negócio do carai...\"^^C.S REUTERS COMPANY",
   "String.507": "A placa dourada brilhante está identificada como:^^\"-CENTRO COMUNITÁRIO-\"",
   "String.508": "Uma camisa mofada.",
   "String.509": "Estas placas têm plantas crescendo nelas",
@@ -11267,6 +11214,4 @@
   "Apples.OrderEvent5.05": "Sou amigo de um Junimo! A partir de amanhã, poderei falar com Apples",
   "Apples.OrderEvent5.06": "Mas por que o vinhedo não foi restaurado?...",
   "Apples.OrderEvent5.07": "%Explico a Magnus o que vivenciei no Vinhedo Aurora.#$e#Um Junimo chamado 'Apples' transformou o vinhedo em sua casa?#$b#O mais intrigante. Os junimos consertam prédios abandonados, não os tornam piores.#$e#Informe-me se algo acontecer.",
-    //Moonlight Jellies
-    "MoonlightJellies.Message": "O brilho do verão se foi... e as gelatinas ao luar seguem em direção ao grande desconhecido."
   }

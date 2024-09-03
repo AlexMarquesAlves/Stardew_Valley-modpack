@@ -142,7 +142,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "niece_alissa": "sobrinha Alissa",
 "uncle": "tio",
 "grandmother": "avó",
-
+"granddaughter": "neta",
 
 
 
@@ -2641,7 +2641,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "event-75160107.07": "Corine! Obrigado!!!$h",
 "event-75160107.08": "Agora é só esperar pacientemente por Keahi, tudo bem?$h",
 "event-75160107.09": "Oh, olá @! É bom te ver.",
-"event-75160107.10": "Ei @!$h#$b#Você pode me fazer companhia enquanto espero pela Keahi?",
+"event-75160107.10": "Ei @!$h#$b#Você pode me acompanhar enquanto espero por Keahi?",
 "event-75160107.11": "Eba!$h#$b#Tudo bem. Vamos sentar ali!$h",
 "event-75160107.12": "Ah! Refrescante!$h",
 "event-75160107.13": "Trinnie então começou a falar sobre as brincadeiras que eles fizeram com as outras crianças.#Com certeza é divertido ser criança! Como eu sinto falta desses dias.",
@@ -2788,7 +2788,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "event-75160145.03": "Venha, amor..$h",
 "event-75160145.04": "Apenas me segure..$l",
 "event-75160145.05": "Os olhos de Ysabelle se fixam nos seus enquanto vocês dois se encaram#Com os braços um no outro, vocês sentem a respiração um do outro após aquela pequena dança.#Ela olha para você...",
-"event-75160145.06": "@... você não sabe o tanto que você me deixa feliz..$l",
+"event-75160145.06": "\"@... você não sabe o tanto que você me deixa feliz..$l",
 "event-75160145.07": "Venha... me siga..$l#$b#Vamos levar isso para o meu quarto...$l",
 "event-75160145.08": "Estou feliz que você veio para a academia mais cedo...$l#$b#Bem, pare com esse sorriso bobo! Você está me envergonhando!$l",
 
@@ -3013,7 +3013,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "MapString.rsv.23.fall": "Essas plantações parecem muito saudáveis.",
 "MapString.rsv.23.winter": "É inverno, todas as plantações estão escondidas sob uma espessa manta de neve!",
 "MapString.rsv.24": "Este caixote de embarque está cheio até a borda",
-"MapString.rsv.25": "Parece que alguém arranhou 'L < F' aqui com uma lâmina",
+"MapString.rsv.25": "Parece que alguém arranhou 'L + F' aqui com uma lâmina",
 "MapString.rsv.26": "É para as crianças brincarem.#É velho e enferrujado. Ninguém brinca nisto há muito tempo",
 "MapString.rsv.27": "Parece uma das estruturas da sua fazenda",
 "MapString.rsv.28": "Floresta Ridgeside#SUL: Instalação e Laboratório de Pesquisa da Água#OESTE: Estufa da Comunidade",
@@ -5929,43 +5929,43 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Jio.Dialogue.Tue": "%Jio está te ignorando.",
 "Jio.Dialogue.Wed": "Não me siga.#$e#Você se arrependerá se tentar.$h",
 "Jio.Dialogue.Thu": "%Jio está te ignorando.",
-"Jio.Dialogue.Fri": "Você não está me vendo.#$b#O que você percebe é apenas uma ilusão...$h#$b#Hmph. Achei que isso funcionaria...$4",
+"Jio.Dialogue.Fri": "Você não está me vendo.#$e#Sou apenas uma ilusão.$h",
 "Jio.Dialogue.Sat": "%Jio está te ignorando.",
 "Jio.Dialogue.Sun": "Vá embora.#$e#Você é extremamente intrometido.$a",
   
   //2 Hearts
-"Jio.Dialogue.Mon2": "O quê? Você de novo?#$e#Não me siga.$a",
+"Jio.Dialogue.Mon2": "Hm?#$e#Voce está aqui de novo?$a#$e#Não me siga.",
 "Jio.Dialogue.Tue2": "%Jio está te ignorando.",
-"Jio.Dialogue.Wed2": "Você não está ocupado?$u#$b#Você parece ter muito tempo livre.$a",
-"Jio.Dialogue.Thu2": "Quantas vezes tenho que te dizer? Não me siga.$a",
-"Jio.Dialogue.Fri2": "Não toque em meus pertences. Para sua própria segurança.",
+"Jio.Dialogue.Wed2": "Você não está ocupado?$u#$e#Você parece ter muito tempo livre em suas mãos.$a",
+"Jio.Dialogue.Thu2": "%Jio está te ignorando.",
+"Jio.Dialogue.Fri2": "Não toque em meus pertences.#$e#É para sua própria segurança.$h",
 "Jio.Dialogue.Sat2": "%Jio está te ignorando.",
-"Jio.Dialogue.Sun2": "Não se aproxime mais.#$e#Você já se esqueceu do que eu lhe disse? Vá embora.$a",
+"Jio.Dialogue.Sun2": "Não se aproxime.#$e#O que eu acabei de dizer?$A#$e#Vá embora.",
   
   //4 Hearts
 "Jio.Dialogue.Mon4": "Você não desiste, não é?#$e#Interessante...",
-"Jio.Dialogue.Tue4": "Ugh...$s#$b#Hm? Estou perfeitamente bem. O sangramento vai parar logo.$h",
-"Jio.Dialogue.Wed4": "Se você precisar ficar perto de mim, tenha cuidado, no mínimo.#$b#Esses não são meros brinquedos...$a",
-"Jio.Dialogue.Thu4": "%Jio está ignorando você.",
-"Jio.Dialogue.Fri4": "Estou com pressa. Não tenho tempo para conversar no momento.#$e#Por quê? Francamente, isso não lhe diz respeito.",
-"Jio.Dialogue.Sat4": "É perigoso ficar me cercando como você faz, @.",
-"Jio.Dialogue.Sun4": "Você é extremamente persistente, @. O que deseja de mim?",
+"Jio.Dialogue.Tue4": "Ugh$s.#$e#Estou bem. Vai parar de sangrar logo.$h",
+"Jio.Dialogue.Wed4": "Não toque nisso.#$e#Não é coisa para crianças mexerem!$a",
+"Jio.Dialogue.Thu4": "%Jio está te ignorando.",
+"Jio.Dialogue.Fri4": "Não me siga.#$e#Quantas vezes tenho de lhe dizer? Não me siga.$a",
+"Jio.Dialogue.Sat4": "%Jio está te ignorando.",
+"Jio.Dialogue.Sun4": "Você é extremamente persistente.",
   
   //6 Hearts
-  "Jio.Dialogue.Mon6": "Tenho trabalho a fazer. Pare de me incomo-$a#$b#Na verdade... Talvez eu não tenha te dado o crédito que você merece.#$b#Acho que pode haver algum mérito em deixá-lo me acompanhar.$1",
-  "Jio.Dialogue.Tue6": "Por que você está aqui novamente?#$b#...Não que eu me importe com sua presença. Er, isso saiu errado?$4",
-  "Jio.Dialogue.Wed6": "Não toque nisso. Você pode se machucar.#$e#Isso parece sangue falso para você?",
-  "Jio.Dialogue.Thu6": "%Jio está ignorando você.",
-  "Jio.Dialogue.Fri6": "Vá embora, @. Não estou com disposição para suas bobagens hoje.$a#$b#...Er, desculpe-me por ter sido grosseiro com você. Daia tem estado em sua melhor forma ultimamente, e isso parece ter irritado meus nervos mais do que eu esperava...$s",
-  "Jio.Dialogue.Sat6": "@... Você morou na cidade anteriormente, certo? Interessante...#$e#Nada. Eu estava pensando na rapidez com que se adaptou à sua nova vida aqui. É notável, você sabe.$h",
-  "Jio.Dialogue.Sun6": "Os habitantes da cidade não trabalharão hoje, @. Seria prudente que você seguisse o exemplo deles e descansasse um pouco também.",
+"Jio.Dialogue.Mon6": "Tenho trabalho a fazer.#$e#Pare de me incomodar.$a",
+"Jio.Dialogue.Tue6": "Por que você está aqui de novo?#$e#Faça o que precisa e vá em frente.",
+"Jio.Dialogue.Wed6": "%Jio está te ignorando.",
+"Jio.Dialogue.Thu6": "Não toque nisso. Você vai se machucar.#$e#Isso parece sangue falso para você?$h",
+"Jio.Dialogue.Fri6": "Você conhece o Marlon?#$b#Se conhecer, vá até ele.#$e#Por que?#$b#Só assim então você não me incomoda.",
+"Jio.Dialogue.Sat6": "É perigoso vagar perto de mim como você faz.",
+"Jio.Dialogue.Sun6": "Você tem desejo de morte?#$e#Saia daqui.",
 
 
 //Special Dialogue
 "Jio.Dialogue.MovieInvitation": "Um filme?#$b#Quero muito ver uma dessas imagens em movimento com meus próprios olhos.#$b#Estarei lá.$h",
   
 //Resort
-"Jio.Dialogue.Resort_Entering": "Sinto atividade dentro desse vulcão.$4#$b#Não da terra, mas algo dentro dela.#$b#...$u#$e#Anões. Devem ser anões.$h",
+"Jio.Dialogue.Resort_Entering": "Eu sinto alguma atividade dentro daquele vulcão.$4#$e#Não é a terra.#$b#Aqueles dentro dela.#$b#... $u#$b# Anões.$4#$b#Devem ser anões.$h",
 "Jio.Dialogue.Resort_Leaving": "Para ser bem sincero, estou muito ansioso para voltar ao vale.",
 "Jio.Dialogue.Resort_Shore": "Vocês realmente gostam deste tipo de calor?$s",
 "Jio.Dialogue.Resort_Chair": "Muito claro.$A#$e#Muito quente...$s",
@@ -12674,8 +12674,6 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "RSV.Map.Text.CableCar": "Bondinho para Vila Pelicanos",
 "RSV.Map.Text.Electrician": "Casa do Eletricista",
 "RSV.Map.Text.Hike": "Trilha para Escalada",
-"RSV.Map.Text.AbandonedHouse": "Casa abandonada",
-"RSV.Map.Text.NinjaHouse": "Casa do Ninja",
 "RSV.Map.Text.RafIsHungryAndSleepDeprived": "O esconderijo de Rafseazz!.",
 
 "RSV.SpecialOrder.FixMinecart_Name": "Carrinho da Mina de Ridgeside!",
@@ -13953,7 +13951,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Sean.MarriageDialogue.Indoor_Day_Sean": "Há algo muito bom em acordar ao lado da pessoa que você ama.$4#$b#É muito mais fácil agora para eu levantar depois que você sai da cama, porque eu quero estar com você .$h",
 
 //Indoor Night
-"Sean.MarriageDialogue.Indoor_Night_0": "Ufa, foi um dia longo, estou exausto!$s#$b#No entanto, acho que ainda tenho energia suficiente para alguns \"carinhos intensos\"...$4",
+"Sean.MarriageDialogue.Indoor_Night_0": "Ufa, foi um longo dia, estou exausto!$s#$b#Embora, acho que tenho energia suficiente para algo cansativo, mas prazeroso...$4",
 "Sean.MarriageDialogue.Indoor_Night_1": "Acho incrível o que você faz em nossa fazenda todos os dias.#$b#Sua capacidade de concentração é incrível.$4",
 "Sean.MarriageDialogue.Indoor_Night_2": "%A cabeça de Sean parece estar nas nuvens.#$e#Oh! Me desculpe, meu bem.$h#$b#Eu estava pensando na minha família e como eles estão agora.#$b#Eu meio que sinto falta deles? Mas estou com preguiça de viajar para longe.$h",
 "Sean.MarriageDialogue.Indoor_Night_3": "Quer que eu te faça uma massagem? Adoro sentir sua pele sob minhas mãos.",
@@ -16182,7 +16180,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Romance.Engagement.Blair0": "Você realmente não podia esperar para colocar um anel em mim, não é?$6#$b#Caramba, caramba. Você deve ser apaixonado por mim. Haha!$4",
 "Romance.Engagement.Blair1": "A mãe se assustaria se soubesse disso!$h#$b#Prepare-se para receber um grande abraço e um beijo dela!$h#$b#Essa mulher não tem limites para a família!$u#$b#Haha!$h",
 "Romance.give.flowersA.Blair": "Oh!$h#$b#Mas é claro, você gostaria de estar com a mulher mais bela do vale.$4#$b#Deve ser uma coisa boa eu estar aceitando sua oferta, não é, querido?$h^Deve ser uma coisa boa eu estar aceitando sua oferta, não é, querida?$h",
-"Romance.give.flowersB.Blair": "Porque sim!$h#$b#Aceito sua proposta para estar em um relacionamento, @!$h",
+"Romance.give.flowersB.Blair": "Porque sim!$h#$b#Aceito sua proposta para estar em um relacionamento l, @!$h",
 "Romance.stardrop.gift.Blair": "Aqui está um pequeno presente para o melhor presente na minha presença.$h#$b#Eu não sou espirituosa, querido?$h^Eu não sou espirituosa, querida?$h",
 "Romance.rejectNPCA.Blair": "Ai não!$u#$b#Sinto muito, mas você deve ter a idéia errada.#$b#Nunca é demais frisar que não gosto de você dessa maneira. Sinto muito.$s",
 "Romance.rejectNPCB.Blair": "Ayayay. Tive medo que isto acontecesse.$s#$b#Eu sei que pessoas como você me adoram, mas não gosto de você dessa maneira, @.$7#$b#Acho que será melhor se formos apenas amigos.",
@@ -16367,7 +16365,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "event-75160312.26": "...Senti que era tudo culpa minha que o pai tivesse a deixada...$8#$b#E talvez você tenha me culpado e estivesse apenas se forçando a me amar.$8#$b#Eu sempre ouvi você reclamando do meu pai, mas talvez lá no fundo você também estivesse com raiva de mim...$8#$b#Eu... Eu realmente sinto muito, mãe...$8",
   "event-75160312.27": "Não, mija, no!$6#$b#Você nunca é a razão de nenhuma de minhas tristezas...$6#$b#Você é o oposto total... Você é a razão pela qual eu possa ser tão feliz...$6#$b#Você é a razão pela qual eu acordo e trabalho duro todos os dias. Tudo para você...$6#$b#Nunca se culpe pelos erros de seus pais.$6#$b#Sinto muito... sinto muito por todo o sofrimento que você passou por causa de nós...$6#$b#Sinto muito...$6",
   "event-75160312.28": "Mãe...$8#$b#Eu te amo...$8",
-  "event-75160312.29": "E eu te amo muito, mija preciosa...$6",
+  "event-75160312.29": "E eu te amo muito, mi hija preciosa...$6",
   "event-75160312.30": "Blair e Carmen parecem se sentir melhor agora.",
   "event-75160312.31": "Dios mio! Blair! Por que você está molhada?$u",
   "event-75160312.32": "Hehe... Não se importe com isso e cozinhe meu prato favorito esta noite, por favor?$10#$b#Todo esse choro está me deixando com fome!$10",
@@ -19765,7 +19763,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "event-75160319.75160319NOOptions.31": "Eles são tããão irritantes!$a#$b#Hmph!$a",
   "event-75160319.75160319NOOptions.32": "Sinto muito que você tenha visto isso, @...$s#$b#Meus pais parecem não acreditar que eu queira o que quero...$s#$b#É como se eles não achassem que eu possa ter sucesso por conta própria a menos que esteja morando com eles.#$b#Além disso, minha mãe continua insistindo para que eu me torne médico, embora eu tenha dito a ela um zilhão de vezes que não quero fazer isso!$a#$b#Hmph!$a",
   "event-75160319.75160319NOOptions.33": "Por que não deixá-los me ajudar? #$b#Se quer saber, eles tentaram me ajudar! $a#$b#Mas isso só fez com que eu me sentisse ainda mais insultado...$s",
-  "event-75160319.75160319NOOptions.34": "Eles conseguiram que algumas marcas de roupas famosas me contratassem para as linhas do ano...#$b#Mas assim que os contratos foram assinados, sua primeira pergunta foi...$s#$b#Então? Agora que isso já passou, você está pronto para começar a estudar para os exames de admissão, certo?'$a",
+  "event-75160319.75160319NOOptions.34": "Eles conseguiram que algumas marcas de roupas famosas me contratassem para as linhas do ano...#$b#Mas, depois que isso foi feito, a primeira pergunta deles foi...$s#$b#'Então? Agora que isso já passou, você está pronto para começar a estudar para os exames de admissão, certo?'$a",
   "event-75160319.75160319NOOptions.35": "É como se eles tratassem todos os meus esforços e sonhos como se fossem um brinquedo de criança!$a#$b#E não importa o quanto eu tentasse falar com eles, eles nunca paravam...$s#$b#Hmph! Então, fui embora!$a",
   "event-75160319.75160319NOOptions.36": "Fugi de casa com o dinheiro que ganhei com essas parcerias anteriores. #$b#E gastei tudo isso em uma casa simples aqui no interior. #$b#Porque prometi a mim mesmo que...$h",
   "event-75160319.75160319NOOptions.37": "Vou provar que eles estão errados e fazê-los engolir suas palavras!$h#$b#Você ouviu aqui primeiro, @!$h#$b#Do zero, vou seja um designer de moda fabuloso!#$b#Eles vão ver!$h",
@@ -20552,7 +20550,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "Romance.Engagement.Bryle0": "Sério, querida?#$b#Tem certeza que me quer?$l#$b#Bem, é claro que vou casar com você!$h",
 "Romance.Engagement.Bryle1": "Caramba, você tem certeza que está pronto para uma vida de conversas de combate e medidas de segurança?$u#$b#Sério??$l#$b#Claro que aceito, querida! $h",
 "Romance.give.flowersA.Bryle": "Você realmente quer me trancar e ter certeza de que sou sua, hein.$h#$b#Eu também te amo, querida!",
-"Romance.give.flowersB.Bryle": "Sim!#$b#Não acredito que você queira que eu seja seu...$l#$b#Cara, espero que não se canse de mim.$l ",
+"Romance.give.flowersB.Bryle": "Sim!#$b#Não acredito que você me pediu para ser seu/$l#$b#Cara, espero que não se canse de mim.$l ",
 "Romance.stardrop.gift.Bryle": "Ei, querida. Eu só queria dizer... Obrigado, por ser meu pilar que me apóia, não importa o que aconteça. Comprei isso para você, espero que goste!$l" ,
 "Romance.rejectNPCA.Bryle": "Uh, acho que nem nos conhecemos tão bem.$6",
 "Romance.rejectNPCB.Bryle": "No.$7",
@@ -20745,21 +20743,13 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "Romance.MovieInvite.Spouse.Jio": "Eu ficaria feliz em acompanhá-lo nessa missão, amado, mesmo que não entenda seu propósito.#$b#Onde quer que minha estrela me leve, eu a seguirei com prazer.$1",
 
   //8 Hearts
-  "Jio.Dialogue.Mon8": "Ah, olá, @.$h#$b#É, er... bom vê-lo, eu suponho...$4",
- 	"Jio.Dialogue.Tue8": "Às vezes, as travessuras de Daia são simplesmente demais para suportar.$4#$b#Eu me lembro de quando ela ainda era apenas uma jovem em treinamento... Ela era tão quieta naquela época.",
- 	"Jio.Dialogue.Wed8": "Olá, @. Como a fazenda %farm está se saindo?#$b#Certa vez, li um romance sobre uma família forçada a viajar para o oeste quando suas terras agrícolas viraram pó...#$b#Esse tipo de ocorrência não acontece com frequência, não é mesmo?$s",
- 	"Jio.Dialogue.Thu8": "Olá, @. O que o traz aqui hoje?",
- 	"Jio.Dialogue.Fri8": "Kiwi passou toda a missão de ontem à noite de mau humor...$s#$b#Provavelmente, ela está com ciúmes do novo tempo que passo com você.#$b#Ela não está acostumada com o fato de eu ter um amigo de verdade, entende?",
- 	"Jio.Dialogue.Sat8": "Conversar regularmente com você está sendo muito construtivo para mim.#$b#Não sei se você notou, mas a maneira como falo é um pouco... antiquada.$s#$b#Aprendi a falar há muito tempo e meus padrões de fala ainda refletem isso. Espero que isso não seja um incômodo para você.$s",
- 	"Jio.Dialogue.Sun8": "Devo confessar, @. Nunca estive tão próximo de alguém de fora do culto antes.#$b#Eu acho você... refrescantemente comum.$h",
-
- 	"Jio.Dialogue.Mon8_dating": "Isso é... muito diferente de outras missões que já realizei, então, por favor, aceite minha inexperiência.$s",
- 	"Jio.Dialogue.Tue8_dating": "Informei a Vidente sobre nossas circunstâncias... #$b#Ela permitiu, mas me advertiu para não deixar que um relacionamento me distraia de minha missão... #$b#Como se ela fosse de falar.$7",
- 	"Jio.Dialogue.Wed8_dating": "Não ligue para Daia. Não tenho certeza se ela é excessivamente curiosa ou simplesmente ciumenta, mas, de qualquer forma, não tenho motivos para pensar que ela lhe fará mal.#$b#...Kiwi, por outro lado...$s#$b#Bem, apenas dê a ela algum espaço para processar tudo isso, por enquanto.",
- 	"Jio.Dialogue.Thu8_dating": "Gostaria de saber mais sobre você, @... Mas, infelizmente, somos tão diferentes que não sei nem por onde começar...$2",
- 	"Jio.Dialogue.Fri8_dating": "Tudo o que sei sobre o amor é o que obtive dos livros de poesia da coleção de tomos da Vidente... $s#$b#Sempre que ela me pegava lendo-os, ela me repreendia e dizia que não valiam meu tempo... Mas será que o amor vale tão pouco? $s#$b#Ou será que ela só pode dizer isso porque encontrou seu próprio amor?$s",
- 	"Jio.Dialogue.Sat8_dating": "Desde que me lembro, sempre estive sozinho. E preferia que fosse assim. Kiwi tem sido um companheiro valioso, é claro, mas...#$b#Mas agora a solidão parece uma corrente em meu pescoço. O ar calmo que costumava acalmar meus nervos agora soa morto e vazio sem a sua risada permeando a quietude. Mesmo quando seguro uma faca, minha mão parece vazia sem a sua, apertada contra mim.$s#$b#Isso... Isso poderia ser... algo verdadeiro?$l",
- 	"Jio.Dialogue.Sun8_dating": "@, você estaria disposta a assistir ao nascer do sol comigo um dia desses? #$b#Ver o amanhecer deste mundo refletido em seus olhos, os primeiros raios da manhã acariciando sua pele, brilhando em seu sorriso...$9#$b#Não sei por que, mas anseio por isso.$l",
+  "Jio.Dialogue.Mon8": "Isso é... muito diferente de outras missões que já realizei, então, por favor, aceite minha inexperiência.$s",
+  "Jio.Dialogue.Tue8": "Informei o Vidente sobre nossas circunstâncias.#$b#Ela permitiu, mas me alertou para não deixar que um relacionamento me distraísse de minha missão...#$b#Como se ela fosse de falar.$7",
+  "Jio.Dialogue.Wed8": "Não dê atenção à Daia. Não tenho certeza se ela é excessivamente curiosa ou simplesmente ciumenta, mas, de qualquer forma, não tenho motivos para pensar que ela lhe fará mal.#$b#...Kiwi, por outro lado...$s#$b#Bem, apenas dê a ela algum espaço para processar tudo isso, por enquanto.",
+  "Jio.Dialogue.Thu8": "Gostaria de saber mais sobre você, @... Mas, infelizmente, somos tão diferentes que não sei nem por onde começar...$2",
+  "Jio.Dialogue.Fri8": "Tudo o que sei sobre o amor é o que obtive dos livros de poesia entre a coleção de tomos do Vidente...$s#$b#Sempre que me pegava lendo-os, ela me repreendia e dizia que não valiam meu tempo... Mas será que o amor vale tão pouco?$s#$b#Ou ela só pode dizer isso porque encontrou seu próprio amor?$s",
+  "Jio.Dialogue.Sat8": "Desde que me lembro, sempre estive sozinho. E preferia que fosse assim. Kiwi tem sido um companheiro valioso, é claro, mas...#$b#Mas agora a solidão parece uma corrente em meu pescoço. O ar calmo que costumava acalmar meus nervos agora soa morto e vazio sem a sua risada permeando a quietude. Mesmo quando seguro uma faca, minha mão parece vazia sem a sua, apertada contra mim.$s#$b#Isso é... Isso poderia ser... algo verdadeiro?$l",
+  "Jio.Dialogue.Sun8": "@, você estaria disposto a assistir ao nascer do sol comigo algum dia?#$b#Ver o amanhecer deste mundo refletido em seus olhos, os primeiros raios da manhã acariciando sua pele, brilhando em seu sorriso...$9#$b#Não sei por que, mas anseio por isso.$l",
 
   //10 Hearts
   "Jio.Dialogue.Mon10": "Nos poemas, as pessoas se referem a seus amantes de todas as formas... \"meu amado\", \"meu belo amor\", \"minha lua e estrelas\"...#$b#Mas como posso escolher apenas uma frase quando você é tudo isso para mim, e ainda muito mais?$7#$b#Eu não esperava que o amor fosse tão desconcertante.$s",
@@ -21416,12 +21406,12 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "objects.zesty-tuna.name": "Atum Picante",
   "objects.zesty-tuna.description": "Atum defumado com molho cítrico! É uma iguaria local.",
   //Deity rings
-  "objects.the-beautiful-serpents-ring.name": "O belo anel da serpente",
-  "objects.the-beautiful-serpents-ring.description": "Convoca uma alma do Reino Espiritual para o seu lado.",
-  "objects.the-fairy-doe-foxs-ring.name": "O Anel da Fada Raposa",
-  "objects.the-fairy-doe-foxs-ring.description": "Convoca um espírito de raposa para seu lado.",
-  "objects.the-ring-of-the-ridge-deities.name": "O Anel das Deidades da Cordilheira",
-  "objects.the-ring-of-the-ridge-deities.description": "A névoa começa a se dissipar...",
+  "objects.the-beautiful-serpents-ring.name": "The Beautiful Serpent's Ring",
+  "objects.the-beautiful-serpents-ring.description": "Summons a soul from the Spirit Realm to your side.",
+  "objects.the-fairy-doe-foxs-ring.name": "The Fairy Doe Fox's Ring",
+  "objects.the-fairy-doe-foxs-ring.description": "Summons a fox spirit to your side.",
+  "objects.the-ring-of-the-ridge-deities.name": "The Ring of the Ridge Deities",
+  "objects.the-ring-of-the-ridge-deities.description": "The mist begins to clear...",
   
   
   /*Info:
@@ -21686,33 +21676,6 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
   //Powers
   "RSV.RiveraSecret.name": "Segredo da família Rivera",
-  "RSV.RiveraSecret.description": "Duplica o valor de todos os peixes nativos de Ridgeside.",
-
-  //CJB Cheats compat
-  "RSV.cjbwarps.village": "Vila Ridgeside",
-  "RSV.cjbwarps.surroundings": "Arredores de Ridgeside",
-  "RSV.cjbwarps.hotel": "Log Cabin Hotel",
-  "RSV.cjbwarps.plaza": "Praça da Vila",
-  "RSV.cjbwarps.jerichouse": "Fazenda Blooming Hills",
-  "RSV.cjbwarps.pikas": "Restaurante do Pika",
-  "RSV.cjbwarps.orchard": "Pomar Nightingale",
-  "RSV.cjbwarps.waterlab": "Laboratório de água",
-  "RSV.cjbwarps.lolashed": "Barracão da Lola",
-  "RSV.cjbwarps.clinic": "Clínica Ridgeside",
-  "RSV.cjbwarps.greenhouse1": "Estufa comunitária",
-  "RSV.cjbwarps.heaps": "Armazém geral de Heaps",
-  "RSV.cjbwarps.oddjobs": "Odd Jobs",
-  "RSV.cjbwarps.mansion": "Mansão Amethyne",
-  "RSV.cjbwarps.cablecar": "Teleférico",
-  "RSV.cjbwarps.cliff": "Penhasco",
-  "RSV.cjbwarps.hike": "Trilha de caminhada",
-  "RSV.cjbwarps.ninja": "Casa Ninja",
-  "RSV.cjbwarps.ridge": "O cume",
-  "RSV.cjbwarps.forest": "Floresta Ridge",
-  "RSV.cjbwarps.falls": "Cataratas de Ridge",
-  "RSV.cjbwarps.spiritrealm": "Reino Espiritual",
-  "RSV.cjbwarps.summitfarm": "Fazendo Summit",
-  
+  "RSV.RiveraSecret.description": "Duplica o valor de todos os peixes nativos de Ridgeside."
   
   }
-  

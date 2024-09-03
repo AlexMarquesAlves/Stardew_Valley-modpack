@@ -29,7 +29,8 @@
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
    "When": {
-		"IsOddYear": true,	
+		"IsOddYear": true,
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Flor": "Married",
 		"Jeric": "enabled, festivals only",
    },
@@ -41,7 +42,8 @@
 	 "LogName": "Flor Spirit's Eve Dialogue Changes (Free Love back-up) Y2",
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
-   "When": {	
+   "When": {
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Flor": "Married",
 		"Flor": "enabled, festivals only",
    },

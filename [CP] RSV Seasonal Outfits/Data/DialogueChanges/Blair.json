@@ -36,6 +36,7 @@
    "Target": "Data/Festivals/fall27",
    "When": {
 		"IsOddYear": true,
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Blair": "Married",
 		"Carmen": "enabled, festivals only",
    },
@@ -47,7 +48,8 @@
 	 "LogName": "Blair Spirit's Eve Dialogue Change (Free Love back-up) Y2",
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
-   "When": {	
+   "When": {
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Blair": "Married",
 		"Blair": "enabled, festivals only",
 		"Query: ('{{Sean}}' = 'enabled' AND '{{SeasonalSeanToken}}' = 'true') OR ('{{Sean}}' = 'festivals always')": true,

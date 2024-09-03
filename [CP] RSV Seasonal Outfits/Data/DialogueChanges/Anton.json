@@ -51,7 +51,8 @@
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
    "When": {
-		"IsOddYear": true,	
+		"IsOddYear": true,
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Anton": "Married",
 		"Anton": "enabled, festivals only",
 		"Paula": "enabled, festivals only",
@@ -64,7 +65,8 @@
 	 "LogName": "Anton Spirit's Eve Dialogue Change (Free Love back-up) Y2",
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
-   "When": {		
+   "When": {
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Anton": "Married",
 		"Anton": "enabled, festivals only",
    },

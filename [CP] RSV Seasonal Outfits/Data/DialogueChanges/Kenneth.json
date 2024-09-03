@@ -33,6 +33,7 @@
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
    "When": {
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Kenneth": "Married",
 		"IsOddYear": true,
 		"Kenneth": "enabled, festivals only",
@@ -46,6 +47,7 @@
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
    "When": {
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Kenneth": "Married",
 		"IsOddYear": false,
 		"Kenneth": "enabled, festivals only",

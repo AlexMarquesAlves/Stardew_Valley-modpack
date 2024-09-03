@@ -49,6 +49,7 @@
    "Target": "Data/Festivals/fall27",
    "When": {
 		"IsOddYear": true,
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Bryle": "Married",
 		"Bryle": "enabled, festivals only",
 		"Faye": "enabled, festivals only",
@@ -61,7 +62,8 @@
 	 "LogName": "Bryle Spirit's Eve Dialogue Change (Free Love back-up) Y2",
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
-   "When": {	
+   "When": {
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Bryle": "Married",
 		"Bryle": "enabled, festivals only",
    },

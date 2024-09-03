@@ -35,6 +35,7 @@
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
    "When": {
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Shiro": "Married",
 		"IsOddYear": true,
 		"Shiro": "enabled, festivals only",
@@ -49,6 +50,7 @@
    "Action": "EditData",
    "Target": "Data/Festivals/fall27",
    "When": {
+		"HasMod": "aedenthorn.FreeLove",
    	"Relationship:Shiro": "Married",
 		"IsOddYear": false,
 		"Shiro": "enabled, festivals only",

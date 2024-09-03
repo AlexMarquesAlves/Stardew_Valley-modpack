@@ -24,7 +24,7 @@
           "CanSocialize": true,
           "CanVisitIsland": true,
           "ExcludeFromIntroductionsQuest": false,
-          "PerfectionScore": true,
+          "PerfectionScore": false,
           "EndSlideShow": "MainGroup",
           "SpouseRoom": {
             "MapAsset": "Custom_OliviasRoom",

@@ -23,7 +23,7 @@
           "CanSocialize": true,
           "CanVisitIsland": "FALSE",
           "ExcludeFromIntroductionsQuest": true,
-          "PerfectionScore": true,
+          "PerfectionScore": false,
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {},
           "UnlockConditions": null,
