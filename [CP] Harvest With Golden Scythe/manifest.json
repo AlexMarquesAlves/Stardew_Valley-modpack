@@ -1,0 +1,11 @@
+{
+  "Name": "Harvest With Golden Scythe",
+  "Author": "ERRORcauser",
+  "Version": "1.0.1",
+  "Description": "",
+  "UniqueID": "ERRORcauser.HWGS",
+  "UpdateKeys": [ "Nexus:8330" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
