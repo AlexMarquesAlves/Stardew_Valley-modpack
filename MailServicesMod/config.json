@@ -23,6 +23,14 @@
       "RecoverAllItems": true,
       "RecoverForFree": false,
       "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "1765676044217136235": {
+      "PlayerName": "Teste",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
     }
   },
   "DisableRecoveryConfigInGameChanges": false,
