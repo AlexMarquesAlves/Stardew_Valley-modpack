@@ -18,18 +18,568 @@
     "Secret Woods sweet gem berry seed": 1,
     "Fern and mushroom spawns": 1,
     "Highlands Ornate Treasure Chest Spawn": 1,
-    "Treasure Chest Spawns": 4,
-    "Highlands Log Spawns": 4,
-    "Highlands Stump Spawns": 4,
+    "Treasure Chest Spawns": 8,
+    "Highlands Log Spawns": 7,
+    "Highlands Stump Spawns": 8,
     "Forest West Log": 1,
-    "Highlands Boulder Spawns": 4
+    "Highlands Boulder Spawns": 8
   },
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "54, 25",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "55, 21",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "56, 21",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "68, 104",
+      "Tile": "66, 106",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "46, 58",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "51, 127",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "64, 121",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "56, 128",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "49, 118",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "83, 104",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "48, 25",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "79, 18",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "66, 108",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "78, 27",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "87, 105",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "67, 102",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "18, 79",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "45, 128",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "14, 126",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "79, 38",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "132, 49",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Stone",
+      "Tile": "54, 42",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "47, 42",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "49, 45",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "70, 39",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "111, 76",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "79, 43",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "110, 48",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "132, 95",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "40, 35",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "16, 135",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "62, 22",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "82, 15",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "66, 9",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "64, 32",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "80, 96",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "81, 93",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "72, 65",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "112, 118",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "60, 84",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "102, 119",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "141, 127",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "58, 14",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "44, 26",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "78, 67",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "135, 143",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_EnchantedGrove",
+      "Name": "Dewdrop Berry",
+      "Tile": "27, 26",
+      "Type": "Forage",
+      "ID": "FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry",
+      "DaysUntilExpire": 22,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "593",
+      "Tile": "49, 24",
+      "Type": "Forage",
+      "ID": "593",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "57, 19",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "593",
+      "Tile": "56, 24",
+      "Type": "Forage",
+      "ID": "593",
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "46, 46",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -40,7 +590,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "58, 22",
+      "Tile": "61, 141",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -51,7 +601,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "50, 99",
+      "Tile": "26, 87",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -62,7 +612,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "70, 42",
+      "Tile": "87, 13",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -73,7 +623,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "62, 25",
+      "Tile": "64, 44",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -84,7 +634,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "21, 82",
+      "Tile": "92, 105",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -95,7 +645,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "94, 125",
+      "Tile": "67, 35",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -106,7 +656,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "48, 53",
+      "Tile": "29, 77",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -117,7 +667,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "49, 105",
+      "Tile": "86, 26",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -128,7 +678,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "30, 66",
+      "Tile": "45, 45",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -139,7 +689,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "67, 103",
+      "Tile": "21, 88",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -150,7 +700,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "82, 19",
+      "Tile": "50, 53",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -161,7 +711,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "68, 41",
+      "Tile": "82, 120",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -172,7 +722,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "62, 139",
+      "Tile": "65, 32",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 2,
@@ -183,7 +733,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "49, 39",
+      "Tile": "33, 88",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -194,7 +744,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "51, 31",
+      "Tile": "109, 72",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -205,7 +755,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "43, 96",
+      "Tile": "31, 87",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -216,7 +766,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "89, 45",
+      "Tile": "67, 37",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -227,7 +777,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "82, 34",
+      "Tile": "121, 43",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -238,7 +788,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "35, 96",
+      "Tile": "52, 50",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -249,7 +799,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "36, 117",
+      "Tile": "24, 101",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -260,7 +810,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "44, 114",
+      "Tile": "32, 134",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -271,7 +821,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "117, 71",
+      "Tile": "120, 54",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -282,7 +832,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "108, 70",
+      "Tile": "93, 52",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -293,7 +843,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "41, 100",
+      "Tile": "17, 110",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -304,7 +854,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "42, 96",
+      "Tile": "115, 79",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -315,7 +865,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "89, 36",
+      "Tile": "132, 98",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -326,7 +876,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "25, 118",
+      "Tile": "117, 76",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 2,
@@ -337,7 +887,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "113, 118",
+      "Tile": "123, 140",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -348,7 +898,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "117, 120",
+      "Tile": "132, 112",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -359,7 +909,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "57, 82",
+      "Tile": "62, 41",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -370,7 +920,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "49, 33",
+      "Tile": "126, 114",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -381,7 +931,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "59, 46",
+      "Tile": "95, 42",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -392,7 +942,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "51, 42",
+      "Tile": "68, 67",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -403,7 +953,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "70, 11",
+      "Tile": "80, 17",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -414,7 +964,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "143, 131",
+      "Tile": "78, 87",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -425,7 +975,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "128, 131",
+      "Tile": "132, 119",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -436,7 +986,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "90, 30",
+      "Tile": "71, 43",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -447,7 +997,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "61, 17",
+      "Tile": "80, 47",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -458,7 +1008,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "67, 10",
+      "Tile": "79, 23",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -469,7 +1019,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "130, 143",
+      "Tile": "73, 97",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -480,7 +1030,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "47, 37",
+      "Tile": "40, 33",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 2,
@@ -491,7 +1041,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "376",
-      "Tile": "46, 23",
+      "Tile": "50, 22",
       "Type": "Forage",
       "ID": "376",
       "DaysUntilExpire": 3,
@@ -500,20 +1050,9 @@
       "MonType": null
     },
     {
-      "MapName": "Beach",
-      "Name": "372",
-      "Tile": "3, 6",
-      "Type": "Forage",
-      "ID": "372",
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "86, 115",
+      "Tile": "61, 15",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -524,7 +1063,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "55, 15",
+      "Tile": "83, 109",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -535,7 +1074,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "52, 18",
+      "Tile": "78, 31",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -546,7 +1085,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "45, 37",
+      "Tile": "88, 127",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -557,7 +1096,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "66, 116",
+      "Tile": "74, 122",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -568,7 +1107,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "75, 45",
+      "Tile": "82, 33",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -579,7 +1118,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "61, 138",
+      "Tile": "86, 128",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -590,7 +1129,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "52, 30",
+      "Tile": "85, 127",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -601,7 +1140,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "65, 22",
+      "Tile": "78, 120",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -612,7 +1151,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "58, 28",
+      "Tile": "89, 100",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -623,7 +1162,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "45, 109",
+      "Tile": "77, 136",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -634,7 +1173,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "86, 136",
+      "Tile": "83, 116",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -645,7 +1184,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "91, 12",
+      "Tile": "76, 144",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -656,18 +1195,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "80, 126",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "68, 34",
+      "Tile": "96, 37",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 3,
@@ -678,7 +1206,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "101, 41",
+      "Tile": "77, 46",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 3,
@@ -689,218 +1217,9 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "28, 99",
+      "Tile": "117, 62",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "32, 133",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "67, 42",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "67, 40",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "73, 35",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "120, 46",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "47, 98",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "130, 51",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "81, 32",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "48, 120",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "59, 21",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "50, 113",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "108, 77",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "57, 44",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "81, 67",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "144, 127",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "64, 30",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "50, 44",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "45, 28",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "127, 120",
-      "Type": "Ore",
-      "ID": 751,
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -909,9 +1228,141 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Stone",
-      "Tile": "46, 27",
+      "Tile": "21, 86",
       "Type": "Ore",
-      "ID": 670,
+      "ID": 668,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "15, 121",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "70, 17",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "77, 26",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "48, 115",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "35, 104",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "64, 25",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "28, 135",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "125, 62",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "134, 96",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "53, 42",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "15, 101",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "31, 136",
+      "Type": "Ore",
+      "ID": 290,
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -920,7 +1371,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "133, 124",
+      "Tile": "129, 121",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 3,
@@ -931,7 +1382,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "90, 44",
+      "Tile": "68, 36",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 3,
@@ -942,7 +1393,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "68, 91",
+      "Tile": "143, 128",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 3,
@@ -953,7 +1404,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "70, 15",
+      "Tile": "68, 66",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 3,
@@ -964,7 +1415,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "114, 136",
+      "Tile": "89, 10",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 3,
@@ -975,10 +1426,109 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "74, 42",
+      "Tile": "142, 135",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "40, 29",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "82, 21",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "71, 12",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "66, 45",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "63, 86",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "138, 128",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "60, 16",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "64, 89",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "454",
+      "Tile": "9, 5",
+      "Type": "Forage",
+      "ID": "454",
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -996,10 +1546,10 @@
     },
     {
       "MapName": "Custom_SpriteSpringCave",
-      "Name": "422",
-      "Tile": "11, 8",
+      "Name": "281",
+      "Tile": "9, 6",
       "Type": "Forage",
-      "ID": "422",
+      "ID": "281",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1007,10 +1557,10 @@
     },
     {
       "MapName": "Custom_SpriteSpringCave",
-      "Name": "422",
-      "Tile": "5, 8",
+      "Name": "420",
+      "Tile": "11, 8",
       "Type": "Forage",
-      "ID": "422",
+      "ID": "420",
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1019,7 +1569,18 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "376",
-      "Tile": "54, 21",
+      "Tile": "49, 22",
+      "Type": "Forage",
+      "ID": "376",
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "376",
+      "Tile": "47, 25",
       "Type": "Forage",
       "ID": "376",
       "DaysUntilExpire": 4,
@@ -1030,7 +1591,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "593",
-      "Tile": "50, 24",
+      "Tile": "55, 22",
       "Type": "Forage",
       "ID": "593",
       "DaysUntilExpire": 4,
@@ -1041,7 +1602,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "376",
-      "Tile": "55, 26",
+      "Tile": "48, 22",
       "Type": "Forage",
       "ID": "376",
       "DaysUntilExpire": 4,
@@ -1052,7 +1613,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "71, 11",
+      "Tile": "86, 119",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1063,7 +1624,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "26, 75",
+      "Tile": "50, 35",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1074,7 +1635,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "74, 101",
+      "Tile": "84, 30",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1085,7 +1646,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "85, 31",
+      "Tile": "46, 109",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1096,7 +1657,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "54, 142",
+      "Tile": "60, 140",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1107,7 +1668,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "90, 31",
+      "Tile": "62, 135",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1118,7 +1679,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "55, 126",
+      "Tile": "63, 22",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1129,7 +1690,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "57, 46",
+      "Tile": "90, 15",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1140,7 +1701,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "87, 129",
+      "Tile": "55, 142",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1151,7 +1712,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "66, 140",
+      "Tile": "55, 133",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1162,7 +1723,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "69, 115",
+      "Tile": "48, 123",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1173,7 +1734,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "96, 43",
+      "Tile": "73, 122",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1184,7 +1745,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "56, 125",
+      "Tile": "64, 110",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1195,7 +1756,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "12, 77",
+      "Tile": "85, 139",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1206,7 +1767,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "75, 102",
+      "Tile": "83, 120",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 4,
@@ -1217,7 +1778,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "48, 46",
+      "Tile": "16, 101",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1228,7 +1789,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "74, 18",
+      "Tile": "113, 87",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1239,7 +1800,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "40, 116",
+      "Tile": "23, 94",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1250,7 +1811,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "131, 90",
+      "Tile": "46, 101",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1261,7 +1822,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "126, 51",
+      "Tile": "14, 109",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1272,7 +1833,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "39, 32",
+      "Tile": "44, 33",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1283,7 +1844,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "30, 137",
+      "Tile": "80, 45",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1294,7 +1855,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "125, 88",
+      "Tile": "47, 23",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1305,7 +1866,29 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "34, 99",
+      "Tile": "113, 80",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Stone",
+      "Tile": "51, 40",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "92, 34",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1316,7 +1899,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "37, 135",
+      "Tile": "117, 72",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1327,7 +1910,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "10, 127",
+      "Tile": "83, 34",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1338,7 +1921,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "92, 39",
+      "Tile": "68, 19",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1349,18 +1932,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "134, 48",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "50, 119",
+      "Tile": "55, 25",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 4,
@@ -1371,7 +1943,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "106, 120",
+      "Tile": "85, 27",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1382,7 +1954,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "142, 126",
+      "Tile": "72, 16",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1393,7 +1965,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "47, 40",
+      "Tile": "116, 120",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1404,7 +1976,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "69, 45",
+      "Tile": "90, 12",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1415,7 +1987,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "39, 33",
+      "Tile": "53, 26",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1426,7 +1998,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "72, 38",
+      "Tile": "46, 32",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1437,7 +2009,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "54, 17",
+      "Tile": "66, 96",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1448,7 +2020,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "128, 134",
+      "Tile": "92, 50",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1459,7 +2031,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "91, 44",
+      "Tile": "76, 39",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1470,7 +2042,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "113, 135",
+      "Tile": "74, 69",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1481,7 +2053,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "97, 46",
+      "Tile": "54, 27",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1492,7 +2064,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "129, 117",
+      "Tile": "52, 45",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1503,7 +2075,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "97, 122",
+      "Tile": "92, 78",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1514,18 +2086,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "79, 91",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "48, 31",
+      "Tile": "72, 96",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 4,
@@ -1536,7 +2097,7 @@
     {
       "MapName": "Custom_SpriteSpringCave",
       "Name": "454",
-      "Tile": "6, 8",
+      "Tile": "13, 6",
       "Type": "Forage",
       "ID": "454",
       "DaysUntilExpire": 2,
@@ -1546,19 +2107,8 @@
     },
     {
       "MapName": "Custom_SpriteSpringCave",
-      "Name": "420",
-      "Tile": "6, 6",
-      "Type": "Forage",
-      "ID": "420",
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpringCave",
       "Name": "281",
-      "Tile": "8, 5",
+      "Tile": "8, 7",
       "Type": "Forage",
       "ID": "281",
       "DaysUntilExpire": 2,
@@ -1569,7 +2119,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "376",
-      "Tile": "54, 25",
+      "Tile": "52, 27",
       "Type": "Forage",
       "ID": "376",
       "DaysUntilExpire": 5,
@@ -1579,10 +2129,10 @@
     },
     {
       "MapName": "Custom_SpriteSpring2",
-      "Name": "376",
-      "Tile": "55, 21",
+      "Name": "593",
+      "Tile": "50, 29",
       "Type": "Forage",
-      "ID": "376",
+      "ID": "593",
       "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1591,7 +2141,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "376",
-      "Tile": "56, 21",
+      "Tile": "46, 27",
       "Type": "Forage",
       "ID": "376",
       "DaysUntilExpire": 5,
@@ -1602,7 +2152,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Mystic",
-      "Tile": "18, 31",
+      "Tile": "21, 32",
       "Type": "Ore",
       "ID": 46,
       "DaysUntilExpire": 1,
@@ -1613,7 +2163,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "66, 106",
+      "Tile": "21, 85",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1624,7 +2174,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "46, 58",
+      "Tile": "53, 135",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1635,7 +2185,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "51, 127",
+      "Tile": "62, 107",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1646,7 +2196,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "64, 121",
+      "Tile": "68, 35",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1657,7 +2207,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "56, 128",
+      "Tile": "75, 44",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1668,7 +2218,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "49, 118",
+      "Tile": "84, 105",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1679,7 +2229,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "83, 104",
+      "Tile": "73, 35",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1690,7 +2240,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "48, 25",
+      "Tile": "25, 76",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1701,7 +2251,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "79, 18",
+      "Tile": "75, 31",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1712,7 +2262,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "66, 108",
+      "Tile": "74, 119",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1723,7 +2273,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "78, 27",
+      "Tile": "82, 121",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1734,7 +2284,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "87, 105",
+      "Tile": "92, 124",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1745,7 +2295,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "67, 102",
+      "Tile": "78, 141",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1756,7 +2306,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Gold",
-      "Tile": "18, 79",
+      "Tile": "49, 126",
       "Type": "Ore",
       "ID": 764,
       "DaysUntilExpire": 5,
@@ -1767,7 +2317,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "45, 128",
+      "Tile": "85, 21",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1778,7 +2328,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "14, 126",
+      "Tile": "29, 113",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1789,7 +2339,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "79, 38",
+      "Tile": "34, 121",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1800,29 +2350,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "132, 49",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Stone",
-      "Tile": "54, 42",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "47, 42",
+      "Tile": "115, 49",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1833,7 +2361,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "49, 45",
+      "Tile": "83, 28",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1844,7 +2372,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "70, 39",
+      "Tile": "56, 45",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1855,7 +2383,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "111, 76",
+      "Tile": "128, 54",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1866,7 +2394,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "79, 43",
+      "Tile": "127, 88",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1877,7 +2405,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "110, 48",
+      "Tile": "128, 47",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1888,7 +2416,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "132, 95",
+      "Tile": "16, 128",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1899,7 +2427,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "40, 35",
+      "Tile": "131, 97",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1910,7 +2438,29 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Iron",
-      "Tile": "16, 135",
+      "Tile": "50, 22",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "69, 12",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "46, 117",
       "Type": "Ore",
       "ID": 290,
       "DaysUntilExpire": 5,
@@ -1921,7 +2471,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "62, 22",
+      "Tile": "70, 15",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -1932,7 +2482,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "82, 15",
+      "Tile": "78, 41",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -1943,7 +2493,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "66, 9",
+      "Tile": "123, 132",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -1954,7 +2504,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "64, 32",
+      "Tile": "80, 87",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -1965,7 +2515,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "80, 96",
+      "Tile": "101, 121",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -1976,7 +2526,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "81, 93",
+      "Tile": "73, 32",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -1987,7 +2537,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "72, 65",
+      "Tile": "91, 42",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -1998,7 +2548,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "112, 118",
+      "Tile": "122, 129",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -2009,7 +2559,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "60, 84",
+      "Tile": "91, 32",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -2020,7 +2570,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "102, 119",
+      "Tile": "47, 36",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -2031,7 +2581,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "141, 127",
+      "Tile": "86, 77",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -2042,7 +2592,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "58, 14",
+      "Tile": "50, 43",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -2053,7 +2603,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "44, 26",
+      "Tile": "137, 112",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -2064,7 +2614,7 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "78, 67",
+      "Tile": "64, 36",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
@@ -2075,21 +2625,10 @@
     {
       "MapName": "Custom_HighlandsCavern",
       "Name": "Copper",
-      "Tile": "135, 143",
+      "Tile": "81, 95",
       "Type": "Ore",
       "ID": 751,
       "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_EnchantedGrove",
-      "Name": "Dewdrop Berry",
-      "Tile": "27, 26",
-      "Type": "Forage",
-      "ID": "FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry",
-      "DaysUntilExpire": 26,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2107,10 +2646,10 @@
     },
     {
       "MapName": "Custom_SpriteSpringCave",
-      "Name": "454",
-      "Tile": "10, 8",
+      "Name": "281",
+      "Tile": "10, 6",
       "Type": "Forage",
-      "ID": "454",
+      "ID": "281",
       "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -2119,18 +2658,7 @@
     {
       "MapName": "Custom_SpriteSpringCave",
       "Name": "422",
-      "Tile": "7, 7",
-      "Type": "Forage",
-      "ID": "422",
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpringCave",
-      "Name": "422",
-      "Tile": "5, 6",
+      "Tile": "14, 7",
       "Type": "Forage",
       "ID": "422",
       "DaysUntilExpire": 3,
@@ -2141,7 +2669,7 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "593",
-      "Tile": "49, 24",
+      "Tile": "53, 27",
       "Type": "Forage",
       "ID": "593",
       "DaysUntilExpire": 6,
@@ -2152,20 +2680,9 @@
     {
       "MapName": "Custom_SpriteSpring2",
       "Name": "376",
-      "Tile": "57, 19",
+      "Tile": "52, 28",
       "Type": "Forage",
       "ID": "376",
-      "DaysUntilExpire": 6,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpring2",
-      "Name": "593",
-      "Tile": "56, 24",
-      "Type": "Forage",
-      "ID": "593",
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": null,

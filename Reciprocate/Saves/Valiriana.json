@@ -3,11 +3,61 @@
     {
       "farmer": "Ellie",
       "npc": "Alissa",
-      "point": 2.0
+      "point": 0.0
     },
     {
       "farmer": "Ellie",
       "npc": "Sophia",
+      "point": 20.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Claire",
+      "point": 42.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Caroline",
+      "point": 117.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Olivia",
+      "point": 12.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Jodi",
+      "point": 28.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Emily",
+      "point": 22.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Robin",
+      "point": 28.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Marnie",
+      "point": 10.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Shane",
+      "point": 125.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Pam",
+      "point": 125.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Haley",
       "point": 36.0
     }
   ]
