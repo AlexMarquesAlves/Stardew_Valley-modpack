@@ -1,0 +1,14 @@
+{
+  "cordialityList": [
+    {
+      "farmer": "Ellie",
+      "npc": "Alissa",
+      "point": 2.0
+    },
+    {
+      "farmer": "Ellie",
+      "npc": "Sophia",
+      "point": 36.0
+    }
+  ]
+}
